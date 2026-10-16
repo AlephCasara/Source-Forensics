@@ -1,499 +1,463 @@
-# Source Forensics — Reverse-Engineering Roadmap
+# Source Forensics — Five-Phase Roadmap
 
 ## Mission
 
-Build a local-first market-intelligence system that can replace or outperform selected capabilities of FastMoss, PiPiADS, Minea, and comparable vendors by combining:
+Determine, with evidence, whether we can build a local-first market-intelligence system that replaces or outperforms the useful capabilities of FastMoss, PiPiADS, Minea and comparable vendors, while minimizing recurring vendor spend.
 
-1. reverse engineering of observable vendor clients/backends;
-2. upstream source attribution;
-3. first-party collectors;
-4. longitudinal storage;
-5. entity resolution;
-6. reproducible derivations and statistical models;
-7. continuous validation against vendors and official sources.
+Source Forensics is not a scraper clone. It is the engineering discipline that answers, for each useful vendor capability:
 
-The target is not a scraper clone. The target is a source-to-signal data system.
+1. what the feature actually does;
+2. what client/backend contract is observable;
+3. which fields are raw, historical, derived or modeled;
+4. what upstream sources feed it;
+5. whether we can reproduce it independently;
+6. what it costs to reproduce and maintain;
+7. whether our local implementation is good enough to replace the vendor.
 
-## Operating constraints
+Primary objective: build something useful for our own machine and workflows. Commercialization is optional and comes only after internal utility is proven.
 
-- Prefer official/public upstream sources whenever they are sufficient.
-- Use authorized accounts/sessions only where authentication is required.
-- Do not design around authentication bypass, subscription bypass, stolen credentials, or access-control circumvention.
-- REA is a reconnaissance/evidence tool, not the production collector runtime.
-- Every Desktop Commander work unit must end with durable artifacts in this repository.
-- Do not run `rea setup` automatically on this NixOS host; REA integration drift is handled separately from Source Forensics.
+## Engineering principles
 
-## Reverse-engineering model
+- Evidence before inference.
+- One question per forensic experiment.
+- Separate static analysis from runtime observation, then reconcile them.
+- Separate active browser scenarios from passive observation; do not overlap them on one target.
+- Prefer controlled differential experiments: baseline vs one changed variable.
+- Preserve raw artifacts and hashes before interpretation.
+- Treat vendor outputs as observations/oracles, not ground truth.
+- Prefer upstream official/public sources when they are sufficient, but do not assume they are sufficient before testing.
+- REA is a reconnaissance and evidence system; production collectors should use the cheapest deterministic acquisition method that works.
+- Every Desktop Commander session ends with durable repository artifacts and a short finding/unknown/next-step report.
+- Never make the architecture depend on authentication bypass, stolen sessions, subscription bypass, CAPTCHA/access-control bypass, or third-party credentials.
 
-For every vendor capability, reconstruct this chain:
+## Initial specimens
 
-```text
-Vendor feature
-  -> client representation
-  -> observable backend contract
-  -> field semantics
-  -> upstream-source candidates
-  -> acquisition method
-  -> historical requirement
-  -> derivation/model requirement
-  -> independent implementation
-  -> validation
-```
+1. FastMoss — first complete specimen; TikTok commerce intelligence.
+2. PiPiADS — ad intelligence, historical observation and modeled metrics.
+3. Minea — cross-platform ad/product/store relationships.
+4. Kalodata — direct comparator for TikTok commerce metrics and schema disagreements.
 
-A backend is treated as two layers:
-
-- **observable backend contract**: endpoints, GraphQL operations, schemas, IDs, pagination, filters, batching, error semantics, caching clues, WebSockets, client-side joins, feature flags;
-- **private server implementation**: inferred only from controlled input/output behavior when it is not shipped to the client.
-
-## Initial target order
-
-### Wave 1 — TikTok commerce / ad intelligence
-
-1. **FastMoss** — primary specimen and first end-to-end reproduction study.
-2. **PiPiADS** — ad-intelligence and modeled-metric specimen.
-3. **Minea** — cross-platform ad/product/store graph specimen.
-4. **Kalodata** — direct FastMoss comparator; useful for consensus/disagreement analysis and API-contract comparison.
-
-### Wave 2 — Different source archetypes
-
-5. **Keepa** — Amazon historical-price/rank/data-API archetype.
-6. **Jungle Scout or Helium 10** — Amazon market-estimation archetype.
-7. **Similarweb** — later, model-heavy traffic/intelligence archetype.
-
-Shoplus/EchoTik/other TikTok analytics vendors are reserve targets: use them when an additional independent vendor is needed to arbitrate a disputed field or acquisition hypothesis.
+Later source families are added only after the first end-to-end reproduction succeeds: Amazon/Keepa, Meta, Google, Shopify, Shopee, AliExpress/Alibaba, Temu, YouTube/Instagram/Pinterest and regional marketplaces.
 
 ---
 
-# Phase 0 — Laboratory readiness
+# Phase 1 — Forensic laboratory and trustworthy evidence
 
-## Goal
+## Objective
 
-Prove that the REA web-analysis lane works reliably on this NixOS host without changing global configuration.
+Prove that our NixOS workstation can produce reproducible, trustworthy web-application reverse-engineering evidence with REA 6.5.0 before we draw conclusions about any vendor.
 
-## Desktop Commander work units
+The purpose is not merely to confirm that `rea` runs. The purpose is to establish what evidence we can trust, what the tool cannot observe, what NixOS-specific limitations exist, and how every future experiment must be recorded.
 
-### 0.1 REA baseline
+## Work
+
+### A. Record the local toolchain
 
 Record:
-- `rea --version`;
-- `rea doctor`;
-- relevant browser/CDP commands present;
-- browser executable(s);
-- Playwright/Chromium availability.
+- REA version and doctor output;
+- Chromium executable and version;
+- relevant REA browser/web commands;
+- Ghidra/JADX availability for later non-web targets;
+- known NixOS support warnings;
+- known REA 6.5.0 bugs relevant to evidence interpretation.
 
-Artifact:
-- `docs/lab/REA_BASELINE.md`
+### B. Create a disposable forensic browser protocol
 
-### 0.2 Disposable forensic browser
+Use a dedicated Chromium profile and loopback CDP endpoint. Keep unrelated personal tabs out of the forensic browser.
 
-Validate a dedicated Chromium-family profile with loopback CDP and no unrelated personal tabs.
+Two operating modes must be documented:
 
-Artifact:
-- `docs/lab/BROWSER_FORENSICS_PROTOCOL.md`
+1. controlled launch mode for reproducible experiments;
+2. passive attach mode for observing an already-authenticated, user-owned browser state when required.
 
-### 0.3 REA web-lane smoke test
+### C. Validate the web lane on a harmless target
 
-Against a harmless public site, validate:
-- target listing;
-- page inspection;
-- bundle analysis;
-- script export;
-- bounded session observation;
-- evidence export;
-- capture comparison.
+Validate, one operation at a time:
+- `list-browser-targets`;
+- `inspect-web-page`;
+- `analyze-web-bundle`;
+- `capture-browser-scenario`;
+- `observe-web-session`;
+- `inspect-web-event-listeners`;
+- `observe-web-execution`;
+- `export-web-scripts`;
+- `analyze-javascript-application`;
+- `recover-javascript-sources`;
+- `trace-web-module-imports`;
+- `trace-web-source-location`;
+- `inspect-web-network-capture` for retained HAR/mitmproxy evidence;
+- capture/screenshot comparison.
 
-Artifact:
-- `experiments/rea-web-smoke/`
+### D. Establish evidence discipline
 
-**Exit criterion:** repeatable web capture with evidence IDs and no global REA reconfiguration.
+Every capture gets:
+- experiment ID;
+- target and exact URL/origin;
+- timestamp;
+- browser/REA version;
+- question/hypothesis;
+- actions performed;
+- raw artifact paths;
+- SHA-256 where available;
+- limitations and missing evidence;
+- analyst conclusion and confidence.
 
----
+Large raw data is not blindly committed to Git. Git stores manifests, hashes, schemas, scripts and compact evidence needed to reproduce conclusions.
 
-# Phase 1 — Repository foundation
+## Exit criteria
 
-Create only the minimum durable structure needed for forensic work:
+Phase 1 ends when we can run a repeatable browser experiment, export the relevant shipped scripts, correlate runtime evidence with static JavaScript evidence, and independently verify artifact identity rather than trusting summary labels alone.
 
-```text
-docs/
-  architecture/
-  methodology/
-  lab/
-schemas/
-forensics/
-  vendors/
-  upstreams/
-evidence/
-  manifests/
-experiments/
-collector_specs/
-src/
-tests/
-```
+## How Phase 1 can change the project
 
-Large/raw captures should not be blindly committed to Git. Store manifests, hashes, metadata, and reproducible references; decide separately which raw artifacts belong in object storage, WARC storage, or Git LFS.
-
-Core schemas to create:
-
-1. `SourceMap`
-2. `VendorDecomposition`
-3. `Claim`
-4. `EvidenceRef`
-5. `CollectorSpec`
-6. `SourceDriftEvent`
-7. `ValidationResult`
-
-**Exit criterion:** schemas can represent a real FastMoss field from UI/API through upstream hypothesis and validation result.
+- If REA web analysis is reliable on this NixOS host: proceed normally.
+- If only some lanes are reliable: keep REA for those lanes and supplement with CDP/HAR/mitmproxy directly.
+- If REA introduces material instability: isolate it from production and use it strictly as an offline analyzer of retained artifacts.
+- If authenticated state cannot be reproduced deterministically: use passive user-owned sessions for observation and separate them from controlled replay.
 
 ---
 
-# Phase 2 — FastMoss reconnaissance
+# Phase 2 — Vendor reverse engineering and observable backend reconstruction
 
-Do not attempt to map the whole product in one session.
+## Objective
 
-Split FastMoss into surfaces:
+Reverse engineer FastMoss first, then PiPiADS, Minea and Kalodata, far enough to reconstruct what their clients reveal about the backend contracts and product architecture.
 
-1. product discovery/ranking;
+We are not trying to reconstruct private server source code from thin air. We are reconstructing everything legitimately observable from the shipped web client, network behavior, public interfaces, documentation and controlled input/output behavior.
+
+## Unit of work
+
+Never use a vague task such as “reverse engineer FastMoss.”
+
+A forensic unit answers one question, for example:
+
+> What observable backend contract powers `Product Search -> Brazil -> Beauty -> 7 days -> GMV descending`?
+
+For that single question, collect:
+- initial page/application state;
+- exact action sequence;
+- network transactions and request identity where available;
+- request method, path/operation and payload shape;
+- response schema/shape;
+- pagination/cursor behavior;
+- entity IDs and relationships;
+- filters and enums;
+- timestamp/window semantics;
+- relevant JS chunks;
+- event-listener source locations;
+- execution coverage where useful;
+- source maps and recovered modules where available;
+- client-side calculations and joins;
+- evidence references;
+- explicit unknowns.
+
+## FastMoss surface order
+
+1. product search/ranking;
 2. product detail/history;
 3. shops;
 4. creators;
-5. videos;
+5. shoppable videos;
 6. LIVE;
-7. categories/market;
+7. categories/market views;
 8. exports;
 9. official API;
 10. MCP.
 
-For each surface, use one or more bounded REA work units.
+Only after FastMoss yields a coherent graph do we repeat the method on PiPiADS, Minea and Kalodata.
 
-## Standard REA work unit
+## REA power-user workflow
 
-Each unit investigates one user action or one question only.
+For each important interaction:
+
+1. Run a controlled scenario to reproduce the action and collect step-indexed network/DOM artifacts.
+2. In a separate run, use passive observation while the action is performed to capture initiator/source attribution that controlled scenarios may not expose.
+3. Inspect the relevant event listeners.
+4. Observe execution coverage only for a focused question.
+5. Export captured scripts.
+6. Analyze the JavaScript application statically.
+7. Recover readable modules when minification/bundling obscures structure.
+8. Trace native module imports.
+9. Trace selected generated positions through retained source maps.
+10. Reconcile static and runtime evidence by digest/identity.
+11. Save a retained HAR/mitmproxy capture when transaction-level evidence is important.
+12. Run a differential control with exactly one changed input when semantics remain ambiguous.
+
+## Deliverables
+
+Per vendor:
+- feature inventory;
+- endpoint/operation graph;
+- entity graph;
+- field dictionary;
+- metric definitions;
+- client/server derivation hypotheses;
+- evidence manifests;
+- source-drift observations;
+- list of unanswered questions.
+
+## Exit criteria
+
+Phase 2 ends for a vendor when we can explain how its principal user-facing intelligence is represented by the client/backend contract, and when every important field is classified as observed, derived, modeled, historical, third-party or unknown with supporting evidence.
+
+## How Phase 2 can change the project
+
+- If a vendor is mostly a thin wrapper around obvious upstream data, it becomes low priority as an engineering target.
+- If it reveals efficient discovery paths, entity relationships or useful refresh strategies, those become upstream hypotheses for Phase 3.
+- If a metric exists only as an opaque server-side estimate, it becomes a black-box model-reproduction problem rather than an endpoint-reproduction problem.
+- If a vendor contains capabilities we do not actually need, they are dropped instead of cloned.
+
+---
+
+# Phase 3 — Upstream attribution and reproduction feasibility
+
+## Objective
+
+For every high-value vendor capability, identify the most primary sustainable upstream source and determine whether we can reproduce the capability ourselves with acceptable correctness, freshness, maintenance burden and cost.
+
+This is the phase that decides whether building Source Forensics is rational.
+
+## Upstream search order
+
+Evaluate, in order of suitability rather than ideology:
+
+1. official public API/data;
+2. official authorized first-party API;
+3. official public web surfaces;
+4. public structured endpoints used by official clients;
+5. deterministic HTTP acquisition;
+6. deterministic browser acquisition;
+7. licensed third-party data;
+8. longitudinal reconstruction from our own snapshots;
+9. statistical/model-based estimation.
+
+The first available source is not automatically the best. We compare coverage, terms, geographic scope, freshness, stability, latency and marginal cost.
+
+## Field-level reconstruction
 
 Example:
 
-> What backend contract powers `Product Search -> Brazil -> Beauty -> 7 days -> GMV descending`?
-
-Capture:
-- starting URL/state;
-- action sequence;
-- JS chunks involved;
-- endpoint/operation candidates;
-- request shape;
-- response shape;
-- IDs and enums;
-- pagination;
-- timestamps;
-- client-side transformations;
-- evidence references;
-- unknowns.
-
-Artifacts:
-
-```text
-forensics/vendors/fastmoss/<surface>/
-  README.md
-  observations/
-  endpoint-candidates/
-  field-map.yaml
-  claims.yaml
-  evidence-manifest.yaml
-```
-
-**Stop condition for every work unit:** one question answered with evidence, or explicitly marked unknown. Never expand scope mid-session.
-
----
-
-# Phase 3 — FastMoss backend-contract reconstruction
-
-Merge individual observations into a coherent vendor model:
-
-```text
-Provider
- -> Surface
- -> Feature
- -> Request/Operation
- -> Entity
- -> Field
- -> MetricDefinition
- -> Relationship
- -> VendorClaim
- -> Evidence
-```
-
-Explicitly identify:
-- canonical IDs;
-- alternate IDs;
-- region/category enums;
-- temporal-window semantics;
-- cursor/page semantics;
-- stable vs ephemeral fields;
-- client joins;
-- likely server joins;
-- fields apparently raw vs derived vs modeled;
-- cache/freshness behavior;
-- source drift.
-
-Deliverable:
-- `forensics/vendors/fastmoss/VENDOR_DECOMPOSITION.yaml`
-
----
-
-# Phase 4 — Upstream attribution
-
-For every high-value FastMoss field, search for the most primary sustainable source.
-
-Priority:
-
-```text
-official public API
- -> official authorized API
- -> official public surface
- -> public structured endpoint
- -> deterministic HTTP collection
- -> deterministic browser collection
- -> licensed third-party source
- -> historical derivation
- -> statistical model
-```
-
-Example field study:
-
 ```text
 FastMoss day7_units_sold
- -> identify field semantics
- -> identify TikTok primitive(s)
- -> observe cumulative sold count over time
- -> test rolling-window derivation
- -> quantify disagreement
+  -> define exact observed semantics
+  -> identify candidate TikTok primitive(s)
+  -> observe primitives longitudinally
+  -> test candidate derivations
+  -> compare against FastMoss and Kalodata
+  -> quantify error, lag and disagreement
+  -> determine whether a model is required
 ```
 
-Deliverables:
-- `forensics/upstreams/tiktok-shop/SOURCE_MAP.yaml`
-- one `CollectorSpec` per approved primitive.
+The same method applies to ad spend estimates, creator-product relationships, first/last-seen dates, rankings and GMV-like metrics.
+
+## Required outputs
+
+- `SourceMap` for each upstream source;
+- `CollectorSpec` for each approved primitive;
+- field-by-field reproduction matrix;
+- cost/freshness/reliability benchmark;
+- confidence score for every inferred derivation;
+- list of capabilities that are not rational to reproduce.
+
+## Exit criteria
+
+At least one commercially useful vendor metric must be reproduced end-to-end from our own acquisition path with measured error, measured freshness and known cost.
+
+## How Phase 3 can change the project
+
+- If official/public sources already provide nearly everything: Source Forensics becomes mostly an aggregation/history/analytics engine.
+- If public primitives exist but vendor value comes from history: prioritize continuous collection immediately.
+- If the crucial data requires expensive browser work: benchmark whether the economics still beat the vendor.
+- If a valuable capability depends on licensed or genuinely exclusive data: buy, omit or model it rather than pretending we can reproduce it.
+- If our reproduction is less accurate or more expensive than buying the vendor, we keep the vendor for that capability.
 
 ---
 
-# Phase 5 — Independent TikTok data plane
+# Phase 4 — Native local market-intelligence engine
 
-Only after upstream attribution is evidenced, implement collectors.
+## Objective
 
-Separate:
+Implement the capabilities that Phase 3 proved worth owning, using our own collectors, historical data and data-science pipeline. This is where Source Forensics stops being only an investigation repository and begins becoming the local product that replaces vendor usage.
 
-### Discovery collectors
-Find new products, shops, creators, videos, ads, LIVE sessions, and relationships.
+## Acquisition architecture
 
-### Refresh collectors
-Revisit known entities at adaptive frequencies.
+Separate four responsibilities:
 
-### Event collectors
-Capture short-lived/high-value events where applicable.
+### Discovery
+Find new products, sellers, shops, creators, ads, videos, LIVE sessions and relationships.
 
-### Snapshot collectors
-Append longitudinal observations; never overwrite prior state.
+### Refresh
+Revisit known entities at adaptive frequencies based on expected rate of change and value.
 
-Escalation ladder:
+### Event capture
+Collect short-lived or high-value events where snapshots alone are insufficient.
+
+### Longitudinal snapshots
+Append observations over time. Never overwrite previous observations when history is useful.
+
+## Escalation ladder
+
+Use the cheapest deterministic method that preserves required data quality:
 
 ```text
 L0 official API
 L1 structured HTTP
 L2 raw HTTP extraction
-L3 HTTP + authorized session
+L3 authorized-session HTTP
 L4 deterministic browser
 L5 browser + network instrumentation
-L6 semantic/agentic browser only when required
+L6 semantic/agentic browser only when deterministic methods fail
 ```
 
-REA leaves the hot path once a stable CollectorSpec exists.
+REA is removed from the production hot path once the acquisition contract is understood.
 
----
-
-# Phase 6 — PiPiADS, Minea, Kalodata
-
-Repeat the same method, but do not duplicate solved primitives.
-
-## PiPiADS focus
-
-- ad identity;
-- advertiser identity;
-- creative identity;
-- first/last seen;
-- landing URLs;
-- geography;
-- engagement;
-- spend/conversion/order estimates;
-- store/product linkage.
-
-## Minea focus
-
-- cross-platform entity joins;
-- Meta/TikTok/Pinterest coverage;
-- store/product/creative relationships;
-- historical discovery;
-- ranking/trending logic.
-
-## Kalodata focus
-
-- direct field-by-field comparison with FastMoss;
-- API contract differences;
-- historical-window semantics;
-- revenue/GMV estimation differences;
-- creator/product/video/LIVE graph differences;
-- disagreement as a clue to modeled vs direct metrics.
-
-Output for each vendor:
-- decomposition graph;
-- upstream map;
-- reproduction matrix;
-- unique capability list;
-- redundant capability list.
-
----
-
-# Phase 7 — Cross-vendor forensic comparison
-
-Create a canonical ontology independent of vendor naming:
+## Data architecture
 
 ```text
-Product
-Shop/Seller
-Creator
-Video
-AdCreative
-Advertiser
-Livestream
-Category
-Offer
-PriceObservation
-SalesObservation
-RankObservation
-RelationshipObservation
+RAW immutable artifacts
+    -> append-only OBSERVATIONS
+    -> canonical ENTITY GRAPH
+    -> DERIVED features
+    -> versioned MODELS
+    -> SIGNALS / queries / alerts / local API / MCP / UI
 ```
 
-Then map vendor fields onto canonical metrics.
+Candidate local analytical stack to benchmark:
+- Parquet;
+- Arrow;
+- DuckDB;
+- Polars/Python;
+- R for statistical validation, temporal analysis and model calibration.
 
-For every disputed metric retain:
-- exact vendor definition if documented;
-- observed behavior;
-- inferred definition;
-- confidence;
-- vendor-vendor disagreement;
-- vendor-upstream disagreement;
-- our reconstruction error.
+Use a separate small control-plane database for jobs/checkpoints if required rather than forcing the analytical store to coordinate collectors.
 
-This is where R/Python validation becomes central.
+## Canonical ontology
+
+Vendor-independent entities should include, as needed:
+- Product;
+- Offer;
+- Seller/Shop;
+- Creator;
+- Video;
+- Livestream;
+- AdCreative;
+- Advertiser;
+- Category;
+- PriceObservation;
+- SalesObservation;
+- RankObservation;
+- RelationshipObservation.
+
+## Exit criteria
+
+The local system must answer at least one real decision question better or more cheaply than the vendor workflow, using data acquired and processed by us.
+
+Examples:
+- which products are accelerating before they enter vendor “trending” pages;
+- which creators are beginning to converge on the same product;
+- where ad activity, storefront adoption and marketplace sales signals agree;
+- which apparent vendor trends disappear when corrected for historical or model bias.
+
+## How Phase 4 can change the project
+
+- If local analytics provides materially better decision quality: expand coverage.
+- If collection cost dominates: optimize acquisition before adding more markets.
+- If entity resolution is the bottleneck: invest there before more scraping.
+- If history is the moat: prioritize continuous reliable snapshots over feature breadth.
 
 ---
 
-# Phase 8 — Data architecture and science
+# Phase 5 — Multi-market expansion and replace/augment/abort decision
 
-Candidate architecture to benchmark:
+## Objective
 
-```text
-RAW immutable evidence
- -> append-only OBSERVATIONS
- -> canonical ENTITY GRAPH
- -> DERIVED features
- -> versioned MODELS
- -> query/index layer
- -> alerts/API/MCP/UI
-```
+Determine whether Source Forensics truly replaces the paid intelligence stack, where it only augments it, and where buying external data remains rational.
 
-Benchmark locally before standardizing:
-- Parquet + DuckDB;
-- Arrow datasets;
-- Polars/Parquet;
-- add ClickHouse only when scale/serving requirements justify it.
+Only now expand beyond the first TikTok-centered system.
 
-Statistical work:
-- missingness;
-- bias;
-- source disagreement;
-- rolling deltas;
-- velocity/acceleration;
-- change points;
-- anomaly detection;
-- model calibration;
-- uncertainty intervals;
-- temporal leakage controls.
+## Expansion families
 
----
+Add one source family at a time:
 
-# Phase 9 — Expand beyond TikTok
-
-After TikTok architecture proves itself, add source families, not random websites.
-
-Suggested sequence:
-
-1. Amazon / Keepa / seller-intelligence vendors;
-2. Meta Ads / Google Ads transparency;
-3. Shopify public storefront graph;
-4. Shopee;
-5. AliExpress / Alibaba ecosystem;
-6. Temu;
-7. Google Shopping/Search;
+1. Amazon + Keepa/Jungle Scout/Helium 10 as reference vendors;
+2. Meta commercial/ad transparency surfaces;
+3. Google ads/shopping/search signals;
+4. Shopify public-store ecosystem plus authorized merchant data where applicable;
+5. Shopee;
+6. AliExpress/Alibaba ecosystems;
+7. Temu;
 8. YouTube/Instagram/Pinterest commerce signals;
-9. country-specific marketplaces.
+9. regional marketplaces and Chinese/SEA/LatAm sources as justified by opportunity.
 
-Every new family starts with `Source Forensics`, not with a production scraper.
-
----
-
-# Desktop Commander session discipline
-
-To avoid oversized sessions, every implementation session follows this contract:
-
-1. **One explicit question.**
-2. **One target/surface.**
-3. **One bounded capture or implementation change.**
-4. **One verification step.**
-5. **One durable artifact/commit.**
-6. **One short session report:** found / unknown / next question.
-
-Never combine in one Desktop Commander unit:
-- two vendors;
-- broad reconnaissance plus production collector implementation;
-- REA/Nix infrastructure repair plus vendor analysis;
-- schema redesign plus large captures;
-- multiple unrelated source families.
-
-This allows interruption/resumption without losing forensic state.
-
----
-
-# Immediate execution sequence
-
-1. Record REA/Nix baseline.
-2. Validate REA web lane against a disposable browser.
-3. Create canonical schemas.
-4. Run first FastMoss public-surface capture.
-5. Map Product Search.
-6. Map Product Detail/history.
-7. Map Shop.
-8. Map Creator.
-9. Map Video/LIVE.
-10. Reconstruct FastMoss entity/endpoint graph.
-11. Perform upstream attribution for the first 10 high-value fields.
-12. Build the first TikTok CollectorSpecs.
-13. Implement the smallest independent longitudinal collector.
-14. Validate our observations against FastMoss.
-15. Start PiPiADS.
-16. Start Minea.
-17. Start Kalodata.
-18. Build cross-vendor canonical ontology and disagreement analysis.
-
-## First technical success criterion
-
-Source Forensics can take one commercially meaningful FastMoss metric and produce a fully evidenced chain:
+Every new family repeats the same forensic sequence:
 
 ```text
-FastMoss feature
- -> observable backend field
- -> semantic definition
- -> upstream primitive(s)
- -> our acquisition method
- -> historical/derived/model logic
- -> our reproduced value
- -> error/cost/freshness/confidence
+vendor/source capability
+ -> observable contract
+ -> upstream attribution
+ -> reproduction benchmark
+ -> CollectorSpec
+ -> longitudinal collection
+ -> analytics validation
 ```
 
-Only after this succeeds should the project scale horizontally across hundreds of fields and additional marketplaces.
+## Superiority benchmark
+
+For each capability compare:
+- coverage;
+- correctness/error;
+- freshness;
+- latency;
+- geographic scope;
+- historical depth;
+- failure rate;
+- maintenance burden;
+- marginal cost;
+- usefulness for actual decisions.
+
+Classify each capability:
+
+- `REPLACE` — our system is sufficient and vendor dependency can be removed;
+- `AUGMENT` — combine our data with vendor/external data;
+- `BUY` — external data remains economically superior;
+- `DROP` — capability is not valuable enough to maintain;
+- `MODEL` — direct data is unavailable but estimation is useful.
+
+## Final success criterion
+
+Source Forensics succeeds if it gives us a local, evidence-backed market-intelligence capability whose useful subset is cheaper, more transparent, more customizable or more accurate than relying on FastMoss/PiPiADS/Minea alone.
+
+It does not need to reproduce every button on those products.
+
+If empirical benchmarks show that building a capability is worse than buying it, the correct engineering result is to stop building that capability.
+
+Commercialization is considered only after the local system proves recurring internal value.
+
+---
+
+# Desktop Commander execution contract
+
+Every work session must be small enough to finish cleanly.
+
+A normal session contains:
+
+1. one explicit question;
+2. one target/surface;
+3. one bounded capture or implementation change;
+4. one verification/control;
+5. one durable artifact or code change;
+6. one commit when the result is coherent;
+7. one short report: `FOUND / UNKNOWN / EVIDENCE / NEXT`.
+
+Do not combine in one session:
+- two vendors;
+- broad reconnaissance and production implementation;
+- Nix/REA infrastructure repair and vendor analysis;
+- schema redesign and large live captures;
+- two unrelated marketplace families.
+
+This discipline is intentional: interrupted reverse-engineering work is only useful when the evidence, assumptions and next question survive the session.
+
+# First execution after this roadmap
+
+Begin Phase 1 with a harmless disposable-browser smoke experiment. Do not point REA at FastMoss until the experiment proves our evidence pipeline and documents the known limitations of REA 6.5.0 on this NixOS host.

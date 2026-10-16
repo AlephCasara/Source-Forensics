@@ -1,0 +1,39 @@
+# Source Forensics raw/local evidence
+/evidence/raw/*
+!/evidence/raw/.gitkeep
+
+# Browser profiles and volatile captures
+.browser-profile/
+profiles/
+*.har
+*.saz
+*.mitm
+*.pcap
+*.pcapng
+*.warc
+*.warc.gz
+
+# Secrets and environment
+.env
+.env.*
+*.secret
+*.secrets
+
+# Local databases / analytical scratch
+*.duckdb
+*.duckdb.wal
+*.sqlite
+*.sqlite3
+*.db
+
+# Python / R / Node scratch
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+node_modules/
+
+# OS/editor
+.DS_Store
+*.swp
+*.tmp
