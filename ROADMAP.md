@@ -18,6 +18,8 @@ Primary objective: build something useful for our own machine and workflows. Com
 
 ## Engineering principles
 
+Normative design baseline: `docs/architecture/ENGINEERING_DESIGN_DOCTRINE.md`. Vendor discoveries are inputs to redesign, not requirements for feature parity.
+
 - Evidence before inference.
 - One question per forensic experiment.
 - Separate static analysis from runtime observation, then reconcile them.
