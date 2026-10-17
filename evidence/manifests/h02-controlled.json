@@ -1,0 +1,14 @@
+{
+  "block": "H02",
+  "evidence_id": "ev_136b9ab00262a563f45adfd8009f128aad80f97908b4353268416696065e2f52",
+  "files": {
+    "experiments/phase1-rea-web-smoke/scenario-h02.json": "67e9964b90037149ee5d9ab03282ef041a1a6876c024082fc1684fac54a54272",
+    "experiments/phase1-rea-web-smoke/results/19-h02-controlled.json": "4b3ac78571937aae714c8335e3b4b36a831fd5c3c69e696dccf86700d746dbff"
+  },
+  "assertions": {
+    "all_steps_completed": true,
+    "api_http_200": true,
+    "response_body_two_products_cursor": true,
+    "dom_two_products_cursor": true
+  }
+}

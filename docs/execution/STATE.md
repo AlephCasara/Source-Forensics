@@ -6,9 +6,9 @@ This file is the **single source of truth for scheduled hourly execution**. Ever
 
 - project_status: ACTIVE
 - phase: 1
-- current_block: H02
-- current_block_title: Controlled browser capture validation (verify existing evidence first)
-- next_block_if_success: H03
+- current_block: H03
+- current_block_title: Passive causality / listener attribution
+- next_block_if_success: H04
 - execution_mode: ONE_BLOCK_PER_SCHEDULED_RUN
 - schedule_intent: HOURLY
 - repository: `AlephCasara/Source-Forensics`
@@ -89,3 +89,23 @@ Exactly one next block ID and why it is ready, or `BLOCKED` with recovery action
 
 ### NEXT
 - `H02`: validate existing controlled scenario against its exit criterion; rerun only if missing proof. Do not advance to H03 in the same run.
+
+## H02 transition (2026-10-17)
+
+### FOUND
+- Original 04 capture proves network and DOM but its final wait step failed from strict selector matching two elements.
+- New isolated REA controlled scenario completed all three steps, captured HTTP 200 API response body, two products and cursor-002, and matching final DOM.
+
+### UNKNOWN
+- Passive causal attribution is not revalidated in H02; reserved for H03.
+
+### EVIDENCE
+- experiments/phase1-rea-web-smoke/scenario-h02.json
+- experiments/phase1-rea-web-smoke/results/19-h02-controlled.json (ev_136b9ab00262a563f45adfd8009f128aad80f97908b4353268416696065e2f52)
+- evidence/manifests/h02-controlled.json (SHA-256 for both files and verified assertions).
+
+### DECISION
+- H02 PASS. Corrected wait locator to #results li:first-child in a separate scenario; retained original evidence unchanged.
+
+### NEXT
+- H03: validate passive listener/request attribution using existing evidence first; do not overlap active capture.
