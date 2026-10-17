@@ -6,9 +6,9 @@ This file is the **single source of truth for scheduled hourly execution**. Ever
 
 - project_status: ACTIVE
 - phase: 1
-- current_block: H05
-- current_block_title: Retained network evidence path
-- next_block_if_success: H06
+- current_block: H06
+- current_block_title: Differential capture and evidence-integrity checks
+- next_block_if_success: H07
 - execution_mode: ONE_BLOCK_PER_SCHEDULED_RUN
 - schedule_intent: HOURLY
 - repository: `AlephCasara/Source-Forensics`
@@ -150,3 +150,23 @@ Exactly one next block ID and why it is ready, or `BLOCKED` with recovery action
 
 ### NEXT
 - H05: validate retained HAR/mitmproxy network evidence and REA offline inspection; do not begin it during H04.
+
+## H05 transition (2026-10-17)
+
+### FOUND
+- No existing native HAR or mitmproxy fixture artifact was found. Converted retained H02 REA network transactions to a clearly labeled derived HAR (3 entries), retaining response body bytes and headers.
+- REA inspect-web-network-capture successfully decoded the derived HAR offline into 3 records without fetching the recorded URLs.
+- Independently verified the API HTTP 200, two items, cursor-002 and SHA-256 of retained JSON response body.
+
+### UNKNOWN
+- Independent native browser HAR or mitmproxy acquisition has not been tested. Derived HAR timestamps and timings are synthetic, not trustworthy measurements.
+
+### EVIDENCE
+- experiments/phase1-rea-web-smoke/network/h05-from-rea.har and h05-rea-offline.json.
+- evidence/manifests/h05-retained-network.json records SHA-256, response-body digest, evidence IDs, checks and provenance.
+
+### DECISION
+- H05 PASS for reproducible offline inspection of retained network evidence, with explicit DERIVED-HAR provenance; do not represent this as independent native capture. Offline records preserve HTTP payloads but not browser causality/DOM.
+
+### NEXT
+- H06: verify differential capture and evidence integrity; separately assess whether native HAR capture should be scheduled later.

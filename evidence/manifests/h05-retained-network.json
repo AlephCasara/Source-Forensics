@@ -1,0 +1,25 @@
+{
+  "block": "H05",
+  "verification": "PASS_OFFLINE_DERIVED_HAR",
+  "source_capture_evidence_id": "ev_136b9ab00262a563f45adfd8009f128aad80f97908b4353268416696065e2f52",
+  "offline_evidence_id": "ev_5b5fe0c82c9dd6876bdc5d1683f4f9401fbda085349202be2b5754a642daa610",
+  "files_sha256": {
+    "experiments/phase1-rea-web-smoke/results/19-h02-controlled.json": "4b3ac78571937aae714c8335e3b4b36a831fd5c3c69e696dccf86700d746dbff",
+    "experiments/phase1-rea-web-smoke/network/h05-from-rea.har": "b1900abfe30b56156f29f73817fbf41f103b9a76619fd67d7df4d420a7209884",
+    "experiments/phase1-rea-web-smoke/network/h05-rea-offline.json": "a5e88076e0e0471bd522b6f5a449c4ca6aeb63d03f5757a79f4de33805508c50"
+  },
+  "checks": {
+    "har_entries": 3,
+    "offline_records": 3,
+    "api_status": 200,
+    "api_items": 2,
+    "cursor": "cursor-002",
+    "api_body_sha256": "28628e8cc52641bb5799575eda23c2a211e810ebe45b3d78233b933d11dd05ab"
+  },
+  "provenance": "Derived HAR reconstructed from retained REA H02 capture, not a native independently recorded HAR or mitmproxy capture.",
+  "limitations": [
+    "HAR startedDateTime and timing fields are synthetic; do not infer latency or temporal ordering from them.",
+    "Offline REA inspection preserves HTTP/body evidence but lacks live script initiator, execution, DOM and scenario provenance; original H02 capture supplies these separately.",
+    "Independent mitmproxy/browser-produced HAR acquisition is not tested in H05; follow-up may be scheduled if required."
+  ]
+}
