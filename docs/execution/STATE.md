@@ -6,9 +6,9 @@ This file is the **single source of truth for scheduled hourly execution**. Ever
 
 - project_status: ACTIVE
 - phase: 1
-- current_block: H06
-- current_block_title: Differential capture and evidence-integrity checks
-- next_block_if_success: H07
+- current_block: H07
+- current_block_title: Evidence schema + reproducibility harness
+- next_block_if_success: H08
 - execution_mode: ONE_BLOCK_PER_SCHEDULED_RUN
 - schedule_intent: HOURLY
 - repository: `AlephCasara/Source-Forensics`
@@ -170,3 +170,24 @@ Exactly one next block ID and why it is ready, or `BLOCKED` with recovery action
 
 ### NEXT
 - H06: verify differential capture and evidence integrity; separately assess whether native HAR capture should be scheduled later.
+
+## H06 transition (2026-10-17)
+
+### FOUND
+- REA compare-web-captures accepts normalized scenario bodies, not full Evidence envelopes. Prior result 16 was invalid input; current comparisons used correct structure.
+- Self-comparison of retained H02 normalized scenario reports overall UNKNOWN because per-step event artifact coverage is missing; it does not falsely assert unchanged.
+- A single controlled final-DOM mutation (Alpha: 1200 -> Alpha: 1201), with digest and size recomputed, reports CHANGED at results-ready and overall CHANGED.
+- Independently verified original and changed DOM hashes and confirmed the precise single-value difference.
+
+### UNKNOWN
+- This was a differential test on retained data, not two independently executed browser scenarios. Coverage of event artifacts remains insufficient for an UNCHANGED conclusion.
+
+### EVIDENCE
+- evidence/manifests/h06-differential-integrity.json records hashes, mutation and comparison outcomes.
+- experiments/phase1-rea-web-smoke/differential/h06-baseline.json, h06-one-variable-dom.json, h06-self-compare.json, h06-changed-compare.json.
+
+### DECISION
+- H06 PASS WITH COVERAGE LIMITATION: CHANGED is supported for the controlled mutation; UNKNOWN is never promoted to equality. Preserve raw H02 source evidence.
+
+### NEXT
+- H07: build evidence schema and reproducibility harness; include comparison input-shape and coverage requirements.

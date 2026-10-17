@@ -1,0 +1,20 @@
+{
+  "block": "H06",
+  "verification": "PASS_WITH_COVERAGE_LIMITATION",
+  "files_sha256": {
+    "experiments/phase1-rea-web-smoke/differential/h06-baseline.json": "d3961b6085bf2afc3bd49032e9d842c7ee19eda97e9a3fd314ba37d35a76ffef",
+    "experiments/phase1-rea-web-smoke/differential/h06-one-variable-dom.json": "a855a3b72e974694bc019acc18823c87191ed7f48e2a5945e2e5122f2f12d5db",
+    "experiments/phase1-rea-web-smoke/differential/h06-self-compare.json": "8feee24fa0726506fedf7edbfa7e815ebfcd04fc1d51fd6d7e8df2e91273546d",
+    "experiments/phase1-rea-web-smoke/differential/h06-changed-compare.json": "6b51617abfe1a9ae734981b7b26fee51b19441b19b19fbf4c02c9f64f2fb5472"
+  },
+  "baseline_dom_sha256": "89d32d08e53065cf825f3696945ae42b697b71d8f0a3ab918d7d444af872fea6",
+  "changed_dom_sha256": "91fa9f6e6f6d5f8b839f00483c1cb0353afba9fc044320bd437c777b7115108a",
+  "single_variable": "Final DOM Alpha: 1200 -> Alpha: 1201; digest/byte-count metadata recomputed to maintain internal consistency",
+  "self_comparison_status": "unknown",
+  "one_variable_comparison_status": "changed",
+  "limitations": [
+    "Synthetic mutation of retained capture, not independent browser recapture.",
+    "Self-comparison unknown because event artifact coverage is missing; unknown must not be promoted to unchanged.",
+    "Unmodified source capture remains preserved."
+  ]
+}
