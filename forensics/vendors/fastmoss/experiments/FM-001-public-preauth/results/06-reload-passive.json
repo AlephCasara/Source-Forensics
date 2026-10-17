@@ -1,0 +1,1 @@
+{"error":"Browser observation failed","code":"unreadable_output","category":"execution_failure","message":"CDP Debugger.getScriptSource failed (-32000): No script for id: 3","retryable":false,"remediation":{"action":"CDP Debugger.getScriptSource failed (-32000): No script for id: 3"},"details":{"operation":"inspect_web_page","reason":"protocol_error"}}

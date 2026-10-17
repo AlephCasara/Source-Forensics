@@ -1,0 +1,82 @@
+{
+  "experiment_id": "FM-001-public-preauth",
+  "question": "What public/pre-auth FastMoss web architecture is observable before an authenticated session?",
+  "observed_surfaces": {
+    "headless_entry": {
+      "url": "https://www.fastmoss.com/",
+      "result": "Web Security challenge",
+      "classification": "edge_access_behavior"
+    },
+    "headed_entry": {
+      "url": "https://www.fastmoss.com/",
+      "observed_manual_route": "https://www.fastmoss.com/pt",
+      "result": "application loaded"
+    },
+    "controlled_scenario_entry": {
+      "url": "https://www.fastmoss.com/",
+      "final_url": "https://www.fastmoss.com/",
+      "result": "application loaded"
+    }
+  },
+  "frameworks": [
+    {
+      "name": "Next.js",
+      "confidence": "high",
+      "basis": "REA bundle fingerprint + _next App Router chunks"
+    },
+    {
+      "name": "React",
+      "confidence": "medium",
+      "basis": "REA bundle fingerprint"
+    }
+  ],
+  "first_party_origins": [
+    {
+      "origin": "https://www.fastmoss.com",
+      "role": "web application + same-origin API",
+      "confidence": "observed"
+    },
+    {
+      "origin": "https://uscdn.fastmoss.com",
+      "role": "static/media CDN",
+      "confidence": "observed"
+    },
+    {
+      "origin": "https://tracking.fastmoss.com",
+      "role": "telemetry/notify endpoint",
+      "confidence": "observed"
+    }
+  ],
+  "auth_related_static_contracts": [
+    "/api/captcha/config",
+    "/api/captcha/verify",
+    "/api/oauth/bindAccount",
+    "/api/oauth/bindAccount",
+    "/api/oauth/oauthBindLogin",
+    "/api/oauth/oauthBindLogin",
+    "/api/oauth/setGoogleAccount",
+    "/api/oauth/setGoogleAccount",
+    "/api/oauth/setGoogleAccount",
+    "/api/oauth/setTkAccount",
+    "/api/oauth/setTkAccount",
+    "/api/oauth/setTkAccount",
+    "/api/user/getTagsList",
+    "/api/user/index/userInfo",
+    "/api/user/index/userInfo",
+    "/api/user/login",
+    "/api/user/login",
+    "/api/user/register",
+    "/api/user/register",
+    "/api/user/user",
+    "/api/user/user",
+    "/api/user/userExtend",
+    "/api/user/userPayTrial",
+    "/api/user/userPayTrial"
+  ],
+  "notes": [
+    "Static endpoint presence does not prove runtime invocation or unauthenticated accessibility.",
+    "HTTP 200 runtime responses do not prove response content or business-data access because response bodies were not retained in FM-001.",
+    "Locale/profile context affected the observed entry route (/pt vs /).",
+    "No usable real-site source maps were observed in this experiment."
+  ]
+}

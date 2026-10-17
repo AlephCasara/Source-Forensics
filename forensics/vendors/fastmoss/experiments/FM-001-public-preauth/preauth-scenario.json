@@ -1,0 +1,15 @@
+{
+  "browser": {
+    "mode": "launch",
+    "executable_path": "/run/current-system/sw/bin/chromium",
+    "headless": false
+  },
+  "start_url": { "url": "https://www.fastmoss.com/" },
+  "actions": [
+    { "step_id": "settle", "action": "wait_for_timeout", "duration_ms": 8000 }
+  ],
+  "capture": {
+    "at_end": ["dom", "accessibility", "url"],
+    "events": ["network", "console", "page-errors"]
+  }
+}

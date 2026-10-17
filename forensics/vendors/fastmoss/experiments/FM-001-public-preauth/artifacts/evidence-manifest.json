@@ -1,0 +1,99 @@
+{
+  "experiment_id": "FM-001-public-preauth",
+  "artifacts": [
+    {
+      "path": "README.md",
+      "sha256": "b98f9717f19b6b9b96a323b6ed374a54e05712d441fa38da1212c9728c7842e3",
+      "bytes": 6769
+    },
+    {
+      "path": "artifacts/architecture-summary.json",
+      "sha256": "84e90493874761f239e27e88d536115d7ad0e98bf3139f4288691e549856619d",
+      "bytes": 2526,
+      "evidence_id": null,
+      "predicate_type": null
+    },
+    {
+      "path": "artifacts/dom-actions.json",
+      "sha256": "e496e468e38b571669cab5089c19092c6c03623722cb9c70120f47731c7e6a23",
+      "bytes": 5048,
+      "evidence_id": null,
+      "predicate_type": null
+    },
+    {
+      "path": "artifacts/runtime-api-endpoints.json",
+      "sha256": "87f72dc17d63a2fe3291e4ff85ca0f5b3b88ebd2e94b6a985cfa3e479b0ed319",
+      "bytes": 5245
+    },
+    {
+      "path": "artifacts/static-api-endpoints.json",
+      "sha256": "d660a0759da5490f5e55b78b29cb67f8a0c6e90415778ca498fce1ebfe1d9b3a",
+      "bytes": 9960
+    },
+    {
+      "path": "preauth-scenario.json",
+      "sha256": "fce80ea9c850b35e5dc1785c115c6ee068f1d3104b098046aa7100e30570b8d1",
+      "bytes": 402,
+      "evidence_id": null,
+      "predicate_type": null
+    },
+    {
+      "path": "results/01-targets.json",
+      "sha256": "c21216b4d636c2aad62fabb0659127eed11ac062ea76083e7078619445c2a3a4",
+      "bytes": 1708,
+      "evidence_id": "ev_9c85d77e9706019c5cb757e55e1d89f16e38f5fbc02566e06c1b0a242ee6a553",
+      "predicate_type": "rea.browser-target-list"
+    },
+    {
+      "path": "results/02-waf-inspect.json",
+      "sha256": "04abf44901523415870686da8022b8fc399add1604227f52c641ac5a541d9546",
+      "bytes": 14281,
+      "evidence_id": "ev_05e95f8d11d316c0ebf7e47e2840570846c42828321e5286002a3f9c650d1659",
+      "predicate_type": "rea.web-page-inspection"
+    },
+    {
+      "path": "results/03-headed-targets.json",
+      "sha256": "30f264d52abf1de9486c335f9c3f6b0646e0ef7d42fbd1b610b48428f0ecf89b",
+      "bytes": 1804,
+      "evidence_id": "ev_e4992ba7821469d46700faaa93151d518279d214c4595a4b79166b1c9dac1e47",
+      "predicate_type": "rea.browser-target-list"
+    },
+    {
+      "path": "results/04-headed-inspect.json",
+      "sha256": "f91d1eb37b9359d5bbd4f11c7dafba574e56ddc9fe1f67d9961c3f4b91e9bf0f",
+      "bytes": 298891,
+      "evidence_id": "ev_c90d10085c574bb30a9b34dddae4475da0fa761f169e76eff32809d92a91e4e4",
+      "predicate_type": "rea.web-page-inspection"
+    },
+    {
+      "path": "results/05-headed-bundle.json",
+      "sha256": "aac00b727c2c40cb122a38e62c50964dad4e02581986ea253bad69709613c98a",
+      "bytes": 74889,
+      "evidence_id": "ev_4fce34ce62fa50aa66b31e28dca00594b944ee8e6b636c2a8a8dfda32d176e6c",
+      "predicate_type": "rea.web-bundle-analysis"
+    },
+    {
+      "path": "results/06-reload-passive.json",
+      "sha256": "56bae9d841b7cd9dbb3f534e4090bc14f3c6b3158560b3ae2755b6d5c9a4699b",
+      "bytes": 355,
+      "evidence_id": null,
+      "predicate_type": null,
+      "error_code": "unreadable_output"
+    },
+    {
+      "path": "results/07-reload-network.json",
+      "sha256": "435a111cb06ee6dc1c64236c7e9a1404eca49b1c841a85e754d04b4fa849b5a0",
+      "bytes": 344,
+      "evidence_id": null,
+      "predicate_type": null,
+      "error_code": "target_unavailable"
+    },
+    {
+      "path": "results/08-preauth-scenario.json",
+      "sha256": "40fddecf18a11dcf3ec7705be9bcfb627f0ea3e1b761b2dc61f79df505bf3f00",
+      "bytes": 1101125,
+      "evidence_id": "ev_c920cb4e14cb4a00e007a8de523b3d81983520f6c79f2f558c1da71fb4c8c16f",
+      "predicate_type": "rea.browser-scenario-capture"
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+[
+  {
+    "path": "/api/author/index/country",
+    "mechanism": "call:i.ZP.get",
+    "location": {
+      "script_key": "scr_523a2afbcd86262c17e153aa1c3aa44253617ef7471c29b961f817cef3a085b2",
+      "line": 1,
+      "column": 4646
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/author/index/country",
+    "mechanism": "call:a.ZP.get",
+    "location": {
+      "script_key": "scr_94cae414ccabb4e9b75390d5f687eabd0b05701cc6f2b497b6f2763fb11831fd",
+      "line": 1,
+      "column": 19041
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/captcha/config",
+    "mechanism": "call:fetch",
+    "location": {
+      "script_key": "scr_a738765d5a883a0910d2fcdb1ef594f49cf3ef7639349e67975c95fea43795b3",
+      "line": 1,
+      "column": 32339
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/captcha/verify",
+    "mechanism": "call:fetch",
+    "location": {
+      "script_key": "scr_a738765d5a883a0910d2fcdb1ef594f49cf3ef7639349e67975c95fea43795b3",
+      "line": 1,
+      "column": 31625
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/data/add",
+    "mechanism": "call:i.ZP.get",
+    "location": {
+      "script_key": "scr_523a2afbcd86262c17e153aa1c3aa44253617ef7471c29b961f817cef3a085b2",
+      "line": 1,
+      "column": 5116
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/data/add",
+    "mechanism": "call:a.ZP.get",
+    "location": {
+      "script_key": "scr_94cae414ccabb4e9b75390d5f687eabd0b05701cc6f2b497b6f2763fb11831fd",
+      "line": 1,
+      "column": 19511
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/data/find",
+    "mechanism": "call:i.ZP.get",
+    "location": {
+      "script_key": "scr_523a2afbcd86262c17e153aa1c3aa44253617ef7471c29b961f817cef3a085b2",
+      "line": 1,
+      "column": 5155
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/data/find",
+    "mechanism": "call:a.ZP.get",
+    "location": {
+      "script_key": "scr_94cae414ccabb4e9b75390d5f687eabd0b05701cc6f2b497b6f2763fb11831fd",
+      "line": 1,
+      "column": 19550
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/info/handle",
+    "mechanism": "call:n.ZP.get",
+    "location": {
+      "script_key": "scr_939c4ddff65d01bc29bc879a653d065a6e9353ecda8a894ddb8eb986c0c23ab1",
+      "line": 1,
+      "column": 47285
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/oauth/bindAccount",
+    "mechanism": "call:r.ZP.get",
+    "location": {
+      "script_key": "scr_23d2a54373817c6388687bea4db81363b525152a4d00d2fbe1e6c7ac116bb7ee",
+      "line": 1,
+      "column": 17480
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/oauth/bindAccount",
+    "mechanism": "call:l.ZP.get",
+    "location": {
+      "script_key": "scr_a2eaac5ac462d8e326452ff89fef699db776143ad27afaff63407bd469aad308",
+      "line": 1,
+      "column": 15201
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/oauth/oauthBindLogin",
+    "mechanism": "call:i.ZP.post",
+    "location": {
+      "script_key": "scr_523a2afbcd86262c17e153aa1c3aa44253617ef7471c29b961f817cef3a085b2",
+      "line": 1,
+      "column": 5055
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/oauth/oauthBindLogin",
+    "mechanism": "call:a.ZP.post",
+    "location": {
+      "script_key": "scr_94cae414ccabb4e9b75390d5f687eabd0b05701cc6f2b497b6f2763fb11831fd",
+      "line": 1,
+      "column": 19450
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/oauth/setGoogleAccount",
+    "mechanism": "call:s.ZP.get",
+    "location": {
+      "script_key": "scr_23d2a54373817c6388687bea4db81363b525152a4d00d2fbe1e6c7ac116bb7ee",
+      "line": 1,
+      "column": 18981
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/oauth/setGoogleAccount",
+    "mechanism": "call:u.ZP.get",
+    "location": {
+      "script_key": "scr_a2eaac5ac462d8e326452ff89fef699db776143ad27afaff63407bd469aad308",
+      "line": 1,
+      "column": 17344
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/oauth/setGoogleAccount",
+    "mechanism": "call:a.ZP.get",
+    "location": {
+      "script_key": "scr_def71cb1e9ee44406ea7a05531a9177d140679a5a832adadbf450213f826d550",
+      "line": 1,
+      "column": 19515
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/oauth/setTkAccount",
+    "mechanism": "call:s.ZP.get",
+    "location": {
+      "script_key": "scr_23d2a54373817c6388687bea4db81363b525152a4d00d2fbe1e6c7ac116bb7ee",
+      "line": 1,
+      "column": 19028
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/oauth/setTkAccount",
+    "mechanism": "call:u.ZP.get",
+    "location": {
+      "script_key": "scr_a2eaac5ac462d8e326452ff89fef699db776143ad27afaff63407bd469aad308",
+      "line": 1,
+      "column": 17391
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/oauth/setTkAccount",
+    "mechanism": "call:a.ZP.get",
+    "location": {
+      "script_key": "scr_def71cb1e9ee44406ea7a05531a9177d140679a5a832adadbf450213f826d550",
+      "line": 1,
+      "column": 19562
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/user/getTagsList",
+    "mechanism": "call:i.ZP.post",
+    "location": {
+      "script_key": "scr_e245ab65f6159118628c4d2241e09c507bc4b60e1c298ddc3e9da8b5968690a1",
+      "line": 1,
+      "column": 34387
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/user/index/userInfo",
+    "mechanism": "call:r.ZP.get",
+    "location": {
+      "script_key": "scr_23d2a54373817c6388687bea4db81363b525152a4d00d2fbe1e6c7ac116bb7ee",
+      "line": 1,
+      "column": 15741
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/user/index/userInfo",
+    "mechanism": "call:l.ZP.get",
+    "location": {
+      "script_key": "scr_a2eaac5ac462d8e326452ff89fef699db776143ad27afaff63407bd469aad308",
+      "line": 1,
+      "column": 13462
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/user/login",
+    "mechanism": "call:r.ZP.post",
+    "location": {
+      "script_key": "scr_23d2a54373817c6388687bea4db81363b525152a4d00d2fbe1e6c7ac116bb7ee",
+      "line": 1,
+      "column": 16990
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/user/login",
+    "mechanism": "call:l.ZP.post",
+    "location": {
+      "script_key": "scr_a2eaac5ac462d8e326452ff89fef699db776143ad27afaff63407bd469aad308",
+      "line": 1,
+      "column": 14711
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/user/register",
+    "mechanism": "call:r.ZP.post",
+    "location": {
+      "script_key": "scr_23d2a54373817c6388687bea4db81363b525152a4d00d2fbe1e6c7ac116bb7ee",
+      "line": 1,
+      "column": 16945
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/user/register",
+    "mechanism": "call:l.ZP.post",
+    "location": {
+      "script_key": "scr_a2eaac5ac462d8e326452ff89fef699db776143ad27afaff63407bd469aad308",
+      "line": 1,
+      "column": 14666
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/user/user",
+    "mechanism": "call:r.ZP.get",
+    "location": {
+      "script_key": "scr_23d2a54373817c6388687bea4db81363b525152a4d00d2fbe1e6c7ac116bb7ee",
+      "line": 1,
+      "column": 15847
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/user/user",
+    "mechanism": "call:l.ZP.get",
+    "location": {
+      "script_key": "scr_a2eaac5ac462d8e326452ff89fef699db776143ad27afaff63407bd469aad308",
+      "line": 1,
+      "column": 13568
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/user/userExtend",
+    "mechanism": "call:i.ZP.post",
+    "location": {
+      "script_key": "scr_e245ab65f6159118628c4d2241e09c507bc4b60e1c298ddc3e9da8b5968690a1",
+      "line": 1,
+      "column": 36903
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/user/userPayTrial",
+    "mechanism": "call:r.ZP.get",
+    "location": {
+      "script_key": "scr_23d2a54373817c6388687bea4db81363b525152a4d00d2fbe1e6c7ac116bb7ee",
+      "line": 1,
+      "column": 15795
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  },
+  {
+    "path": "/api/user/userPayTrial",
+    "mechanism": "call:l.ZP.get",
+    "location": {
+      "script_key": "scr_a2eaac5ac462d8e326452ff89fef699db776143ad27afaff63407bd469aad308",
+      "line": 1,
+      "column": 13516
+    },
+    "evidence_class": "static_bundle_observation",
+    "runtime_access_proven": false
+  }
+]
