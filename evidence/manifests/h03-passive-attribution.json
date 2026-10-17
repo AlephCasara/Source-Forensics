@@ -1,0 +1,42 @@
+{
+  "block": "H03",
+  "verification": "PASS",
+  "evidence_ids": [
+    "ev_27ef91c3bbf8ba17bb85837d0132b5199ca0ef60f3d471bb56532aaf29fc48c1",
+    "ev_53ab60009b5686f9dbff5bfd2c9d80a4066327ce573cc57882bba18e40d5837f",
+    "ev_136b9ab00262a563f45adfd8009f128aad80f97908b4353268416696065e2f52"
+  ],
+  "files_sha256": {
+    "experiments/phase1-rea-web-smoke/results/05-listeners.json": "2bb7ade6fdc6d91dbdc889d35313a90c6ad158e4bf18a315dbf942ebcce26fe4",
+    "experiments/phase1-rea-web-smoke/results/07-passive-inspect-long.json": "7657b29005de14ce1b70600ebab73f03c84efc2afd5c2876ff3fea3004601f70",
+    "experiments/phase1-rea-web-smoke/fixture/app.js": "34c219bbd1432ba8b0931921cd6992b7d6e71214d58f7e692607fecf167e8d80",
+    "experiments/phase1-rea-web-smoke/results/19-h02-controlled.json": "4b3ac78571937aae714c8335e3b4b36a831fd5c3c69e696dccf86700d746dbff"
+  },
+  "listener": {
+    "type": "click",
+    "location": {
+      "script_id": "3",
+      "url": "http://127.0.0.1:8765/app.js",
+      "line_number": 4,
+      "column_number": 30,
+      "function_name": null,
+      "source_association": "script_id"
+    },
+    "execution": "unknown"
+  },
+  "request": {
+    "url": "http://127.0.0.1:8765/api/search?region=BR&sort=gmv_desc",
+    "status": 200,
+    "initiator": {
+      "type": "script",
+      "url": "http://127.0.0.1:8765/app.js",
+      "line": 7,
+      "column": 25
+    }
+  },
+  "limitations": [
+    "Listener execution remains unknown in listener inspection alone; controlled capture corroborates action and result separately.",
+    "Passive inspection reports initiator and JSON shape, not full response values.",
+    "Source location is generated-script location, not authenticated original source-map provenance."
+  ]
+}

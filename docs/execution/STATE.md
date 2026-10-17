@@ -6,9 +6,9 @@ This file is the **single source of truth for scheduled hourly execution**. Ever
 
 - project_status: ACTIVE
 - phase: 1
-- current_block: H03
-- current_block_title: Passive causality / listener attribution
-- next_block_if_success: H04
+- current_block: H04
+- current_block_title: Execution, script export and source-map reconciliation
+- next_block_if_success: H05
 - execution_mode: ONE_BLOCK_PER_SCHEDULED_RUN
 - schedule_intent: HOURLY
 - repository: `AlephCasara/Source-Forensics`
@@ -109,3 +109,23 @@ Exactly one next block ID and why it is ready, or `BLOCKED` with recovery action
 
 ### NEXT
 - H03: validate passive listener/request attribution using existing evidence first; do not overlap active capture.
+
+## H03 transition (2026-10-17)
+
+### FOUND
+- Existing passive inspection captured the exact GET /api/search?region=BR&sort=gmv_desc with HTTP 200 and script initiator app.js at reported generated location line 7, column 25.
+- Existing event-listener inspection located the click listener in app.js; retained source SHA-256 matches fixture/app.js independently.
+- H02 controlled capture independently confirms click-to-network-to-DOM outcome. H03 evidence checks passed without another capture.
+
+### UNKNOWN
+- Listener inspection marks execution as unknown; it alone does not establish callback execution. Generated locations do not independently authenticate original source-map declarations.
+
+### EVIDENCE
+- evidence/manifests/h03-passive-attribution.json records evidence IDs, SHA-256 hashes, assertions and limitations.
+- experiments/phase1-rea-web-smoke/results/05-listeners.json and 07-passive-inspect-long.json; 19-h02-controlled.json corroborates end-to-end behavior.
+
+### DECISION
+- H03 PASS with attribution caveats. Preserve separate passive and controlled claims; no overlapping observation or redundant capture.
+
+### NEXT
+- H04: validate execution coverage, script export, and source-map/static reconciliation using existing artifacts first.
