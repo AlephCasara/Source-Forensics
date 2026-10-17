@@ -6,9 +6,9 @@ This file is the **single source of truth for scheduled hourly execution**. Ever
 
 - project_status: ACTIVE
 - phase: 1
-- current_block: H04
-- current_block_title: Execution, script export and source-map reconciliation
-- next_block_if_success: H05
+- current_block: H05
+- current_block_title: Retained network evidence path
+- next_block_if_success: H06
 - execution_mode: ONE_BLOCK_PER_SCHEDULED_RUN
 - schedule_intent: HOURLY
 - repository: `AlephCasara/Source-Forensics`
@@ -129,3 +129,24 @@ Exactly one next block ID and why it is ready, or `BLOCKED` with recovery action
 
 ### NEXT
 - H04: validate execution coverage, script export, and source-map/static reconciliation using existing artifacts first.
+
+## H04 transition (2026-10-17)
+
+### FOUND
+- Existing execution coverage reports runMarketSearch count=1 and item mapper count=2; request stack names runMarketSearch.
+- Independently hashed exported app.js matches fixture/app.js and REA export metadata.
+- Static JavaScript analysis parsed one script with zero parse failures; runtime-to-static reconciliation matched the script by content and location, classifying its asset loaded.
+- Recovery completed (1 module, zero failures), and source-map trace mapped a generated location to embedded src/market-search.js content with matching SHA-256.
+
+### UNKNOWN
+- Source-map authenticity and recovered source runtime equivalence remain unknown; target/frame reconciliation has two unknown nodes. Execution instrumentation perturbs optimization and is not a performance measurement.
+
+### EVIDENCE
+- evidence/manifests/h04-execution-reconciliation.json includes independently computed hashes, evidence IDs, and checked assertions.
+- experiments/phase1-rea-web-smoke/results/09-export-scripts.json, 10-static-js-analysis.json, 11-reconciliation.json, 12-execution.json, 17-recover-js.json, 18-source-trace.json.
+
+### DECISION
+- H04 PASS: verified existing evidence instead of repeating instrumentation. Runtime execution, static identity, derived recovery and source-map declarations remain separate evidence classes.
+
+### NEXT
+- H05: validate retained HAR/mitmproxy network evidence and REA offline inspection; do not begin it during H04.

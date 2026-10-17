@@ -1,0 +1,37 @@
+{
+  "block": "H04",
+  "verification": "PASS",
+  "evidence_ids": {
+    "09-export-scripts.json": "ev_e4326166407ab3c30ff4a38119f99cbcdc6940accd2004ab114a48357ccb0b5d",
+    "10-static-js-analysis.json": "ev_301ac2c8f2bbaeeb2ec7a4866a69768c5073964faf75fcc9cef9d27d3b7b6fad",
+    "11-reconciliation.json": "ev_c7859aa151deba7236d96bb7f19f1b59388f2f58b476b4afb0dbcb910bfd35ca",
+    "12-execution.json": "ev_4b138ddef67ee9d3a2cb893b8bf166d20fa136fafd0d4db4a0fdb36eeea0e240",
+    "17-recover-js.json": "ev_a491046300b4e72c77c0637dd6330228ea075fc85b7bc0703a8366964dea7f0f",
+    "18-source-trace.json": "ev_7177794682f35ebca754f3c3794a1f05a713da4f802661b265c9617567ad042c"
+  },
+  "files_sha256": {
+    "experiments/phase1-rea-web-smoke/results/09-export-scripts.json": "51405bf9bb701115467e79aacdff0479fa5a44f4ac935d6e023a3f97d6aa1946",
+    "experiments/phase1-rea-web-smoke/results/10-static-js-analysis.json": "965c7db7fc54fcb151c9bb68d636cf1027aee5226e72722c91541d6b9f0c92b0",
+    "experiments/phase1-rea-web-smoke/results/11-reconciliation.json": "be49d50b38aee6ae68b7612d7328ccf488848b4a39582093ec82f4588ef1047a",
+    "experiments/phase1-rea-web-smoke/results/12-execution.json": "46a6c06b6f578eca9e1b84f2c0ec966c4217ef8bba0da27ffd4457b5549b421e",
+    "experiments/phase1-rea-web-smoke/results/17-recover-js.json": "442e2bb638881f1de2166436e621bd43330f19838a9c7c113851139aa5b69a75",
+    "experiments/phase1-rea-web-smoke/results/18-source-trace.json": "f52b97760efe23f583d967425876121d50611363b7b6c94054879726cb9bd083",
+    "experiments/phase1-rea-web-smoke/fixture/app.js": "34c219bbd1432ba8b0931921cd6992b7d6e71214d58f7e692607fecf167e8d80",
+    "/home/aleph/Projects/Source-Forensics/experiments/phase1-rea-web-smoke/exported-scripts/files/origins/72b0e86b156f08eb458acaa497126a06506565a00cbc375b40c2c304f4266442/app.js": "34c219bbd1432ba8b0931921cd6992b7d6e71214d58f7e692607fecf167e8d80"
+  },
+  "assertions": {
+    "exported_script_matches_fixture": true,
+    "static_parse_no_failures": true,
+    "runtime_static_content_location_match": true,
+    "runMarketSearch_count_one": true,
+    "item_mapping_count_two": true,
+    "recovery_complete": true,
+    "source_map_position_mapped": true
+  },
+  "limitations": [
+    "Execution instrumentation resets counters and disables optimized execution; not suitable for performance benchmarking.",
+    "Source-map source authenticity is unknown and caller-selected mapping is not proof of original repository history.",
+    "Recovered source runtime equivalence is unknown.",
+    "Reconciliation reports two unknown target/frame entities; script matching does not imply all graph entities matched."
+  ]
+}
