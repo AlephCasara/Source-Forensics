@@ -1,0 +1,89 @@
+{
+  "experiment_id": "FM-003-filter-temporal-semantics",
+  "region": {
+    "url_query": "BR",
+    "backend_query": "BR",
+    "runtime_header": "BR",
+    "result_product_regions": [
+      "BR"
+    ]
+  },
+  "window_aliases": {
+    "7d": {
+      "last_sold_count_equals": "day7_sold_count",
+      "all_observed_equal": true,
+      "last_sale_amount_equals": "day7_sale_amount",
+      "all_gmv_observed_equal": true
+    },
+    "28d": {
+      "last_sold_count_equals": "day28_sold_count",
+      "all_observed_equal": true,
+      "last_sale_amount_equals": "day28_sale_amount",
+      "all_gmv_observed_equal": true
+    }
+  },
+  "default_sort": {
+    "wire_value": "order=2,2",
+    "static_client_field": "last_sold_count",
+    "direction": "descending",
+    "runtime_7d_descending": true,
+    "runtime_28d_descending": true
+  },
+  "representative_filter": {
+    "user_intent": "windowed units sold > 10,000",
+    "7d": {
+      "wire_field": "day7_sold_count",
+      "wire_value": "10000,-1",
+      "total_cnt": 21,
+      "all_page_values_satisfy": true
+    },
+    "28d": {
+      "wire_field": "day28_sold_count",
+      "wire_value": "10000,-1",
+      "total_cnt": 319,
+      "all_page_values_satisfy": true
+    }
+  },
+  "canonical_model_recommendation": {
+    "avoid_vendor_aliases": [
+      "last_sold_count",
+      "last_sale_amount"
+    ],
+    "metric_families": [
+      {
+        "name": "windowed_units_sold",
+        "dimensions": [
+          "window",
+          "entity",
+          "region",
+          "observed_at"
+        ],
+        "observed_vendor_windows_days": [
+          7,
+          14,
+          28
+        ]
+      },
+      {
+        "name": "windowed_gmv",
+        "dimensions": [
+          "window",
+          "entity",
+          "region",
+          "currency",
+          "observed_at"
+        ],
+        "observed_vendor_windows_days": [
+          7,
+          14,
+          28
+        ]
+      }
+    ],
+    "ui_rule": "Expose window as one semantic parameter; do not duplicate 7d/28d controls or metrics in the canonical model."
+  },
+  "limits": [
+    "Equality proves FastMoss response semantics for observed samples, not upstream derivation or truth.",
+    "The 14-day fields were observed in responses but no UI window toggle for 14d was established in this experiment."
+  ]
+}

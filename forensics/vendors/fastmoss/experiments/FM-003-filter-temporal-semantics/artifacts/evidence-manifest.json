@@ -1,0 +1,45 @@
+{
+  "experiment_id": "FM-003-filter-temporal-semantics",
+  "versioned_artifacts": [
+    {
+      "path": "artifacts/br-28d-units-ge-10k.json",
+      "bytes": 10066,
+      "sha256": "fe6027b1b8901aa431c7c220477ccb7473a0c228d2ef2b0e81658b701e08325b"
+    },
+    {
+      "path": "artifacts/br-28d.json",
+      "bytes": 9973,
+      "sha256": "10f8e94e3cfe165ff4edf019a0512f2d0e322a6890a376f71953cf8e4a5d74b9"
+    },
+    {
+      "path": "artifacts/br-7d-units-ge-10k.json",
+      "bytes": 10249,
+      "sha256": "b54babcd30682ecb51806ca79d5caea951d6b23db064eb0709711c4f2de470da"
+    },
+    {
+      "path": "artifacts/br-7d.json",
+      "bytes": 10163,
+      "sha256": "4a412c0336237bcd316dd9bcf62b3f364c27760416ce638586c7b45c13768b74"
+    },
+    {
+      "path": "artifacts/br-filter-info.json",
+      "bytes": 9155,
+      "sha256": "51e9520833bf9a06f9d2ef76d67473f96c319cced654e3c13bdb50f605d414ef"
+    },
+    {
+      "path": "artifacts/evidence-index.json",
+      "bytes": 969,
+      "sha256": "6d3d4135f773e0c23ac9031df547112f39e6348b9c4ea8500ed22c45b940ea5d"
+    },
+    {
+      "path": "artifacts/temporal-semantic-findings.json",
+      "bytes": 2293,
+      "sha256": "9911ec26763008ad94ef160c1816713b2106876a8dcccaaf2e268e097453b854"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7444,
+      "sha256": "dbd134203a557099a28a6b4842f763769375dba439062ffd91aabb18d700b18e"
+    }
+  ]
+}
