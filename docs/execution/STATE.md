@@ -6,15 +6,15 @@ This file is the **single source of truth for scheduled hourly execution**. Ever
 
 - project_status: ACTIVE
 - phase: 1
-- current_block: H01
-- current_block_title: Recover and normalize current Phase 1 state
-- next_block_if_success: H02
+- current_block: H02
+- current_block_title: Controlled browser capture validation (verify existing evidence first)
+- next_block_if_success: H03
 - execution_mode: ONE_BLOCK_PER_SCHEDULED_RUN
 - schedule_intent: HOURLY
 - repository: `AlephCasara/Source-Forensics`
 - local_repo: `/home/aleph/Projects/Source-Forensics`
 
-## Why H01 is current
+## Why H01 was required
 
 Before the hourly execution contract was established, a Phase 1 smoke experiment was started interactively and progressed beyond a clean one-block boundary. Rather than pretend that work was neatly completed, H01 must inventory it, preserve valid evidence, identify stale processes/artifacts, and establish a clean resumable baseline.
 
@@ -68,6 +68,24 @@ Exactly one next block ID and why it is ready, or `BLOCKED` with recovery action
 
 ## Last transition
 
-- transition: hourly execution architecture established
-- prior_work: Phase 1 smoke work partially executed before bounded scheduling
-- next_action: execute H01 only
+- transition: H01 COMPLETE — recovery/inventory verified; H02 queued
+- report: `docs/execution/H01_RECOVERY_REPORT.md`
+
+### FOUND
+- Tracked Phase 1 fixture, scripts, maps, and results 01–18 are present; prior lab report records PASS with cautions.
+- No listener on disposable fixture ports 8765/9222; no process cleanup necessary.
+- Local Git synchronized to `921434b`; tracked tree clean. Existing FastMoss commits mean some later hourly topics overlap prior work.
+
+### UNKNOWN
+- Ownership of unrelated active sessions and untracked `forensics/upstreams/`; intentionally untouched.
+- Whether H02 needs any new capture beyond already-committed evidence.
+
+### EVIDENCE
+- `docs/execution/H01_RECOVERY_REPORT.md` with independently computed SHA-256 checks.
+- `docs/lab/PHASE1_REA_WEB_LANE_REPORT.md` and `experiments/phase1-rea-web-smoke/results/`.
+
+### DECISION
+- Preserve existing evidence; verify before rerunning. No vendor work or new browser capture during H01.
+
+### NEXT
+- `H02`: validate existing controlled scenario against its exit criterion; rerun only if missing proof. Do not advance to H03 in the same run.
