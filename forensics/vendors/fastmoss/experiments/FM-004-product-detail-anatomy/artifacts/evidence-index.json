@@ -1,0 +1,106 @@
+{
+  "experiment_id": "FM-004-product-detail-anatomy",
+  "evidence": [
+    {
+      "local_path": "forensics/vendors/fastmoss/experiments/FM-004-product-detail-anatomy/results/01-stable-inspect.json",
+      "bytes": 7622841,
+      "sha256": "1e60b83c296bf989ea9e85921fd3ef6520025b0b1f38a2bc7fc7506dff6ab7ae",
+      "storage": "local-ignored",
+      "evidence_id": "ev_5e0e96644b6631e8d4b2d019c61382be42d2d3071e0de4fc300368c8d2d8b32a",
+      "predicate_type": "rea.web-page-inspection"
+    },
+    {
+      "local_path": "forensics/vendors/fastmoss/experiments/FM-004-product-detail-anatomy/results/02-bundle.json",
+      "bytes": 369051,
+      "sha256": "07e2499e229645787a2d4c72fa6ff475c020b90cb115ed2e166d1f9b85089901",
+      "storage": "local-ignored",
+      "evidence_id": "ev_85adc807dedf00b35e9cea27dfee12f84c77af8f9f5afe00584dcdc31c1f9955",
+      "predicate_type": "rea.web-bundle-analysis"
+    },
+    {
+      "local_path": "evidence/raw/fastmoss/FM-004/agent_V3_getConversationIdByBiz-3159538.303.json",
+      "bytes": 62,
+      "sha256": "10cdb83263f8d46343208688c68ec2bc15d589785cfb28e634f91f85174b99d7",
+      "storage": "local-ignored"
+    },
+    {
+      "local_path": "evidence/raw/fastmoss/FM-004/agent_pageSuggestList-3159538.301.json",
+      "bytes": 2127,
+      "sha256": "7a50c47c82b40197968e230d2c5a3355759d137653e5bf400deaab579dae5204",
+      "storage": "local-ignored"
+    },
+    {
+      "local_path": "evidence/raw/fastmoss/FM-004/agent_search-3159538.302.json",
+      "bytes": 581,
+      "sha256": "e29267d1e2d409d91e174ea3c9f7a6c18efe795a6e3b74c68cca8bcb1d938823",
+      "storage": "local-ignored"
+    },
+    {
+      "local_path": "evidence/raw/fastmoss/FM-004/author_index_country-3159538.261.json",
+      "bytes": 2770,
+      "sha256": "258ea501f1a57b4cb77111a1b1b48d963ad3978274129a459859cd216ceb1e55",
+      "storage": "local-ignored"
+    },
+    {
+      "local_path": "evidence/raw/fastmoss/FM-004/collect_collectStatus-3159538.347.json",
+      "bytes": 74,
+      "sha256": "115fd213b05250767f019d4c81f65864dbcb82ae917fd7245135345762c443d1",
+      "storage": "local-ignored"
+    },
+    {
+      "local_path": "evidence/raw/fastmoss/FM-004/goods_v3_base-3159538.263.json",
+      "bytes": 3149,
+      "sha256": "2170f3d80df3399bd330e9dcc2fb673bb40e5cc452e92e32fe83de36e5cb9f8d",
+      "storage": "local-ignored"
+    },
+    {
+      "local_path": "evidence/raw/fastmoss/FM-004/goods_v3_baseInfo-3159538.262.json",
+      "bytes": 2069,
+      "sha256": "08073e27420fed40be61daf20f8ad7220fb7a734b067d484734ecd16ff5fddad",
+      "storage": "local-ignored"
+    },
+    {
+      "local_path": "evidence/raw/fastmoss/FM-004/goods_v3_overview-3159538.264.json",
+      "bytes": 8466,
+      "sha256": "ca439ca9f99d2031cc55a46f87282a65e06c892eb1d4e2e40c0a3916351e1f12",
+      "storage": "local-ignored"
+    },
+    {
+      "local_path": "evidence/raw/fastmoss/FM-004/notify_index-3159538.260.json",
+      "bytes": 59,
+      "sha256": "e73824cd2750c27d8880dfefe7a31c741893b2226ab62094678cd9f332b3f91f",
+      "storage": "local-ignored"
+    },
+    {
+      "local_path": "evidence/raw/fastmoss/FM-004/notify_index-3159538.268.json",
+      "bytes": 59,
+      "sha256": "e73824cd2750c27d8880dfefe7a31c741893b2226ab62094678cd9f332b3f91f",
+      "storage": "local-ignored"
+    },
+    {
+      "local_path": "evidence/raw/fastmoss/FM-004/notify_index-3159538.361.json",
+      "bytes": 59,
+      "sha256": "e73824cd2750c27d8880dfefe7a31c741893b2226ab62094678cd9f332b3f91f",
+      "storage": "local-ignored"
+    },
+    {
+      "local_path": "evidence/raw/fastmoss/FM-004/notify_index-3159538.363.json",
+      "bytes": 59,
+      "sha256": "e73824cd2750c27d8880dfefe7a31c741893b2226ab62094678cd9f332b3f91f",
+      "storage": "local-ignored"
+    },
+    {
+      "local_path": "evidence/raw/fastmoss/FM-004/user_index_userInfo-3159538.265.json",
+      "bytes": 111,
+      "sha256": "96eff4a72db8bb08409dbd17314e4ae5f7bff2c5ee2480d77d3daf09acb4ab31",
+      "storage": "local-ignored"
+    },
+    {
+      "local_path": "forensics/vendors/fastmoss/experiments/FM-004-product-detail-anatomy/exported-scripts/manifest.json",
+      "bytes": 158699,
+      "sha256": "1fa64fc00f0415c0dc6de6f65599f570944db49a0f7f54a845ee8e23ad529334",
+      "storage": "git-metadata-only",
+      "note": "third-party script byte files ignored"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "product_id": "1731916815699052495",
+  "access_class": "public_visitor_observed",
+  "identity": {
+    "title": "Reparador de Pontas Gloss com Silicones Ultra Luminosos Protege Contra Raios Solares e Anti-Frizz para Todos os Tipos de Cabelos Selando As Cutículas Brilho Alto Agressores Externos Textura Leve",
+    "region": "BR",
+    "region_name": "Brasil",
+    "currency": "BRL",
+    "category_id": 14,
+    "category_name": [
+      "Beleza e cuidados pessoais"
+    ],
+    "category_name_l2": [
+      "Cuidados com cabelos e penteados"
+    ],
+    "category_name_l3": [
+      "Tratamentos para cabelo e couro cabeludo"
+    ],
+    "current_price_show": "R$29,90",
+    "review_count": 54805,
+    "product_rating": 4.8,
+    "launch_time": 1766066837,
+    "upstream_detail_url": "https://shop.tiktok.com/view/product/1731916815699052495?region=BR&locale=en&source=agency"
+  },
+  "shop_identity": {
+    "seller_id": "7496266893040520143",
+    "name": "Semélle",
+    "region": "BR"
+  },
+  "aggregate_facts": {
+    "sold_count": 403978,
+    "sale_amount": 4560349.82,
+    "author_count": 16402,
+    "video_count_aweme": 41369,
+    "live_count_base": 0,
+    "commission_rate_show": "10%",
+    "review_count": 54805,
+    "product_rating": 4.8
+  },
+  "shop_aggregate_facts": {
+    "sold_count": 411412,
+    "sale_amount": 4847099.84
+  },
+  "notes": [
+    "baseInfo and base are distinct public capabilities; baseInfo is lightweight identity/metadata, base adds aggregate commerce facts.",
+    "Detail sale_amount preserves more precision than Product Search display/backend sample used in FM-003."
+  ]
+}

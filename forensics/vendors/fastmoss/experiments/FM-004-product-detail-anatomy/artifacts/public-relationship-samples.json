@@ -1,0 +1,178 @@
+{
+  "captured_at": "2026-10-17T00:41:50.733Z",
+  "product_id": "1731916815699052495",
+  "public_relationship_endpoints": {
+    "/api/goods/v3/author": {
+      "query": {
+        "product_id": "1731916815699052495",
+        "order": "2,2",
+        "pagesize": "5",
+        "ecommerce_type": "all",
+        "_time": "1792197703",
+        "cnonce": "85345596"
+      },
+      "business_code": 200,
+      "msg": "success",
+      "total": "12370",
+      "page": 1,
+      "list_count": 5,
+      "live_author_count": 2222,
+      "video_author_count": 1382,
+      "sample": [
+        {
+          "uid": "7583362395498791944",
+          "unique_id": "dicasdaisa11",
+          "nickname": "Dicas Da Isa ❤️",
+          "product_id": "1731916815699052495",
+          "region": "BR",
+          "sold_count": 10758,
+          "sale_amount": 110658.67,
+          "d28_sale_amount": 48177.46,
+          "aweme_count": 205
+        },
+        {
+          "uid": "7110411527115572229",
+          "unique_id": "braga.julia2003",
+          "nickname": "braga.julia",
+          "product_id": "1731916815699052495",
+          "region": "BR",
+          "sold_count": 9877,
+          "sale_amount": 106337.01,
+          "d28_sale_amount": 5508.38,
+          "aweme_count": 2401
+        },
+        {
+          "uid": "7577081965687866424",
+          "unique_id": "dicasdavivi.br",
+          "nickname": "Dicas da Vivi",
+          "product_id": "1731916815699052495",
+          "region": "BR",
+          "sold_count": 9578,
+          "sale_amount": 100518.01,
+          "d28_sale_amount": 122850.55,
+          "aweme_count": 924
+        }
+      ]
+    },
+    "/api/goods/v3/video": {
+      "query": {
+        "page": "1",
+        "product_id": "1731916815699052495",
+        "order": "1,2",
+        "d_type": "0",
+        "pagesize": "5",
+        "is_promoted": "-1",
+        "date_type": "28",
+        "_time": "1792197703",
+        "cnonce": "26775996"
+      },
+      "business_code": 200,
+      "msg": "success",
+      "total": "24233",
+      "page": 1,
+      "list_count": 5,
+      "sample": [
+        {
+          "video_id": "7683297343868783893",
+          "uid": "6869435242177283073",
+          "unique_id": "willyanesilvaa",
+          "product_id": "1731916815699052495",
+          "seller_id": "7496266893040520143",
+          "region": "BR",
+          "sold_count": 1177,
+          "sale_amount": 14343.26,
+          "play_count": 1100000,
+          "is_ad": 0,
+          "estimate_cost_amount": 0,
+          "roas": 0
+        },
+        {
+          "video_id": "7684018306776403221",
+          "uid": "7488518777199674423",
+          "unique_id": "lucasvendasshoop",
+          "product_id": "1731916815699052495",
+          "seller_id": "7496266893040520143",
+          "region": "BR",
+          "sold_count": 717,
+          "sale_amount": 7497.24,
+          "play_count": 306700,
+          "is_ad": 0,
+          "estimate_cost_amount": 0,
+          "roas": 0
+        },
+        {
+          "video_id": "7691835409650699527",
+          "uid": "6869435242177283073",
+          "unique_id": "willyanesilvaa",
+          "product_id": "1731916815699052495",
+          "seller_id": "7496266893040520143",
+          "region": "BR",
+          "sold_count": 397,
+          "sale_amount": 5934.56,
+          "play_count": 63700,
+          "is_ad": 0,
+          "estimate_cost_amount": 0,
+          "roas": 0
+        }
+      ]
+    },
+    "/api/goods/v3/live": {
+      "query": {
+        "product_id": "1731916815699052495",
+        "page": "1",
+        "d_type": "28",
+        "order": "2,2",
+        "pagesize": "5",
+        "live_type": "all",
+        "_time": "1792197703",
+        "cnonce": "90960089"
+      },
+      "business_code": 200,
+      "msg": "success",
+      "total": 19085,
+      "page": 1,
+      "list_count": 5,
+      "sample": [
+        {
+          "room_id": "7690020934752750388",
+          "uid": "6548972452632859648",
+          "product_id": "1731916815699052495",
+          "seller_id": "7496266893040520143",
+          "region": "BR",
+          "sold_count": 769,
+          "sale_amount": 19750,
+          "inc_sold_count": 494,
+          "inc_sale_amount": 5429.06,
+          "create_time": "1790472560",
+          "finish_time": "1790477937"
+        },
+        {
+          "room_id": "7695965993088092949",
+          "uid": "6948896756899218437",
+          "product_id": "1731916815699052495",
+          "seller_id": "7496266893040520143",
+          "region": "BR",
+          "sold_count": 1122,
+          "sale_amount": 12707,
+          "inc_sold_count": 399,
+          "inc_sale_amount": 3950.1,
+          "create_time": "1791856757",
+          "finish_time": "1791869754"
+        },
+        {
+          "room_id": "7692993567588911878",
+          "uid": "6537053115961578511",
+          "product_id": "1731916815699052495",
+          "seller_id": "7496266893040520143",
+          "region": "BR",
+          "sold_count": 384,
+          "sale_amount": 4399,
+          "inc_sold_count": 374,
+          "inc_sale_amount": 4110.26,
+          "create_time": "1791164710",
+          "finish_time": "1791169801"
+        }
+      ]
+    }
+  }
+}

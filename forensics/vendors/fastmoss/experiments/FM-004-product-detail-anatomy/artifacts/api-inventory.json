@@ -1,0 +1,1847 @@
+{
+  "captured_at": "2026-10-17T00:37:24.084Z",
+  "target_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731916815699052495",
+  "final_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731916815699052495",
+  "title": "Reparador de Pontas Gloss com Silicones Ultra Lumi|Análise de Vendas TikTok Shop | FastMoss",
+  "api_requests": [
+    {
+      "id": "4E3AE70B388BE9D8C713F4E09EB464A9",
+      "url": "https://tracking.fastmoss.com/api/notify/index?_time=1792197429&cnonce=27304643",
+      "method": "OPTIONS",
+      "type": "Other",
+      "initiator": {
+        "type": "preflight",
+        "url": "https://tracking.fastmoss.com/api/notify/index?_time=1792197429&cnonce=27304643",
+        "requestId": "3159538.260"
+      },
+      "request_headers": [
+        "accept",
+        "access-control-request-headers",
+        "access-control-request-method",
+        "origin",
+        "sec-fetch-mode",
+        "user-agent"
+      ],
+      "status": 200,
+      "mimeType": "text/html",
+      "protocol": "h2",
+      "encodedDataLength": 546,
+      "body_error": "{\"code\":-32000,\"message\":\"No resource with given identifier found\"}",
+      "origin": "https://tracking.fastmoss.com",
+      "path": "/api/notify/index",
+      "query_names": [
+        "_time",
+        "cnonce"
+      ],
+      "query": {}
+    },
+    {
+      "id": "3159538.260",
+      "url": "https://tracking.fastmoss.com/api/notify/index?_time=1792197429&cnonce=27304643",
+      "method": "POST",
+      "type": "XHR",
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "19",
+              "url": "https://www.fastmoss.com/_next/static/chunks/65348-7e4132441d123039.js",
+              "lineNumber": 20,
+              "columnNumber": 46189
+            }
+          ]
+        }
+      },
+      "request_headers": [
+        "accept",
+        "content-type",
+        "fm-sig",
+        "lang",
+        "referer",
+        "region",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-platform",
+        "source",
+        "user-agent"
+      ],
+      "status": 200,
+      "mimeType": "application/json",
+      "protocol": "h2",
+      "encodedDataLength": 615,
+      "body_bytes": 59,
+      "body_sha256": "e73824cd2750c27d8880dfefe7a31c741893b2226ab62094678cd9f332b3f91f",
+      "json_shape": {
+        "type": "object",
+        "keys": [
+          "code",
+          "data",
+          "ext",
+          "msg"
+        ],
+        "properties": {
+          "code": "number",
+          "data": {
+            "type": "array",
+            "length": 0,
+            "element": null
+          },
+          "ext": {
+            "type": "object",
+            "keys": [
+              "is_login"
+            ],
+            "properties": {
+              "is_login": "number"
+            }
+          },
+          "msg": "string"
+        }
+      },
+      "json_code": 200,
+      "json_msg": "success",
+      "raw_local_file": "notify_index-3159538.260.json",
+      "origin": "https://tracking.fastmoss.com",
+      "path": "/api/notify/index",
+      "query_names": [
+        "_time",
+        "cnonce"
+      ],
+      "query": {}
+    },
+    {
+      "id": "3159538.261",
+      "url": "https://www.fastmoss.com/api/author/index/country?pagesize=100&_time=1792197429&cnonce=28611376",
+      "method": "GET",
+      "type": "XHR",
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "19",
+              "url": "https://www.fastmoss.com/_next/static/chunks/65348-7e4132441d123039.js",
+              "lineNumber": 20,
+              "columnNumber": 46189
+            }
+          ]
+        }
+      },
+      "request_headers": [
+        "accept",
+        "fm-sig",
+        "fm-sign",
+        "lang",
+        "referer",
+        "region",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-platform",
+        "source",
+        "user-agent"
+      ],
+      "status": 200,
+      "mimeType": "application/json",
+      "protocol": "h2",
+      "encodedDataLength": 213,
+      "body_bytes": 2770,
+      "body_sha256": "258ea501f1a57b4cb77111a1b1b48d963ad3978274129a459859cd216ceb1e55",
+      "json_shape": {
+        "type": "object",
+        "keys": [
+          "code",
+          "data",
+          "ext",
+          "msg"
+        ],
+        "properties": {
+          "code": "number",
+          "data": {
+            "type": "object",
+            "keys": [
+              "container",
+              "list",
+              "page",
+              "pageCount",
+              "pagesize",
+              "total"
+            ],
+            "properties": {
+              "container": "string",
+              "list": {
+                "type": "array",
+                "length": 24,
+                "element": {
+                  "type": "object",
+                  "keys": [
+                    "ch_name",
+                    "en_abbr_name",
+                    "en_name",
+                    "first",
+                    "id",
+                    "prephone",
+                    "sort"
+                  ]
+                }
+              },
+              "page": "number",
+              "pageCount": "number",
+              "pagesize": "string",
+              "total": "number"
+            }
+          },
+          "ext": {
+            "type": "object",
+            "keys": [
+              "is_login"
+            ],
+            "properties": {
+              "is_login": "number"
+            }
+          },
+          "msg": "string"
+        }
+      },
+      "json_code": 200,
+      "json_msg": "success",
+      "raw_local_file": "author_index_country-3159538.261.json",
+      "origin": "https://www.fastmoss.com",
+      "path": "/api/author/index/country",
+      "query_names": [
+        "_time",
+        "cnonce",
+        "pagesize"
+      ],
+      "query": {
+        "pagesize": "100"
+      }
+    },
+    {
+      "id": "3159538.262",
+      "url": "https://www.fastmoss.com/api/goods/v3/baseInfo?product_id=1731916815699052495&_time=1792197429&cnonce=80341478",
+      "method": "GET",
+      "type": "XHR",
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "19",
+              "url": "https://www.fastmoss.com/_next/static/chunks/65348-7e4132441d123039.js",
+              "lineNumber": 20,
+              "columnNumber": 46189
+            }
+          ]
+        }
+      },
+      "request_headers": [
+        "accept",
+        "fm-sig",
+        "fm-sign",
+        "lang",
+        "referer",
+        "region",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-platform",
+        "source",
+        "user-agent"
+      ],
+      "status": 200,
+      "mimeType": "application/json",
+      "protocol": "h2",
+      "encodedDataLength": 138,
+      "body_bytes": 2069,
+      "body_sha256": "08073e27420fed40be61daf20f8ad7220fb7a734b067d484734ecd16ff5fddad",
+      "json_shape": {
+        "type": "object",
+        "keys": [
+          "code",
+          "data",
+          "ext",
+          "msg"
+        ],
+        "properties": {
+          "code": "number",
+          "data": {
+            "type": "object",
+            "keys": [
+              "product",
+              "shop"
+            ],
+            "properties": {
+              "product": {
+                "type": "object",
+                "keys": [
+                  "category_id",
+                  "category_name",
+                  "category_name_l2",
+                  "category_name_l3",
+                  "cover_list",
+                  "currency",
+                  "detail_url",
+                  "is_sshop",
+                  "launch_time",
+                  "leaf_category_id",
+                  "off_shelves",
+                  "product_rating",
+                  "real_price",
+                  "region",
+                  "region_name",
+                  "review_count",
+                  "review_count_show",
+                  "second_category_id",
+                  "stock_count",
+                  "stock_count_show",
+                  "title"
+                ],
+                "properties": {
+                  "category_id": "number",
+                  "category_name": {
+                    "type": "array",
+                    "length": 1,
+                    "element": "string"
+                  },
+                  "category_name_l2": {
+                    "type": "array",
+                    "length": 1,
+                    "element": "string"
+                  },
+                  "category_name_l3": {
+                    "type": "array",
+                    "length": 1,
+                    "element": "string"
+                  },
+                  "cover_list": {
+                    "type": "array",
+                    "length": 10,
+                    "element": "string"
+                  },
+                  "currency": "string",
+                  "detail_url": "string",
+                  "is_sshop": "number",
+                  "launch_time": "number",
+                  "leaf_category_id": "number",
+                  "off_shelves": "number",
+                  "product_rating": "number",
+                  "real_price": "string",
+                  "region": "string",
+                  "region_name": "string",
+                  "review_count": "number",
+                  "review_count_show": "string",
+                  "second_category_id": "number",
+                  "stock_count": "string",
+                  "stock_count_show": "string",
+                  "title": "string"
+                }
+              },
+              "shop": {
+                "type": "object",
+                "keys": [
+                  "is_sshop",
+                  "name",
+                  "region",
+                  "region_name",
+                  "seller_id"
+                ],
+                "properties": {
+                  "is_sshop": "number",
+                  "name": "string",
+                  "region": "string",
+                  "region_name": "string",
+                  "seller_id": "string"
+                }
+              }
+            }
+          },
+          "ext": {
+            "type": "object",
+            "keys": [
+              "is_login"
+            ],
+            "properties": {
+              "is_login": "number"
+            }
+          },
+          "msg": "string"
+        }
+      },
+      "json_code": 200,
+      "json_msg": "success",
+      "raw_local_file": "goods_v3_baseInfo-3159538.262.json",
+      "origin": "https://www.fastmoss.com",
+      "path": "/api/goods/v3/baseInfo",
+      "query_names": [
+        "_time",
+        "cnonce",
+        "product_id"
+      ],
+      "query": {
+        "product_id": "1731916815699052495"
+      }
+    },
+    {
+      "id": "3159538.263",
+      "url": "https://www.fastmoss.com/api/goods/v3/base?product_id=1731916815699052495&_time=1792197429&cnonce=85108338",
+      "method": "GET",
+      "type": "XHR",
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "19",
+              "url": "https://www.fastmoss.com/_next/static/chunks/65348-7e4132441d123039.js",
+              "lineNumber": 20,
+              "columnNumber": 46189
+            }
+          ]
+        }
+      },
+      "request_headers": [
+        "accept",
+        "fm-sig",
+        "fm-sign",
+        "lang",
+        "referer",
+        "region",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-platform",
+        "source",
+        "user-agent"
+      ],
+      "status": 200,
+      "mimeType": "application/json",
+      "protocol": "h2",
+      "encodedDataLength": 138,
+      "body_bytes": 3149,
+      "body_sha256": "2170f3d80df3399bd330e9dcc2fb673bb40e5cc452e92e32fe83de36e5cb9f8d",
+      "json_shape": {
+        "type": "object",
+        "keys": [
+          "code",
+          "data",
+          "ext",
+          "msg"
+        ],
+        "properties": {
+          "code": "number",
+          "data": {
+            "type": "object",
+            "keys": [
+              "product",
+              "sale_amount_show",
+              "shop",
+              "sold_count_show"
+            ],
+            "properties": {
+              "product": {
+                "type": "object",
+                "keys": [
+                  "author_count",
+                  "author_count_show",
+                  "aweme_count",
+                  "aweme_count_show",
+                  "can_use_voc",
+                  "category_id",
+                  "category_name",
+                  "category_name_l2",
+                  "category_name_l3",
+                  "category_rank",
+                  "category_rank_show",
+                  "commission_rate",
+                  "country_rank",
+                  "country_rank_show",
+                  "cover_list",
+                  "currency",
+                  "currency_unit",
+                  "detail_url",
+                  "floor_price",
+                  "format_price",
+                  "has_review",
+                  "is_new_product",
+                  "is_promoted",
+                  "is_show_sku",
+                  "is_sshop",
+                  "launch_time",
+                  "leaf_category_id",
+                  "live_count",
+                  "live_count_show",
+                  "off_shelves",
+                  "original_price",
+                  "popularity_index",
+                  "price_list",
+                  "product_rating",
+                  "real_price",
+                  "region",
+                  "region_name",
+                  "review_count",
+                  "review_count_show",
+                  "sale_amount",
+                  "sale_amount_show",
+                  "second_category_id",
+                  "sold_count",
+                  "sold_count_show",
+                  "stock_count",
+                  "stock_count_show",
+                  "title",
+                  "transport_fee",
+                  "transport_type",
+                  "viral_index"
+                ],
+                "properties": {
+                  "author_count": "number",
+                  "author_count_show": "string",
+                  "aweme_count": "number",
+                  "aweme_count_show": "string",
+                  "can_use_voc": "boolean",
+                  "category_id": "number",
+                  "category_name": {
+                    "type": "array",
+                    "length": 1,
+                    "element": "string"
+                  },
+                  "category_name_l2": {
+                    "type": "array",
+                    "length": 1,
+                    "element": "string"
+                  },
+                  "category_name_l3": {
+                    "type": "array",
+                    "length": 1,
+                    "element": "string"
+                  },
+                  "category_rank": "string",
+                  "category_rank_show": "string",
+                  "commission_rate": "string",
+                  "country_rank": "string",
+                  "country_rank_show": "string",
+                  "cover_list": {
+                    "type": "array",
+                    "length": 10,
+                    "element": "string"
+                  },
+                  "currency": "string",
+                  "currency_unit": "string",
+                  "detail_url": "string",
+                  "floor_price": "string",
+                  "format_price": "number",
+                  "has_review": "string",
+                  "is_new_product": "number",
+                  "is_promoted": "number",
+                  "is_show_sku": "boolean",
+                  "is_sshop": "number",
+                  "launch_time": "number",
+                  "leaf_category_id": "number",
+                  "live_count": "number",
+                  "live_count_show": "string",
+                  "off_shelves": "number",
+                  "original_price": "string",
+                  "popularity_index": "number",
+                  "price_list": {
+                    "type": "array",
+                    "length": 0,
+                    "element": null
+                  },
+                  "product_rating": "number",
+                  "real_price": "string",
+                  "region": "string",
+                  "region_name": "string",
+                  "review_count": "number",
+                  "review_count_show": "string",
+                  "sale_amount": "number",
+                  "sale_amount_show": "string",
+                  "second_category_id": "number",
+                  "sold_count": "number",
+                  "sold_count_show": "string",
+                  "stock_count": "string",
+                  "stock_count_show": "string",
+                  "title": "string",
+                  "transport_fee": "string",
+                  "transport_type": "number",
+                  "viral_index": "number"
+                }
+              },
+              "sale_amount_show": "string",
+              "shop": {
+                "type": "object",
+                "keys": [
+                  "avatar",
+                  "avatar_oss",
+                  "category_id",
+                  "category_name",
+                  "currency",
+                  "is_sshop",
+                  "name",
+                  "region",
+                  "region_name",
+                  "sale_amount",
+                  "sale_amount_show",
+                  "seller_id",
+                  "sold_count",
+                  "sold_count_show"
+                ],
+                "properties": {
+                  "avatar": "string",
+                  "avatar_oss": "string",
+                  "category_id": "number",
+                  "category_name": {
+                    "type": "array",
+                    "length": 1,
+                    "element": "string"
+                  },
+                  "currency": "string",
+                  "is_sshop": "number",
+                  "name": "string",
+                  "region": "string",
+                  "region_name": "string",
+                  "sale_amount": "number",
+                  "sale_amount_show": "string",
+                  "seller_id": "string",
+                  "sold_count": "number",
+                  "sold_count_show": "string"
+                }
+              },
+              "sold_count_show": "string"
+            }
+          },
+          "ext": {
+            "type": "object",
+            "keys": [
+              "is_login"
+            ],
+            "properties": {
+              "is_login": "number"
+            }
+          },
+          "msg": "string"
+        }
+      },
+      "json_code": 200,
+      "json_msg": "success",
+      "raw_local_file": "goods_v3_base-3159538.263.json",
+      "origin": "https://www.fastmoss.com",
+      "path": "/api/goods/v3/base",
+      "query_names": [
+        "_time",
+        "cnonce",
+        "product_id"
+      ],
+      "query": {
+        "product_id": "1731916815699052495"
+      }
+    },
+    {
+      "id": "3159538.264",
+      "url": "https://www.fastmoss.com/api/goods/v3/overview?product_id=1731916815699052495&d_type=28&_time=1792197429&cnonce=15627646",
+      "method": "GET",
+      "type": "XHR",
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "19",
+              "url": "https://www.fastmoss.com/_next/static/chunks/65348-7e4132441d123039.js",
+              "lineNumber": 20,
+              "columnNumber": 46189
+            }
+          ]
+        }
+      },
+      "request_headers": [
+        "accept",
+        "fm-sig",
+        "fm-sign",
+        "lang",
+        "referer",
+        "region",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-platform",
+        "source",
+        "user-agent"
+      ],
+      "status": 200,
+      "mimeType": "application/json",
+      "protocol": "h2",
+      "encodedDataLength": 189,
+      "body_bytes": 8466,
+      "body_sha256": "ca439ca9f99d2031cc55a46f87282a65e06c892eb1d4e2e40c0a3916351e1f12",
+      "json_shape": {
+        "type": "object",
+        "keys": [
+          "code",
+          "data",
+          "ext",
+          "msg"
+        ],
+        "properties": {
+          "code": "string",
+          "data": {
+            "type": "object",
+            "keys": [
+              "ads_distribution",
+              "channel_distribution",
+              "chart_list",
+              "content_distribution",
+              "overview",
+              "total",
+              "update_at"
+            ],
+            "properties": {
+              "ads_distribution": {
+                "type": "object",
+                "keys": [
+                  "gmv",
+                  "units_sold"
+                ],
+                "properties": {
+                  "gmv": {
+                    "type": "object",
+                    "keys": [
+                      "header",
+                      "list",
+                      "total_count",
+                      "total_count_show"
+                    ]
+                  },
+                  "units_sold": {
+                    "type": "object",
+                    "keys": [
+                      "header",
+                      "list",
+                      "total_count",
+                      "total_count_show"
+                    ]
+                  }
+                }
+              },
+              "channel_distribution": {
+                "type": "object",
+                "keys": [
+                  "gmv",
+                  "units_sold"
+                ],
+                "properties": {
+                  "gmv": {
+                    "type": "object",
+                    "keys": [
+                      "header",
+                      "list",
+                      "total_count",
+                      "total_count_show"
+                    ]
+                  },
+                  "units_sold": {
+                    "type": "object",
+                    "keys": [
+                      "header",
+                      "list",
+                      "total_count",
+                      "total_count_show"
+                    ]
+                  }
+                }
+              },
+              "chart_list": {
+                "type": "array",
+                "length": 7,
+                "element": {
+                  "type": "object",
+                  "keys": [
+                    "author_count",
+                    "author_count_show",
+                    "aweme_count",
+                    "aweme_count_show",
+                    "celling_price",
+                    "commission_rate",
+                    "commission_rate_show",
+                    "currency",
+                    "dt",
+                    "floor_price",
+                    "inc_author_count",
+                    "inc_author_count_show",
+                    "inc_aweme_count",
+                    "inc_aweme_count_show",
+                    "inc_live_count",
+                    "inc_live_count_show",
+                    "inc_real_sale_amount",
+                    "inc_real_sale_amount_show",
+                    "inc_real_sold_count",
+                    "inc_real_sold_count_show",
+                    "inc_sale_amount",
+                    "inc_sale_amount_show",
+                    "inc_sold_count",
+                    "inc_sold_count_show",
+                    "live_count",
+                    "live_count_show",
+                    "sale_amount",
+                    "sale_amount_show",
+                    "sold_count",
+                    "sold_count_show"
+                  ]
+                }
+              },
+              "content_distribution": {
+                "type": "object",
+                "keys": [
+                  "gmv",
+                  "units_sold"
+                ],
+                "properties": {
+                  "gmv": {
+                    "type": "object",
+                    "keys": [
+                      "header",
+                      "list",
+                      "total_count",
+                      "total_count_show"
+                    ]
+                  },
+                  "units_sold": {
+                    "type": "object",
+                    "keys": [
+                      "header",
+                      "list",
+                      "total_count",
+                      "total_count_show"
+                    ]
+                  }
+                }
+              },
+              "overview": {
+                "type": "object",
+                "keys": [
+                  "author_count",
+                  "author_count_show",
+                  "avg_sale_amount",
+                  "avg_sale_amount_show",
+                  "avg_sold_count",
+                  "avg_sold_count_show",
+                  "aweme_count",
+                  "aweme_count_show",
+                  "currency",
+                  "live_count",
+                  "live_count_show",
+                  "live_sale_amount",
+                  "live_sale_amount_show",
+                  "live_sold_count",
+                  "live_sold_count_show",
+                  "real_sale_amount",
+                  "real_sale_amount_show",
+                  "real_sold_count",
+                  "real_sold_count_show",
+                  "sale_amount",
+                  "sale_amount_show",
+                  "sold_count",
+                  "sold_count_show",
+                  "video_sale_amount",
+                  "video_sale_amount_show",
+                  "video_sold_count",
+                  "video_sold_count_show"
+                ],
+                "properties": {
+                  "author_count": "number",
+                  "author_count_show": "string",
+                  "avg_sale_amount": "number",
+                  "avg_sale_amount_show": "string",
+                  "avg_sold_count": "number",
+                  "avg_sold_count_show": "string",
+                  "aweme_count": "number",
+                  "aweme_count_show": "string",
+                  "currency": "string",
+                  "live_count": "number",
+                  "live_count_show": "string",
+                  "live_sale_amount": "number",
+                  "live_sale_amount_show": "string",
+                  "live_sold_count": "number",
+                  "live_sold_count_show": "string",
+                  "real_sale_amount": "number",
+                  "real_sale_amount_show": "string",
+                  "real_sold_count": "number",
+                  "real_sold_count_show": "string",
+                  "sale_amount": "number",
+                  "sale_amount_show": "string",
+                  "sold_count": "number",
+                  "sold_count_show": "string",
+                  "video_sale_amount": "number",
+                  "video_sale_amount_show": "string",
+                  "video_sold_count": "number",
+                  "video_sold_count_show": "string"
+                }
+              },
+              "total": "number",
+              "update_at": "number"
+            }
+          },
+          "ext": {
+            "type": "object",
+            "keys": [
+              "is_login"
+            ],
+            "properties": {
+              "is_login": "number"
+            }
+          },
+          "msg": "string"
+        }
+      },
+      "json_code": "MAG_AUTH_3017",
+      "json_msg": "Desculpe, você não tem direito de visualizar, atualize a assinatura para visualizar.",
+      "raw_local_file": "goods_v3_overview-3159538.264.json",
+      "origin": "https://www.fastmoss.com",
+      "path": "/api/goods/v3/overview",
+      "query_names": [
+        "_time",
+        "cnonce",
+        "d_type",
+        "product_id"
+      ],
+      "query": {
+        "product_id": "1731916815699052495",
+        "d_type": "28"
+      }
+    },
+    {
+      "id": "3159538.265",
+      "url": "https://www.fastmoss.com/api/user/index/userInfo?_time=1792197429&cnonce=73185366",
+      "method": "GET",
+      "type": "XHR",
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "19",
+              "url": "https://www.fastmoss.com/_next/static/chunks/65348-7e4132441d123039.js",
+              "lineNumber": 20,
+              "columnNumber": 46189
+            }
+          ]
+        }
+      },
+      "request_headers": [
+        "accept",
+        "fm-sig",
+        "fm-sign",
+        "lang",
+        "referer",
+        "region",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-platform",
+        "source",
+        "user-agent"
+      ],
+      "status": 200,
+      "mimeType": "application/json",
+      "protocol": "h2",
+      "encodedDataLength": 139,
+      "body_bytes": 111,
+      "body_sha256": "96eff4a72db8bb08409dbd17314e4ae5f7bff2c5ee2480d77d3daf09acb4ab31",
+      "json_shape": {
+        "type": "object",
+        "keys": [
+          "code",
+          "data",
+          "ext",
+          "msg"
+        ],
+        "properties": {
+          "code": "string",
+          "data": {
+            "type": "array",
+            "length": 0,
+            "element": null
+          },
+          "ext": {
+            "type": "object",
+            "keys": [
+              "free_trial",
+              "is_login",
+              "pay_trial"
+            ],
+            "properties": {
+              "free_trial": "number",
+              "is_login": "number",
+              "pay_trial": "number"
+            }
+          },
+          "msg": "string"
+        }
+      },
+      "json_code": "MSG_30001",
+      "json_msg": "Por favor, faça login",
+      "raw_local_file": "user_index_userInfo-3159538.265.json",
+      "origin": "https://www.fastmoss.com",
+      "path": "/api/user/index/userInfo",
+      "query_names": [
+        "_time",
+        "cnonce"
+      ],
+      "query": {}
+    },
+    {
+      "id": "3159538.268",
+      "url": "https://tracking.fastmoss.com/api/notify/index?_time=1792197429&cnonce=75449409",
+      "method": "POST",
+      "type": "XHR",
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "19",
+              "url": "https://www.fastmoss.com/_next/static/chunks/65348-7e4132441d123039.js",
+              "lineNumber": 20,
+              "columnNumber": 46189
+            }
+          ]
+        }
+      },
+      "request_headers": [
+        "accept",
+        "content-type",
+        "fm-sig",
+        "lang",
+        "referer",
+        "region",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-platform",
+        "source",
+        "user-agent"
+      ],
+      "status": 200,
+      "mimeType": "application/json",
+      "protocol": "h2",
+      "encodedDataLength": 614,
+      "body_bytes": 59,
+      "body_sha256": "e73824cd2750c27d8880dfefe7a31c741893b2226ab62094678cd9f332b3f91f",
+      "json_shape": {
+        "type": "object",
+        "keys": [
+          "code",
+          "data",
+          "ext",
+          "msg"
+        ],
+        "properties": {
+          "code": "number",
+          "data": {
+            "type": "array",
+            "length": 0,
+            "element": null
+          },
+          "ext": {
+            "type": "object",
+            "keys": [
+              "is_login"
+            ],
+            "properties": {
+              "is_login": "number"
+            }
+          },
+          "msg": "string"
+        }
+      },
+      "json_code": 200,
+      "json_msg": "success",
+      "raw_local_file": "notify_index-3159538.268.json",
+      "origin": "https://tracking.fastmoss.com",
+      "path": "/api/notify/index",
+      "query_names": [
+        "_time",
+        "cnonce"
+      ],
+      "query": {}
+    },
+    {
+      "id": "8C99E0572F6CD9BEB1AA1B907C9E5691",
+      "url": "https://tracking.fastmoss.com/api/notify/index?_time=1792197429&cnonce=75449409",
+      "method": "OPTIONS",
+      "type": "Other",
+      "initiator": {
+        "type": "preflight",
+        "url": "https://tracking.fastmoss.com/api/notify/index?_time=1792197429&cnonce=75449409",
+        "requestId": "3159538.268"
+      },
+      "request_headers": [
+        "accept",
+        "access-control-request-headers",
+        "access-control-request-method",
+        "origin",
+        "sec-fetch-mode",
+        "user-agent"
+      ],
+      "status": 200,
+      "mimeType": "text/html",
+      "protocol": "h2",
+      "encodedDataLength": 547,
+      "body_error": "{\"code\":-32000,\"message\":\"No resource with given identifier found\"}",
+      "origin": "https://tracking.fastmoss.com",
+      "path": "/api/notify/index",
+      "query_names": [
+        "_time",
+        "cnonce"
+      ],
+      "query": {}
+    },
+    {
+      "id": "3159538.301",
+      "url": "https://www.fastmoss.com/api/agent/pageSuggestList?page_location=good_detail&biz_id=1731916815699052495&region=BR&_time=1792197429&cnonce=41710021",
+      "method": "GET",
+      "type": "XHR",
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "19",
+              "url": "https://www.fastmoss.com/_next/static/chunks/65348-7e4132441d123039.js",
+              "lineNumber": 20,
+              "columnNumber": 46189
+            }
+          ]
+        }
+      },
+      "request_headers": [
+        "accept",
+        "fm-sig",
+        "fm-sign",
+        "lang",
+        "referer",
+        "region",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-platform",
+        "source",
+        "user-agent"
+      ],
+      "status": 200,
+      "mimeType": "application/json",
+      "protocol": "h2",
+      "encodedDataLength": 138,
+      "body_bytes": 2127,
+      "body_sha256": "7a50c47c82b40197968e230d2c5a3355759d137653e5bf400deaab579dae5204",
+      "json_shape": {
+        "type": "object",
+        "keys": [
+          "code",
+          "data",
+          "ext",
+          "msg"
+        ],
+        "properties": {
+          "code": "number",
+          "data": {
+            "type": "object",
+            "keys": [
+              "list",
+              "page_location_title"
+            ],
+            "properties": {
+              "list": {
+                "type": "array",
+                "length": 5,
+                "element": {
+                  "type": "object",
+                  "keys": [
+                    "content",
+                    "input_content"
+                  ]
+                }
+              },
+              "page_location_title": "string"
+            }
+          },
+          "ext": {
+            "type": "object",
+            "keys": [
+              "is_login"
+            ],
+            "properties": {
+              "is_login": "number"
+            }
+          },
+          "msg": "string"
+        }
+      },
+      "json_code": 200,
+      "json_msg": "success!",
+      "raw_local_file": "agent_pageSuggestList-3159538.301.json",
+      "origin": "https://www.fastmoss.com",
+      "path": "/api/agent/pageSuggestList",
+      "query_names": [
+        "_time",
+        "biz_id",
+        "cnonce",
+        "page_location",
+        "region"
+      ],
+      "query": {
+        "page_location": "good_detail",
+        "biz_id": "1731916815699052495",
+        "region": "BR"
+      }
+    },
+    {
+      "id": "3159538.302",
+      "url": "https://www.fastmoss.com/api/agent/search?search_type=product&words=1731916815699052495&region=BR&_time=1792197429&cnonce=15644491",
+      "method": "GET",
+      "type": "XHR",
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "19",
+              "url": "https://www.fastmoss.com/_next/static/chunks/65348-7e4132441d123039.js",
+              "lineNumber": 20,
+              "columnNumber": 46189
+            }
+          ]
+        }
+      },
+      "request_headers": [
+        "accept",
+        "fm-sig",
+        "fm-sign",
+        "lang",
+        "referer",
+        "region",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-platform",
+        "source",
+        "user-agent"
+      ],
+      "status": 200,
+      "mimeType": "application/json",
+      "protocol": "h2",
+      "encodedDataLength": 139,
+      "body_bytes": 581,
+      "body_sha256": "e29267d1e2d409d91e174ea3c9f7a6c18efe795a6e3b74c68cca8bcb1d938823",
+      "json_shape": {
+        "type": "object",
+        "keys": [
+          "code",
+          "data",
+          "ext",
+          "msg"
+        ],
+        "properties": {
+          "code": "number",
+          "data": {
+            "type": "object",
+            "keys": [
+              "list",
+              "search_id",
+              "unique_id"
+            ],
+            "properties": {
+              "list": {
+                "type": "array",
+                "length": 1,
+                "element": {
+                  "type": "object",
+                  "keys": [
+                    "cover",
+                    "extra",
+                    "id",
+                    "region",
+                    "region_name",
+                    "title",
+                    "type"
+                  ]
+                }
+              },
+              "search_id": "string",
+              "unique_id": "string"
+            }
+          },
+          "ext": {
+            "type": "object",
+            "keys": [
+              "is_login"
+            ],
+            "properties": {
+              "is_login": "number"
+            }
+          },
+          "msg": "string"
+        }
+      },
+      "json_code": 200,
+      "json_msg": "success!",
+      "raw_local_file": "agent_search-3159538.302.json",
+      "origin": "https://www.fastmoss.com",
+      "path": "/api/agent/search",
+      "query_names": [
+        "_time",
+        "cnonce",
+        "region",
+        "search_type",
+        "words"
+      ],
+      "query": {
+        "search_type": "product",
+        "words": "1731916815699052495",
+        "region": "BR"
+      }
+    },
+    {
+      "id": "3159538.303",
+      "url": "https://www.fastmoss.com/api/agent/V3/getConversationIdByBiz?biz_type=2&biz_id=1731916815699052495&_time=1792197429&cnonce=43760462",
+      "method": "GET",
+      "type": "XHR",
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "19",
+              "url": "https://www.fastmoss.com/_next/static/chunks/65348-7e4132441d123039.js",
+              "lineNumber": 20,
+              "columnNumber": 46189
+            }
+          ]
+        }
+      },
+      "request_headers": [
+        "accept",
+        "fm-sig",
+        "fm-sign",
+        "lang",
+        "referer",
+        "region",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-platform",
+        "source",
+        "user-agent"
+      ],
+      "status": 200,
+      "mimeType": "application/json",
+      "protocol": "h2",
+      "encodedDataLength": 138,
+      "body_bytes": 62,
+      "body_sha256": "10cdb83263f8d46343208688c68ec2bc15d589785cfb28e634f91f85174b99d7",
+      "json_shape": {
+        "type": "object",
+        "keys": [
+          "code",
+          "data",
+          "ext",
+          "msg"
+        ],
+        "properties": {
+          "code": "string",
+          "data": {
+            "type": "array",
+            "length": 0,
+            "element": null
+          },
+          "ext": {
+            "type": "object",
+            "keys": [
+              "is_login"
+            ],
+            "properties": {
+              "is_login": "number"
+            }
+          },
+          "msg": "null"
+        }
+      },
+      "json_code": "MSG_30001",
+      "json_msg": null,
+      "raw_local_file": "agent_V3_getConversationIdByBiz-3159538.303.json",
+      "origin": "https://www.fastmoss.com",
+      "path": "/api/agent/V3/getConversationIdByBiz",
+      "query_names": [
+        "_time",
+        "biz_id",
+        "biz_type",
+        "cnonce"
+      ],
+      "query": {
+        "biz_type": "2",
+        "biz_id": "1731916815699052495"
+      }
+    },
+    {
+      "id": "3159538.347",
+      "url": "https://www.fastmoss.com/api/collect/collectStatus?id=1731916815699052495&type=2&_time=1792197430&cnonce=43056189",
+      "method": "GET",
+      "type": "XHR",
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "19",
+              "url": "https://www.fastmoss.com/_next/static/chunks/65348-7e4132441d123039.js",
+              "lineNumber": 20,
+              "columnNumber": 46189
+            }
+          ]
+        }
+      },
+      "request_headers": [
+        "accept",
+        "fm-sig",
+        "fm-sign",
+        "lang",
+        "referer",
+        "region",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-platform",
+        "source",
+        "user-agent"
+      ],
+      "status": 200,
+      "mimeType": "application/json",
+      "protocol": "h2",
+      "encodedDataLength": 139,
+      "body_bytes": 74,
+      "body_sha256": "115fd213b05250767f019d4c81f65864dbcb82ae917fd7245135345762c443d1",
+      "json_shape": {
+        "type": "object",
+        "keys": [
+          "code",
+          "data",
+          "ext",
+          "msg"
+        ],
+        "properties": {
+          "code": "number",
+          "data": {
+            "type": "object",
+            "keys": [
+              "is_collect"
+            ],
+            "properties": {
+              "is_collect": "number"
+            }
+          },
+          "ext": {
+            "type": "object",
+            "keys": [
+              "is_login"
+            ],
+            "properties": {
+              "is_login": "number"
+            }
+          },
+          "msg": "string"
+        }
+      },
+      "json_code": 200,
+      "json_msg": "success!",
+      "raw_local_file": "collect_collectStatus-3159538.347.json",
+      "origin": "https://www.fastmoss.com",
+      "path": "/api/collect/collectStatus",
+      "query_names": [
+        "_time",
+        "cnonce",
+        "id",
+        "type"
+      ],
+      "query": {
+        "id": "1731916815699052495",
+        "type": "2"
+      }
+    },
+    {
+      "id": "3159538.361",
+      "url": "https://tracking.fastmoss.com/api/notify/index?_time=1792197432&cnonce=94585818",
+      "method": "POST",
+      "type": "XHR",
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "19",
+              "url": "https://www.fastmoss.com/_next/static/chunks/65348-7e4132441d123039.js",
+              "lineNumber": 20,
+              "columnNumber": 46189
+            }
+          ]
+        }
+      },
+      "request_headers": [
+        "accept",
+        "content-type",
+        "fm-sig",
+        "lang",
+        "referer",
+        "region",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-platform",
+        "source",
+        "user-agent"
+      ],
+      "status": 200,
+      "mimeType": "application/json",
+      "protocol": "h2",
+      "encodedDataLength": 613,
+      "body_bytes": 59,
+      "body_sha256": "e73824cd2750c27d8880dfefe7a31c741893b2226ab62094678cd9f332b3f91f",
+      "json_shape": {
+        "type": "object",
+        "keys": [
+          "code",
+          "data",
+          "ext",
+          "msg"
+        ],
+        "properties": {
+          "code": "number",
+          "data": {
+            "type": "array",
+            "length": 0,
+            "element": null
+          },
+          "ext": {
+            "type": "object",
+            "keys": [
+              "is_login"
+            ],
+            "properties": {
+              "is_login": "number"
+            }
+          },
+          "msg": "string"
+        }
+      },
+      "json_code": 200,
+      "json_msg": "success",
+      "raw_local_file": "notify_index-3159538.361.json",
+      "origin": "https://tracking.fastmoss.com",
+      "path": "/api/notify/index",
+      "query_names": [
+        "_time",
+        "cnonce"
+      ],
+      "query": {}
+    },
+    {
+      "id": "1EF772D0A38F10A533994BD519A120CE",
+      "url": "https://tracking.fastmoss.com/api/notify/index?_time=1792197432&cnonce=94585818",
+      "method": "OPTIONS",
+      "type": "Other",
+      "initiator": {
+        "type": "preflight",
+        "url": "https://tracking.fastmoss.com/api/notify/index?_time=1792197432&cnonce=94585818",
+        "requestId": "3159538.361"
+      },
+      "request_headers": [
+        "accept",
+        "access-control-request-headers",
+        "access-control-request-method",
+        "origin",
+        "sec-fetch-mode",
+        "user-agent"
+      ],
+      "status": 200,
+      "mimeType": "text/html",
+      "protocol": "h2",
+      "encodedDataLength": 546,
+      "body_error": "{\"code\":-32000,\"message\":\"No resource with given identifier found\"}",
+      "origin": "https://tracking.fastmoss.com",
+      "path": "/api/notify/index",
+      "query_names": [
+        "_time",
+        "cnonce"
+      ],
+      "query": {}
+    },
+    {
+      "id": "3159538.363",
+      "url": "https://tracking.fastmoss.com/api/notify/index?_time=1792197436&cnonce=87625064",
+      "method": "POST",
+      "type": "XHR",
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "19",
+              "url": "https://www.fastmoss.com/_next/static/chunks/65348-7e4132441d123039.js",
+              "lineNumber": 20,
+              "columnNumber": 46189
+            }
+          ]
+        }
+      },
+      "request_headers": [
+        "accept",
+        "content-type",
+        "fm-sig",
+        "lang",
+        "referer",
+        "region",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-platform",
+        "source",
+        "user-agent"
+      ],
+      "status": 200,
+      "mimeType": "application/json",
+      "protocol": "h2",
+      "encodedDataLength": 615,
+      "body_bytes": 59,
+      "body_sha256": "e73824cd2750c27d8880dfefe7a31c741893b2226ab62094678cd9f332b3f91f",
+      "json_shape": {
+        "type": "object",
+        "keys": [
+          "code",
+          "data",
+          "ext",
+          "msg"
+        ],
+        "properties": {
+          "code": "number",
+          "data": {
+            "type": "array",
+            "length": 0,
+            "element": null
+          },
+          "ext": {
+            "type": "object",
+            "keys": [
+              "is_login"
+            ],
+            "properties": {
+              "is_login": "number"
+            }
+          },
+          "msg": "string"
+        }
+      },
+      "json_code": 200,
+      "json_msg": "success",
+      "raw_local_file": "notify_index-3159538.363.json",
+      "origin": "https://tracking.fastmoss.com",
+      "path": "/api/notify/index",
+      "query_names": [
+        "_time",
+        "cnonce"
+      ],
+      "query": {}
+    },
+    {
+      "id": "2D7EECCB198D67DAC7A9AC34BDBDC667",
+      "url": "https://tracking.fastmoss.com/api/notify/index?_time=1792197436&cnonce=87625064",
+      "method": "OPTIONS",
+      "type": "Other",
+      "initiator": {
+        "type": "preflight",
+        "url": "https://tracking.fastmoss.com/api/notify/index?_time=1792197436&cnonce=87625064",
+        "requestId": "3159538.363"
+      },
+      "request_headers": [
+        "accept",
+        "access-control-request-headers",
+        "access-control-request-method",
+        "origin",
+        "sec-fetch-mode",
+        "user-agent"
+      ],
+      "status": 200,
+      "mimeType": "text/html",
+      "protocol": "h2",
+      "encodedDataLength": 546,
+      "body_error": "{\"code\":-32000,\"message\":\"No resource with given identifier found\"}",
+      "origin": "https://tracking.fastmoss.com",
+      "path": "/api/notify/index",
+      "query_names": [
+        "_time",
+        "cnonce"
+      ],
+      "query": {}
+    }
+  ],
+  "dom": {
+    "text": "Painel de controle\nPulsação do Mercado\nProdutos\nHora de publicação\nLoja\nTransmissões ao vivo\nVídeos e materiais\nPublicidade\nAgências\nFerramentas de IA\nComprar renovação\nComeçar teste grátis\nEntrar\nBrasil\nPesquisa de produtos\nDetalhes do produto\nReparador de Pontas Gloss com Silicones Ultra Luminosos Protege Contra Raios Solares e Anti-Frizz para Todos os Tipos de Cabelos Selando As Cutículas Brilho Alto Agressores Externos Textura Leve\n4.8\n/\n5\nNúmero de comentários:\n54.8 mil\nCriar Vídeo Shoppable\nReparador de Pontas Gloss com Silicones Ultra Luminosos Protege Contra Raios Solares e Anti-Frizz para Todos os Tipos de Cabelos Selando As Cutículas Brilho Alto Agressores Externos Textura Leve\nBeleza e cuidados pessoais / Cuidados com cabelos e penteados / Tratamentos para cabelo e couro cabeludo\nSKU\nIntrodução do Produto\nOtimização de Títulos com IA\n1\nRanking de Vendas no Brasil\n1\nRanking de vendas de Beleza e cuidados pessoais\n100\nÍndice de popularidade do produto\n100\nÍndice de popularidade\n403.9 mil\nVendas totais\nR$4.5 milhão\nGMV total\n16.4 mil\nNúmero de influencers de vendas\n41.3 mil\nNúmero de vídeos\nData estimada de upload:\n2025-12-18 (GMT+8)\nPreço:\nR$29,90\nTendência\nFrete:\n0\nTipo de logística:\nLogística oficial transfronteiriça\nEstoque:\n5 mil+\nTaxa de comissão:\n10%\nDetalhes da loja\nSemélle\nBeleza e cuidados pessoais\nResumo de dados\nProdutos relacionados com influencers\nAnálise de Tráfego Pago\nProdutos relacionados com vídeos\nProdutos relacionados com transmissões ao vivo\nVOC - Insight do consumidor\nComentários dos produtos\nProdutos semelhantes\nResumo de dados\nÚltimos 7 dias\nÚltimos 28 dias\nÚltimos 90 dias\nÚltimos 180 dias\nEstratégia de Marketing\nProporção de canais de transação\nVendas totais\nGMV total\n\nSource\n\nProportion\n\nUnits sold\n\nProduct card\n18%\n2388\nShop account\n34%\n4718\nAffiliate\n48%\n6642\nParcela de vendas\nVendas totais\nGMV total\n\nCategory\n\nProportion\n\nUnits sold\n\nVideo\n71%\n9823\nLive\n11%\n1537\nOther\n18%\n2388\nProporção de Transações Concluídas\nVendas totais\nGMV total\n\nCategory\n\nProportion\n\nUnits sold\n\nAd traffic\n0%\n0\nOther traffic\n100%\n9259\nVisão geral\n\n1.37M\n\nMédia\n2291\n\nVendas\n\n$23.58M\n\nMédia\n$3.93M\n\nVendas\n\n208\n\nNúmero de influenciadores de vendas\n\n51\n\nNúmero de vídeos de vendas\n\n200\n\nNúmero de lives\n\nPreço médio de vendas\n\n$10.35M\n\nReceita por vendas em vídeo\n\n$1.67M\n\nReceita por vendas em transmissões ao vivo\n\nVendas / Vendas\nCrescimento\nTotal\nVer tabela\nAtualmente, você é um visitante, sem permissões suficientes. Faça login/cadastre-se.\nEntrar\nFastMoss Agent\nconversar\n@Reparador de Po...... é um best-seller consistente em BR ou um pico passageiro de vendas? Ainda\nSobre nós\nPerfil da empresa\nJunte-se a nós\nTermos de serviço\nReclamações e sugestões\nFunções do produto\nPainel de controle\nPesquisar produtos do TikTok\nPublicidade no TikTok\nTransmissões ao vivo de vendas populares\nPesquisar influenciadores do TikTok\nMonitoramento de vídeo\nVídeos populares do TikTok\nAnálise de lojas concorrentes\nComunidade\nBlog\nFGVCon\nPrograma de afiliados\nCreator Picks\nCreator Picks LA\n\nO FastMoss é a primeira plataforma de análise de dados de ciclo completo no ecossistema TikTok e líder global de mercado. Com atualizações rápidas, análises precisas e cobertura completa, é confiável para mais de 4,7 milhões de utilizadores em todo o mundo. Usa TikTok? Use o FastMoss.\n\nContacte-nos\n\nE-mail:info.br@fastmoss.com\n\nSiga-nos",
+    "links": [
+      {
+        "text": "Painel de controle",
+        "href": "https://www.fastmoss.com/pt/dashboard"
+      },
+      {
+        "text": "Produtos",
+        "href": "https://www.fastmoss.com/pt/e-commerce/search"
+      },
+      {
+        "text": "Hora de publicação",
+        "href": "https://www.fastmoss.com/pt/influencer/search?shop_window=1"
+      },
+      {
+        "text": "Loja",
+        "href": "https://www.fastmoss.com/pt/shop-marketing/search"
+      },
+      {
+        "text": "Transmissões ao vivo",
+        "href": "https://www.fastmoss.com/pt/live/search"
+      },
+      {
+        "text": "Vídeos e materiais",
+        "href": "https://www.fastmoss.com/pt/media-source/video"
+      },
+      {
+        "text": "Publicidade",
+        "href": "https://www.fastmoss.com/pt/creativecenter/search"
+      },
+      {
+        "text": "Comprar renovação",
+        "href": "https://www.fastmoss.com/pt/pricing"
+      },
+      {
+        "text": "Criar Vídeo Shoppable",
+        "href": "https://www.oumomo.ai/url-to-video?videoId=1731916815699052495&utm_source=fastmoss&utm_country=BR&utm_lang=pt&utm_asset_name=Reparador+de+Pontas+Gloss+com+Silicones+Ultra+Luminosos+Protege+Contra+Raios+Solares+e+Anti-Frizz+para+Todos+os+Tipos+de+Cabelos+Selando+As+Cut%C3%ADculas+Brilho+Alto+Agressores+Externos+Textura+Leve"
+      },
+      {
+        "text": "Otimização de Títulos com IA",
+        "href": "https://www.fastmoss.com/pt/ai-creation/productTitle/optimization?productUrl=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fdetail%2F1731916815699052495"
+      },
+      {
+        "text": "Ranking de Vendas no Brasil",
+        "href": "https://www.fastmoss.com/pt/e-commerce/search?region=BR"
+      },
+      {
+        "text": "Ranking de vendas de Beleza e cuidados pessoais",
+        "href": "https://www.fastmoss.com/pt/e-commerce/search?l1_cid=14&region=BR"
+      },
+      {
+        "text": "Detalhes da loja Semélle Beleza e cuidados pessoais",
+        "href": "https://www.fastmoss.com/pt/shop-marketing/detail/7496266893040520143"
+      },
+      {
+        "text": "Resumo de dados",
+        "href": "https://www.fastmoss.com/pt/e-commerce/detail/1731916815699052495#overview"
+      },
+      {
+        "text": "Produtos relacionados com influencers",
+        "href": "https://www.fastmoss.com/pt/e-commerce/detail/1731916815699052495#related_creators"
+      },
+      {
+        "text": "Análise de Tráfego Pago",
+        "href": "https://www.fastmoss.com/pt/e-commerce/detail/1731916815699052495#putData"
+      },
+      {
+        "text": "Produtos relacionados com vídeos",
+        "href": "https://www.fastmoss.com/pt/e-commerce/detail/1731916815699052495#related_videos"
+      },
+      {
+        "text": "Produtos relacionados com transmissões ao vivo",
+        "href": "https://www.fastmoss.com/pt/e-commerce/detail/1731916815699052495#related_lives"
+      },
+      {
+        "text": "VOC - Insight do consumidor",
+        "href": "https://www.fastmoss.com/pt/e-commerce/detail/1731916815699052495#voc"
+      },
+      {
+        "text": "Comentários dos produtos",
+        "href": "https://www.fastmoss.com/pt/e-commerce/detail/1731916815699052495#ai_comments"
+      },
+      {
+        "text": "Produtos semelhantes",
+        "href": "https://www.fastmoss.com/pt/e-commerce/detail/1731916815699052495#similar"
+      },
+      {
+        "text": "Perfil da empresa",
+        "href": "https://www.fastmoss.com/pt/aboutUs/CompanyIntroduction"
+      },
+      {
+        "text": "Junte-se a nós",
+        "href": "https://www.fastmoss.com/pt/aboutUs/joinFastMoss"
+      },
+      {
+        "text": "Termos de serviço",
+        "href": "https://www.fastmoss.com/pt/docs/terms"
+      },
+      {
+        "text": "Reclamações e sugestões",
+        "href": "https://www.fastmoss.com/pt/complaint"
+      },
+      {
+        "text": "Painel de controle",
+        "href": "https://www.fastmoss.com/pt/dashboard"
+      },
+      {
+        "text": "Pesquisar produtos do TikTok",
+        "href": "https://www.fastmoss.com/pt/e-commerce/search"
+      },
+      {
+        "text": "Publicidade no TikTok",
+        "href": "https://www.fastmoss.com/pt/creativecenter/search"
+      },
+      {
+        "text": "Transmissões ao vivo de vendas populares",
+        "href": "https://www.fastmoss.com/pt/live/tiktok"
+      },
+      {
+        "text": "Pesquisar influenciadores do TikTok",
+        "href": "https://www.fastmoss.com/pt/influencer/search"
+      },
+      {
+        "text": "Monitoramento de vídeo",
+        "href": "https://www.fastmoss.com/pt/monitor/videoMonitor"
+      },
+      {
+        "text": "Vídeos populares do TikTok",
+        "href": "https://www.fastmoss.com/pt/media-source/video"
+      },
+      {
+        "text": "Análise de lojas concorrentes",
+        "href": "https://www.fastmoss.com/pt/shop-marketing/tiktok"
+      },
+      {
+        "text": "Blog",
+        "href": "https://www.fastmoss.com/blog/"
+      },
+      {
+        "text": "FGVCon",
+        "href": "https://www.fastmoss.com/FGVCon2026"
+      },
+      {
+        "text": "Programa de afiliados",
+        "href": "https://www.fastmoss.com/affiliate"
+      },
+      {
+        "text": "Creator Picks",
+        "href": "https://www.fastmoss.com/creator-picks-dallas"
+      },
+      {
+        "text": "Creator Picks LA",
+        "href": "https://www.fastmoss.com/creator-picks-la"
+      },
+      {
+        "text": "info.br@fastmoss.com",
+        "href": "mailto:info.br@fastmoss.com"
+      }
+    ]
+  }
+}

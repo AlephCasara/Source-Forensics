@@ -1,0 +1,70 @@
+{
+  "experiment_id": "FM-004-product-detail-anatomy",
+  "versioned_artifacts": [
+    {
+      "path": "artifacts/access-matrix.json",
+      "bytes": 3598,
+      "sha256": "de696324719c0b9620b74248ae74972f1f26887568365eea2d27b5e9a25c0d96"
+    },
+    {
+      "path": "artifacts/api-inventory.json",
+      "bytes": 57232,
+      "sha256": "cdef2982261228c3c3053e7779c378d444c831e91c6d615cf88adb17378169d8"
+    },
+    {
+      "path": "artifacts/evidence-index.json",
+      "bytes": 4318,
+      "sha256": "3cef1d1e9dea20b93690c078f00e2aaca5509fc92408c466803e2d48e2a1dd60"
+    },
+    {
+      "path": "artifacts/isolated-related-lives.json",
+      "bytes": 22743,
+      "sha256": "9ba3f24d3767afd414d2979f0dcab4a6a5a27dc3cc60ac1699e709a24afabd11"
+    },
+    {
+      "path": "artifacts/public-base-summary.json",
+      "bytes": 1598,
+      "sha256": "b3605472f594894973d5f9dd67823382dac0ce035d9ffbc0ed217a385ccb6561"
+    },
+    {
+      "path": "artifacts/public-relationship-samples.json",
+      "bytes": 5140,
+      "sha256": "c0b2257a6159cff4fc50c4181adc3ca3e67cbdc41e65ea3a926793a26182164c"
+    },
+    {
+      "path": "artifacts/relationship-semantics.json",
+      "bytes": 2070,
+      "sha256": "fce37fd9b826ec478a0dce12393d528db22c2c997810aa9c9c3d8ebed9c95fb1"
+    },
+    {
+      "path": "artifacts/restricted-capability-shapes.json",
+      "bytes": 9562,
+      "sha256": "3e4399d0107f0e1f51cceb5418f5030c1981971d101620267bde08312b0b8447"
+    },
+    {
+      "path": "artifacts/script-evidence.json",
+      "bytes": 2109,
+      "sha256": "a903af23ff7dac0b1f42c79ee8bc4486fb8283e1f74cbc23144ff1ed2dabe74a"
+    },
+    {
+      "path": "artifacts/tab-endpoint-map.json",
+      "bytes": 25169,
+      "sha256": "e37acd6e6c086992e5da7a7cd9fe4c94735988908cf9e55e57ccfa87a1261b39"
+    },
+    {
+      "path": "artifacts/visitor-filter-gate.json",
+      "bytes": 1049,
+      "sha256": "75873f51bb285e6e3934ddb21080740b578082891a4972525521b5ed8a9281dc"
+    },
+    {
+      "path": "README.md",
+      "bytes": 14080,
+      "sha256": "f0ef4ea8bfb9f13747e1912d0e36e938da1c4382cae34d5629e602bd71bbc553"
+    },
+    {
+      "path": "exported-scripts/manifest.json",
+      "bytes": 158699,
+      "sha256": "1fa64fc00f0415c0dc6de6f65599f570944db49a0f7f54a845ee8e23ad529334"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "experiment": "attempt Product Detail video date filter = All as public visitor",
+  "result": "client_login_gate",
+  "request_observation": "no /api/goods/v3/video request observed by armed Network capture after click",
+  "page_url": "https://www.fastmoss.com/pt/e-commerce/detail/1731916815699052495#voc",
+  "video_date_controls": [
+    {
+      "value": "7",
+      "checked": false,
+      "label": "Últimos 7 dias"
+    },
+    {
+      "value": "28",
+      "checked": true,
+      "label": "Últimos 28 dias"
+    },
+    {
+      "value": "90",
+      "checked": false,
+      "label": "Últimos 90 dias"
+    },
+    {
+      "value": "0",
+      "checked": false,
+      "label": "Todos"
+    }
+  ],
+  "dialog_texts": [
+    "Entrar E-mail Código de verificação Usar senha Enviar código de verificação Entrar OU Entrar com Google Entrar com TikTok Fazer login com número de telefone Novo no FastMoss? Cadastrar"
+  ],
+  "interpretation": "All-time video relationship total was not observed. Do not infer it by forcing the public FastMoss request."
+}

@@ -1,0 +1,57 @@
+{
+  "policy": "Third-party bundle bytes remain local/ignored; Git stores URL, hash, size and semantic findings only.",
+  "scripts": [
+    {
+      "role": "Product Detail route modules",
+      "url": "https://www.fastmoss.com/_next/static/chunks/app/%5Blocale%5D/(normalLayout)/e-commerce/detail/%5Bid%5D/page-a6876717ddbcc782.js",
+      "sha256": "cee558daea19b5a667cf0334e55b889cfbe483ae447e9d2bd40770f6607eb8d9",
+      "bytes": 220869,
+      "observed_wrappers": [
+        "/api/goods/v3/overview",
+        "/api/goods/v3/video",
+        "/api/goods/V3/adsVideo",
+        "/api/goods/V3/investment",
+        "/api/goods/v3/similarity",
+        "/api/ai/productReviewExample/getConsumerPortrait"
+      ]
+    },
+    {
+      "role": "Lightweight product identity/baseInfo helper",
+      "url": "https://www.fastmoss.com/_next/static/chunks/69761-f70781cec165a402.js",
+      "sha256": "c89c5f33111620223c929513373adaf6b02303eb15366d95e525865e8a17f100",
+      "bytes": 24769,
+      "observed_wrappers": [
+        "/api/goods/v3/baseInfo",
+        "/api/collect/collectStatus"
+      ]
+    },
+    {
+      "role": "Shared goods/shop domain API wrappers",
+      "url": "https://www.fastmoss.com/_next/static/chunks/37423-22d3bba0baca78f4.js",
+      "sha256": "9aeec33ae8b349d93b2b6041bb99dae25901800b028329d1bff8171084faa309",
+      "bytes": 50936,
+      "observed_wrappers": [
+        "/api/goods/v3/base",
+        "/api/goods/productSku",
+        "/api/goods/v3/goodsAttribute",
+        "/api/goods/v3/transAttribute",
+        "/api/goods/v3/author",
+        "/api/goods/v3/authorChart",
+        "/api/goods/v3/live",
+        "/api/goods/reviewList",
+        "/api/goods/v3/priceList"
+      ]
+    },
+    {
+      "role": "Authorization/detail-limit mapping",
+      "url": "https://www.fastmoss.com/_next/static/chunks/34790-39f547656bb24194.js",
+      "sha256": "7e34122d2cd92e3429ab1411244d5eeb78a059312cd2b86473583d20415146f7",
+      "bytes": 55826,
+      "observed_semantics": [
+        "MAG_AUTH_3002 -> detailLimit",
+        "MAG_AUTH_3017 -> detailLimit",
+        "MSG_30001 -> login flow"
+      ]
+    }
+  ]
+}

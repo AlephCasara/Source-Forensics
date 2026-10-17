@@ -1,0 +1,369 @@
+[
+  {
+    "section": "related_lives",
+    "path": "/api/goods/v3/authorChart",
+    "business_code": "MAG_AUTH_3017",
+    "business_msg": "success",
+    "shape": {
+      "type": "object",
+      "keys": [
+        "code",
+        "data",
+        "ext",
+        "msg"
+      ],
+      "properties": {
+        "code": "string",
+        "data": {
+          "type": "object",
+          "keys": [
+            "level_distribution",
+            "type_distribution"
+          ],
+          "properties": {
+            "level_distribution": {
+              "type": "array",
+              "length": 6,
+              "element": {
+                "type": "object",
+                "keys": [
+                  "follower_count",
+                  "follower_count_show",
+                  "follower_level"
+                ]
+              }
+            },
+            "type_distribution": {
+              "type": "array",
+              "length": 6,
+              "element": {
+                "type": "object",
+                "keys": [
+                  "percent",
+                  "percent_show",
+                  "type"
+                ]
+              }
+            }
+          }
+        },
+        "ext": {
+          "type": "object",
+          "keys": [
+            "is_login"
+          ],
+          "properties": {
+            "is_login": "number"
+          }
+        },
+        "msg": "string"
+      }
+    },
+    "policy": "schema/capability evidence only; response values not consumed"
+  },
+  {
+    "section": "related_lives",
+    "path": "/api/goods/V3/adsVideo",
+    "business_code": "MAG_AUTH_3017",
+    "business_msg": "Desculpe, você não tem direito de visualizar, atualize a assinatura para visualizar.",
+    "shape": {
+      "type": "object",
+      "keys": [
+        "code",
+        "data",
+        "ext",
+        "msg"
+      ],
+      "properties": {
+        "code": "string",
+        "data": {
+          "type": "object",
+          "keys": [
+            "category_id",
+            "leaf_category_id",
+            "list",
+            "region",
+            "region_name",
+            "second_category_id",
+            "update_at"
+          ],
+          "properties": {
+            "category_id": "number",
+            "leaf_category_id": "number",
+            "list": {
+              "type": "array",
+              "length": 8,
+              "element": {
+                "type": "object",
+                "keys": [
+                  "advertiser",
+                  "cover",
+                  "create_time",
+                  "currency",
+                  "desc",
+                  "estimate_cost_amount",
+                  "estimate_cost_amount_show",
+                  "id",
+                  "play_count",
+                  "play_count_show",
+                  "region",
+                  "region_name",
+                  "roas",
+                  "sale_amount",
+                  "sale_amount_show",
+                  "tiktok_url",
+                  "uid",
+                  "video_id"
+                ]
+              }
+            },
+            "region": "string",
+            "region_name": "string",
+            "second_category_id": "number",
+            "update_at": "number"
+          }
+        },
+        "ext": {
+          "type": "object",
+          "keys": [
+            "is_login"
+          ],
+          "properties": {
+            "is_login": "number"
+          }
+        },
+        "msg": "string"
+      }
+    },
+    "policy": "schema/capability evidence only; response values not consumed"
+  },
+  {
+    "section": "related_lives",
+    "path": "/api/goods/V3/investment",
+    "business_code": "MAG_AUTH_3017",
+    "business_msg": "Desculpe, você não tem direito de visualizar, atualize a assinatura para visualizar.",
+    "shape": {
+      "type": "object",
+      "keys": [
+        "code",
+        "data",
+        "ext",
+        "msg"
+      ],
+      "properties": {
+        "code": "string",
+        "data": {
+          "type": "object",
+          "keys": [
+            "overview",
+            "summary",
+            "trends",
+            "update_at"
+          ],
+          "properties": {
+            "overview": {
+              "type": "object",
+              "keys": [
+                "ad_sale_percent",
+                "avg_estimate_cost_amount",
+                "avg_estimate_cost_amount_show",
+                "avg_play_count",
+                "avg_play_count_show",
+                "avg_sale_amount",
+                "avg_sale_amount_show",
+                "avg_sold_count",
+                "avg_sold_count_show",
+                "currency",
+                "estimate_cost_amount",
+                "estimate_cost_amount_show",
+                "play_count",
+                "play_count_show",
+                "roas",
+                "sale_amount",
+                "sale_amount_show",
+                "sold_count",
+                "sold_count_show",
+                "total_sale_amount",
+                "total_sale_amount_show",
+                "video_count",
+                "video_count_show"
+              ]
+            },
+            "summary": {
+              "type": "object",
+              "keys": [
+                "currency",
+                "estimate_cost_amount",
+                "estimate_cost_amount_show",
+                "roas",
+                "sale_amount",
+                "sale_amount_show",
+                "video_count",
+                "video_count_show"
+              ]
+            },
+            "trends": {
+              "type": "array",
+              "length": 22,
+              "element": {
+                "type": "object",
+                "keys": [
+                  "currency",
+                  "dt",
+                  "estimate_cost_amount",
+                  "estimate_cost_amount_show",
+                  "play_count",
+                  "play_count_show",
+                  "roas",
+                  "sale_amount",
+                  "sale_amount_show",
+                  "sold_count",
+                  "sold_count_show",
+                  "video_count",
+                  "video_count_show"
+                ]
+              }
+            },
+            "update_at": "number"
+          }
+        },
+        "ext": {
+          "type": "object",
+          "keys": [
+            "is_login"
+          ],
+          "properties": {
+            "is_login": "number"
+          }
+        },
+        "msg": "string"
+      }
+    },
+    "policy": "schema/capability evidence only; response values not consumed"
+  },
+  {
+    "section": "related_lives",
+    "path": "/api/goods/reviewList",
+    "business_code": "MAG_AUTH_3017",
+    "business_msg": "Desculpe, você não tem direito de visualizar, atualize a assinatura para visualizar.",
+    "shape": {
+      "type": "object",
+      "keys": [
+        "code",
+        "data",
+        "ext",
+        "msg"
+      ],
+      "properties": {
+        "code": "string",
+        "data": {
+          "type": "object",
+          "keys": [
+            "rate",
+            "review_list",
+            "total",
+            "update_at"
+          ],
+          "properties": {
+            "rate": "number",
+            "review_list": {
+              "type": "array",
+              "length": 5,
+              "element": {
+                "type": "object",
+                "keys": [
+                  "images",
+                  "label_list",
+                  "rating",
+                  "review_id",
+                  "review_text",
+                  "review_time",
+                  "sku_info"
+                ]
+              }
+            },
+            "total": "string",
+            "update_at": "number"
+          }
+        },
+        "ext": {
+          "type": "object",
+          "keys": [
+            "is_login"
+          ],
+          "properties": {
+            "is_login": "number"
+          }
+        },
+        "msg": "string"
+      }
+    },
+    "policy": "schema/capability evidence only; response values not consumed"
+  },
+  {
+    "section": "related_lives",
+    "path": "/api/goods/v3/similarity",
+    "business_code": "MAG_AUTH_3002",
+    "business_msg": "Desculpe, não há detalhes suficientes para visualizar.",
+    "shape": {
+      "type": "object",
+      "keys": [
+        "code",
+        "data",
+        "ext",
+        "msg"
+      ],
+      "properties": {
+        "code": "string",
+        "data": {
+          "type": "object",
+          "keys": [
+            "list",
+            "total",
+            "update_at"
+          ],
+          "properties": {
+            "list": {
+              "type": "array",
+              "length": 5,
+              "element": {
+                "type": "object",
+                "keys": [
+                  "category_name",
+                  "cover",
+                  "crate",
+                  "crate_show",
+                  "popularity_index",
+                  "price",
+                  "product_id",
+                  "product_rating",
+                  "region",
+                  "region_name",
+                  "sale_amount",
+                  "sale_amount_show",
+                  "sale_cnt",
+                  "sale_cnt_show",
+                  "title",
+                  "viral_index"
+                ]
+              }
+            },
+            "total": "number",
+            "update_at": "number"
+          }
+        },
+        "ext": {
+          "type": "object",
+          "keys": [
+            "is_login"
+          ],
+          "properties": {
+            "is_login": "number"
+          }
+        },
+        "msg": "string"
+      }
+    },
+    "policy": "schema/capability evidence only; response values not consumed"
+  }
+]

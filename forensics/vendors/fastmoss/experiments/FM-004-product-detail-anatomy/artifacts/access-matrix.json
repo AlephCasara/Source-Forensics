@@ -1,0 +1,122 @@
+[
+  {
+    "capability": "baseInfo",
+    "endpoint": "/api/goods/v3/baseInfo",
+    "runtime_business_code": 200,
+    "access_class": "public_visitor",
+    "values_consumable": true
+  },
+  {
+    "capability": "base aggregates",
+    "endpoint": "/api/goods/v3/base",
+    "runtime_business_code": 200,
+    "access_class": "public_visitor",
+    "values_consumable": true
+  },
+  {
+    "capability": "overview/history analytics",
+    "endpoint": "/api/goods/v3/overview",
+    "runtime_business_code": "MAG_AUTH_3017",
+    "access_class": "detail_limit",
+    "values_consumable": false
+  },
+  {
+    "capability": "related creators list",
+    "endpoint": "/api/goods/v3/author",
+    "runtime_business_code": 200,
+    "access_class": "public_visitor",
+    "values_consumable": true
+  },
+  {
+    "capability": "creator chart",
+    "endpoint": "/api/goods/v3/authorChart",
+    "runtime_business_code": "MAG_AUTH_3017",
+    "access_class": "detail_limit",
+    "values_consumable": false
+  },
+  {
+    "capability": "related videos",
+    "endpoint": "/api/goods/v3/video",
+    "runtime_business_code": 200,
+    "access_class": "public_visitor_default_window",
+    "values_consumable": true
+  },
+  {
+    "capability": "related LIVE sessions",
+    "endpoint": "/api/goods/v3/live",
+    "runtime_business_code": 200,
+    "access_class": "public_visitor_default_window",
+    "values_consumable": true,
+    "note": "one transient code=500 was observed before a later successful code=200 capture"
+  },
+  {
+    "capability": "paid traffic videos",
+    "endpoint": "/api/goods/V3/adsVideo",
+    "runtime_business_code": "MAG_AUTH_3017",
+    "access_class": "detail_limit",
+    "values_consumable": false
+  },
+  {
+    "capability": "investment/paid traffic summary",
+    "endpoint": "/api/goods/V3/investment",
+    "runtime_business_code": "MAG_AUTH_3017",
+    "access_class": "detail_limit",
+    "values_consumable": false
+  },
+  {
+    "capability": "reviews",
+    "endpoint": "/api/goods/reviewList",
+    "runtime_business_code": "MAG_AUTH_3017",
+    "access_class": "detail_limit",
+    "values_consumable": false
+  },
+  {
+    "capability": "similar products analytics",
+    "endpoint": "/api/goods/v3/similarity",
+    "runtime_business_code": "MAG_AUTH_3002",
+    "access_class": "detail_limit",
+    "values_consumable": false
+  },
+  {
+    "capability": "user state",
+    "endpoint": "/api/user/index/userInfo",
+    "runtime_business_code": "MSG_30001",
+    "access_class": "login_required",
+    "values_consumable": false
+  },
+  {
+    "capability": "agent conversation",
+    "endpoint": "/api/agent/V3/getConversationIdByBiz",
+    "runtime_business_code": "MSG_30001",
+    "access_class": "login_required",
+    "values_consumable": false
+  },
+  {
+    "capability": "SKU",
+    "endpoint": "/api/goods/productSku",
+    "runtime_business_code": null,
+    "access_class": "observed_static_not_classified",
+    "values_consumable": false
+  },
+  {
+    "capability": "product attributes",
+    "endpoint": "/api/goods/v3/goodsAttribute",
+    "runtime_business_code": null,
+    "access_class": "observed_static_not_classified",
+    "values_consumable": false
+  },
+  {
+    "capability": "translated attributes",
+    "endpoint": "/api/goods/v3/transAttribute",
+    "runtime_business_code": null,
+    "access_class": "observed_static_not_classified",
+    "values_consumable": false
+  },
+  {
+    "capability": "VOC consumer portrait",
+    "endpoint": "/api/ai/productReviewExample/getConsumerPortrait",
+    "runtime_business_code": null,
+    "access_class": "conditional_static_not_classified",
+    "values_consumable": false
+  }
+]

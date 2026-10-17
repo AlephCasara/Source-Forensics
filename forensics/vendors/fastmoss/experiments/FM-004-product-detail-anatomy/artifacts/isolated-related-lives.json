@@ -1,0 +1,850 @@
+{
+  "captured_at": "2026-10-17T00:40:24.677Z",
+  "section": "related_lives",
+  "hash": "#related_lives",
+  "click_result": "clicked",
+  "requests": [
+    {
+      "method": "GET",
+      "path": "/api/collect/collectStatus",
+      "query": {
+        "id": "1731916815699052495",
+        "type": "2"
+      },
+      "status": 200,
+      "business_code": 200,
+      "business_msg": "success!",
+      "bytes": 74,
+      "shape": {
+        "type": "object",
+        "keys": [
+          "code",
+          "data",
+          "ext",
+          "msg"
+        ],
+        "properties": {
+          "code": "number",
+          "data": {
+            "type": "object",
+            "keys": [
+              "is_collect"
+            ],
+            "properties": {
+              "is_collect": "number"
+            }
+          },
+          "ext": {
+            "type": "object",
+            "keys": [
+              "is_login"
+            ],
+            "properties": {
+              "is_login": "number"
+            }
+          },
+          "msg": "string"
+        }
+      },
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "34505",
+              "url": "https://www.fastmoss.com/_next/static/chunks/65348-7e4132441d123039.js",
+              "lineNumber": 20,
+              "columnNumber": 46189
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/goods/V3/investment",
+      "query": {
+        "product_id": "1731916815699052495",
+        "d_type": "28"
+      },
+      "status": 200,
+      "business_code": "MAG_AUTH_3017",
+      "business_msg": "Desculpe, você não tem direito de visualizar, atualize a assinatura para visualizar.",
+      "bytes": 7628,
+      "shape": {
+        "type": "object",
+        "keys": [
+          "code",
+          "data",
+          "ext",
+          "msg"
+        ],
+        "properties": {
+          "code": "string",
+          "data": {
+            "type": "object",
+            "keys": [
+              "overview",
+              "summary",
+              "trends",
+              "update_at"
+            ],
+            "properties": {
+              "overview": {
+                "type": "object",
+                "keys": [
+                  "ad_sale_percent",
+                  "avg_estimate_cost_amount",
+                  "avg_estimate_cost_amount_show",
+                  "avg_play_count",
+                  "avg_play_count_show",
+                  "avg_sale_amount",
+                  "avg_sale_amount_show",
+                  "avg_sold_count",
+                  "avg_sold_count_show",
+                  "currency",
+                  "estimate_cost_amount",
+                  "estimate_cost_amount_show",
+                  "play_count",
+                  "play_count_show",
+                  "roas",
+                  "sale_amount",
+                  "sale_amount_show",
+                  "sold_count",
+                  "sold_count_show",
+                  "total_sale_amount",
+                  "total_sale_amount_show",
+                  "video_count",
+                  "video_count_show"
+                ]
+              },
+              "summary": {
+                "type": "object",
+                "keys": [
+                  "currency",
+                  "estimate_cost_amount",
+                  "estimate_cost_amount_show",
+                  "roas",
+                  "sale_amount",
+                  "sale_amount_show",
+                  "video_count",
+                  "video_count_show"
+                ]
+              },
+              "trends": {
+                "type": "array",
+                "length": 22,
+                "element": {
+                  "type": "object",
+                  "keys": [
+                    "currency",
+                    "dt",
+                    "estimate_cost_amount",
+                    "estimate_cost_amount_show",
+                    "play_count",
+                    "play_count_show",
+                    "roas",
+                    "sale_amount",
+                    "sale_amount_show",
+                    "sold_count",
+                    "sold_count_show",
+                    "video_count",
+                    "video_count_show"
+                  ]
+                }
+              },
+              "update_at": "number"
+            }
+          },
+          "ext": {
+            "type": "object",
+            "keys": [
+              "is_login"
+            ],
+            "properties": {
+              "is_login": "number"
+            }
+          },
+          "msg": "string"
+        }
+      },
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "34505",
+              "url": "https://www.fastmoss.com/_next/static/chunks/65348-7e4132441d123039.js",
+              "lineNumber": 20,
+              "columnNumber": 46189
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/goods/V3/adsVideo",
+      "query": {
+        "product_id": "1731916815699052495",
+        "d_type": "28"
+      },
+      "status": 200,
+      "business_code": "MAG_AUTH_3017",
+      "business_msg": "Desculpe, você não tem direito de visualizar, atualize a assinatura para visualizar.",
+      "bytes": 6779,
+      "shape": {
+        "type": "object",
+        "keys": [
+          "code",
+          "data",
+          "ext",
+          "msg"
+        ],
+        "properties": {
+          "code": "string",
+          "data": {
+            "type": "object",
+            "keys": [
+              "category_id",
+              "leaf_category_id",
+              "list",
+              "region",
+              "region_name",
+              "second_category_id",
+              "update_at"
+            ],
+            "properties": {
+              "category_id": "number",
+              "leaf_category_id": "number",
+              "list": {
+                "type": "array",
+                "length": 8,
+                "element": {
+                  "type": "object",
+                  "keys": [
+                    "advertiser",
+                    "cover",
+                    "create_time",
+                    "currency",
+                    "desc",
+                    "estimate_cost_amount",
+                    "estimate_cost_amount_show",
+                    "id",
+                    "play_count",
+                    "play_count_show",
+                    "region",
+                    "region_name",
+                    "roas",
+                    "sale_amount",
+                    "sale_amount_show",
+                    "tiktok_url",
+                    "uid",
+                    "video_id"
+                  ]
+                }
+              },
+              "region": "string",
+              "region_name": "string",
+              "second_category_id": "number",
+              "update_at": "number"
+            }
+          },
+          "ext": {
+            "type": "object",
+            "keys": [
+              "is_login"
+            ],
+            "properties": {
+              "is_login": "number"
+            }
+          },
+          "msg": "string"
+        }
+      },
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "34505",
+              "url": "https://www.fastmoss.com/_next/static/chunks/65348-7e4132441d123039.js",
+              "lineNumber": 20,
+              "columnNumber": 46189
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/goods/v3/authorChart",
+      "query": {
+        "product_id": "1731916815699052495"
+      },
+      "status": 200,
+      "business_code": "MAG_AUTH_3017",
+      "business_msg": "success",
+      "bytes": 951,
+      "shape": {
+        "type": "object",
+        "keys": [
+          "code",
+          "data",
+          "ext",
+          "msg"
+        ],
+        "properties": {
+          "code": "string",
+          "data": {
+            "type": "object",
+            "keys": [
+              "level_distribution",
+              "type_distribution"
+            ],
+            "properties": {
+              "level_distribution": {
+                "type": "array",
+                "length": 6,
+                "element": {
+                  "type": "object",
+                  "keys": [
+                    "follower_count",
+                    "follower_count_show",
+                    "follower_level"
+                  ]
+                }
+              },
+              "type_distribution": {
+                "type": "array",
+                "length": 6,
+                "element": {
+                  "type": "object",
+                  "keys": [
+                    "percent",
+                    "percent_show",
+                    "type"
+                  ]
+                }
+              }
+            }
+          },
+          "ext": {
+            "type": "object",
+            "keys": [
+              "is_login"
+            ],
+            "properties": {
+              "is_login": "number"
+            }
+          },
+          "msg": "string"
+        }
+      },
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "34505",
+              "url": "https://www.fastmoss.com/_next/static/chunks/65348-7e4132441d123039.js",
+              "lineNumber": 20,
+              "columnNumber": 46189
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/goods/v3/video",
+      "query": {
+        "page": "1",
+        "product_id": "1731916815699052495",
+        "order": "1,2",
+        "d_type": "0",
+        "pagesize": "5",
+        "is_promoted": "-1",
+        "date_type": "28"
+      },
+      "status": 200,
+      "business_code": 200,
+      "business_msg": "success",
+      "bytes": 6294,
+      "shape": {
+        "type": "object",
+        "keys": [
+          "code",
+          "data",
+          "ext",
+          "msg"
+        ],
+        "properties": {
+          "code": "number",
+          "data": {
+            "type": "object",
+            "keys": [
+              "list",
+              "page",
+              "total"
+            ],
+            "properties": {
+              "list": {
+                "type": "array",
+                "length": 5,
+                "element": {
+                  "type": "object",
+                  "keys": [
+                    "author",
+                    "comment_count",
+                    "comment_count_show",
+                    "create_date",
+                    "digg_count",
+                    "digg_count_show",
+                    "engagement_rate",
+                    "estimate_cost_amount",
+                    "estimate_cost_amount_show",
+                    "is_ad",
+                    "play_count",
+                    "play_count_show",
+                    "product_id",
+                    "region",
+                    "region_name",
+                    "roas",
+                    "sale_amount",
+                    "sale_amount_show",
+                    "seller_id",
+                    "share_count",
+                    "share_count_show",
+                    "sold_count",
+                    "sold_count_show",
+                    "uid",
+                    "unique_id",
+                    "video",
+                    "video_id"
+                  ]
+                }
+              },
+              "page": "number",
+              "total": "string"
+            }
+          },
+          "ext": {
+            "type": "object",
+            "keys": [
+              "is_login"
+            ],
+            "properties": {
+              "is_login": "number"
+            }
+          },
+          "msg": "string"
+        }
+      },
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "34505",
+              "url": "https://www.fastmoss.com/_next/static/chunks/65348-7e4132441d123039.js",
+              "lineNumber": 20,
+              "columnNumber": 46189
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/goods/v3/author",
+      "query": {
+        "product_id": "1731916815699052495",
+        "order": "2,2",
+        "pagesize": "5",
+        "ecommerce_type": "all"
+      },
+      "status": 200,
+      "business_code": 200,
+      "business_msg": "success",
+      "bytes": 8491,
+      "shape": {
+        "type": "object",
+        "keys": [
+          "code",
+          "data",
+          "ext",
+          "msg"
+        ],
+        "properties": {
+          "code": "number",
+          "data": {
+            "type": "object",
+            "keys": [
+              "list",
+              "live_author_count",
+              "live_author_count_show",
+              "page",
+              "total",
+              "video_author_count",
+              "video_author_count_show"
+            ],
+            "properties": {
+              "list": {
+                "type": "array",
+                "length": 5,
+                "element": {
+                  "type": "object",
+                  "keys": [
+                    "avatar",
+                    "aweme_count",
+                    "aweme_count_show",
+                    "aweme_max_gpm",
+                    "aweme_max_gpm_show",
+                    "aweme_min_gpm",
+                    "aweme_min_gpm_show",
+                    "category",
+                    "d28_sale_amount",
+                    "d28_sale_amount_show",
+                    "favoriting_count",
+                    "favoriting_count_show",
+                    "follower_count",
+                    "follower_count_show",
+                    "is_has_email",
+                    "live_gpm_max",
+                    "live_gpm_max_show",
+                    "live_gpm_min",
+                    "live_gpm_min_show",
+                    "nickname",
+                    "product_id",
+                    "region",
+                    "region_name",
+                    "sale_amount",
+                    "sale_amount_show",
+                    "sold_count",
+                    "sold_count_show",
+                    "start_promoting",
+                    "uid",
+                    "unique_id",
+                    "videos"
+                  ]
+                }
+              },
+              "live_author_count": "number",
+              "live_author_count_show": "string",
+              "page": "number",
+              "total": "string",
+              "video_author_count": "number",
+              "video_author_count_show": "string"
+            }
+          },
+          "ext": {
+            "type": "object",
+            "keys": [
+              "is_login"
+            ],
+            "properties": {
+              "is_login": "number"
+            }
+          },
+          "msg": "string"
+        }
+      },
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "34505",
+              "url": "https://www.fastmoss.com/_next/static/chunks/65348-7e4132441d123039.js",
+              "lineNumber": 20,
+              "columnNumber": 46189
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/goods/reviewList",
+      "query": {
+        "product_id": "1731916815699052495",
+        "page": "1",
+        "pagesize": "5",
+        "near_day": "0",
+        "is_like": "0"
+      },
+      "status": 200,
+      "business_code": "MAG_AUTH_3017",
+      "business_msg": "Desculpe, você não tem direito de visualizar, atualize a assinatura para visualizar.",
+      "bytes": 1839,
+      "shape": {
+        "type": "object",
+        "keys": [
+          "code",
+          "data",
+          "ext",
+          "msg"
+        ],
+        "properties": {
+          "code": "string",
+          "data": {
+            "type": "object",
+            "keys": [
+              "rate",
+              "review_list",
+              "total",
+              "update_at"
+            ],
+            "properties": {
+              "rate": "number",
+              "review_list": {
+                "type": "array",
+                "length": 5,
+                "element": {
+                  "type": "object",
+                  "keys": [
+                    "images",
+                    "label_list",
+                    "rating",
+                    "review_id",
+                    "review_text",
+                    "review_time",
+                    "sku_info"
+                  ]
+                }
+              },
+              "total": "string",
+              "update_at": "number"
+            }
+          },
+          "ext": {
+            "type": "object",
+            "keys": [
+              "is_login"
+            ],
+            "properties": {
+              "is_login": "number"
+            }
+          },
+          "msg": "string"
+        }
+      },
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "34505",
+              "url": "https://www.fastmoss.com/_next/static/chunks/65348-7e4132441d123039.js",
+              "lineNumber": 20,
+              "columnNumber": 46189
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/goods/v3/similarity",
+      "query": {
+        "product_id": "1731916815699052495",
+        "page": "1",
+        "pagesize": "6"
+      },
+      "status": 200,
+      "business_code": "MAG_AUTH_3002",
+      "business_msg": "Desculpe, não há detalhes suficientes para visualizar.",
+      "bytes": 2878,
+      "shape": {
+        "type": "object",
+        "keys": [
+          "code",
+          "data",
+          "ext",
+          "msg"
+        ],
+        "properties": {
+          "code": "string",
+          "data": {
+            "type": "object",
+            "keys": [
+              "list",
+              "total",
+              "update_at"
+            ],
+            "properties": {
+              "list": {
+                "type": "array",
+                "length": 5,
+                "element": {
+                  "type": "object",
+                  "keys": [
+                    "category_name",
+                    "cover",
+                    "crate",
+                    "crate_show",
+                    "popularity_index",
+                    "price",
+                    "product_id",
+                    "product_rating",
+                    "region",
+                    "region_name",
+                    "sale_amount",
+                    "sale_amount_show",
+                    "sale_cnt",
+                    "sale_cnt_show",
+                    "title",
+                    "viral_index"
+                  ]
+                }
+              },
+              "total": "number",
+              "update_at": "number"
+            }
+          },
+          "ext": {
+            "type": "object",
+            "keys": [
+              "is_login"
+            ],
+            "properties": {
+              "is_login": "number"
+            }
+          },
+          "msg": "string"
+        }
+      },
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "34505",
+              "url": "https://www.fastmoss.com/_next/static/chunks/65348-7e4132441d123039.js",
+              "lineNumber": 20,
+              "columnNumber": 46189
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/goods/v3/live",
+      "query": {
+        "product_id": "1731916815699052495",
+        "page": "1",
+        "d_type": "28",
+        "order": "2,2",
+        "pagesize": "5",
+        "live_type": "all"
+      },
+      "status": 200,
+      "business_code": 200,
+      "business_msg": "success",
+      "bytes": 8156,
+      "shape": {
+        "type": "object",
+        "keys": [
+          "code",
+          "data",
+          "ext",
+          "msg"
+        ],
+        "properties": {
+          "code": "number",
+          "data": {
+            "type": "object",
+            "keys": [
+              "list",
+              "page",
+              "total"
+            ],
+            "properties": {
+              "list": {
+                "type": "array",
+                "length": 5,
+                "element": {
+                  "type": "object",
+                  "keys": [
+                    "author",
+                    "category_id",
+                    "cover_oss",
+                    "create_date",
+                    "create_time",
+                    "currency",
+                    "finish_time",
+                    "hot_category_id",
+                    "hot_category_name",
+                    "inc_sale_amount",
+                    "inc_sale_amount_show",
+                    "inc_sold_count",
+                    "inc_sold_count_show",
+                    "is_live",
+                    "live_info",
+                    "live_time",
+                    "live_time_seconds",
+                    "max_user_count",
+                    "max_user_count_show",
+                    "product_count",
+                    "product_count_show",
+                    "product_id",
+                    "region",
+                    "region_name",
+                    "room_id",
+                    "sale_amount",
+                    "sale_amount_show",
+                    "seller_id",
+                    "sold_count",
+                    "sold_count_show",
+                    "title",
+                    "total_user",
+                    "total_user_show",
+                    "uid",
+                    "user_count",
+                    "user_count_show"
+                  ]
+                }
+              },
+              "page": "number",
+              "total": "number"
+            }
+          },
+          "ext": {
+            "type": "object",
+            "keys": [
+              "is_login"
+            ],
+            "properties": {
+              "is_login": "number"
+            }
+          },
+          "msg": "string"
+        }
+      },
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "34505",
+              "url": "https://www.fastmoss.com/_next/static/chunks/65348-7e4132441d123039.js",
+              "lineNumber": 20,
+              "columnNumber": 46189
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

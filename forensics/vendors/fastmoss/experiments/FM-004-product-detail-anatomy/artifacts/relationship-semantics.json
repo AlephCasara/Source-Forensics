@@ -1,0 +1,58 @@
+{
+  "product_id": "1731916815699052495",
+  "creator": {
+    "base_count": 16402,
+    "search_relate_count": 16402,
+    "list_total": "12370",
+    "list_query": {
+      "product_id": "1731916815699052495",
+      "order": "2,2",
+      "pagesize": "5",
+      "ecommerce_type": "all",
+      "_time": "1792197703",
+      "cnonce": "85345596"
+    },
+    "semantic_status": "unresolved_grain_difference",
+    "note": "Search/base agree at 16,402; public relation list reports 12,370 without explicit date parameter. Do not merge until cause is proven."
+  },
+  "video": {
+    "base_aweme_count": 41369,
+    "search_relate_count": 41369,
+    "list_total_28d": "24233",
+    "list_query": {
+      "page": "1",
+      "product_id": "1731916815699052495",
+      "order": "1,2",
+      "d_type": "0",
+      "pagesize": "5",
+      "is_promoted": "-1",
+      "date_type": "28",
+      "_time": "1792197703",
+      "cnonce": "26775996"
+    },
+    "semantic_status": "partially_resolved",
+    "note": "Search/base agree at 41,369. Relationship list explicitly uses date_type=28 and reports 24,233. Attempting UI date=All as visitor opens login modal, so broader-period list total was not observed."
+  },
+  "live": {
+    "base_live_count": 0,
+    "search_relate_count": 45541,
+    "list_total_28d": 19085,
+    "list_query": {
+      "product_id": "1731916815699052495",
+      "page": "1",
+      "d_type": "28",
+      "order": "2,2",
+      "pagesize": "5",
+      "live_type": "all",
+      "_time": "1792197703",
+      "cnonce": "90960089"
+    },
+    "semantic_status": "unresolved_distinct_grains",
+    "note": "base.live_count=0, Search relate_live_count=45,541, and relationship list d_type=28 total=19,085. These are explicitly kept as different facts until semantics are proven."
+  },
+  "canonical_design": [
+    "Never collapse count fields across surfaces by name alone.",
+    "Represent relationship observations with explicit window/filter/grain dimensions.",
+    "Treat aggregate all/broad counts and windowed relation-list totals as distinct claims until equivalence is proven."
+  ]
+}
