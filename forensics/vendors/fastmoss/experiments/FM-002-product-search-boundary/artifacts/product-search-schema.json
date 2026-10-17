@@ -1,0 +1,711 @@
+{
+  "endpoint": "/api/goods/V2/search",
+  "observed_url": "https://www.fastmoss.com/api/goods/V2/search?page=2&pagesize=10&order=2,2&region=US&_time=1792196890&cnonce=72493048",
+  "status": 200,
+  "mime_type": "application/json",
+  "initiator": {
+    "type": "script",
+    "url": "https://www.fastmoss.com/_next/static/chunks/65348-7e4132441d123039.js",
+    "line": 20,
+    "column": 46189
+  },
+  "top_level_shape": {
+    "root_type": "object",
+    "node_count": 1482,
+    "max_depth_observed": 6
+  },
+  "product_fields": {
+    "author_order_rate": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "author_order_rate_show": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "category_name": {
+      "types": [
+        "array",
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": [
+        {
+          "path": [
+            "[]"
+          ],
+          "types": [
+            "string"
+          ],
+          "observations": 10
+        }
+      ]
+    },
+    "category_name_l1": {
+      "types": [
+        "array",
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": [
+        {
+          "path": [
+            "[]"
+          ],
+          "types": [
+            "string"
+          ],
+          "observations": 10
+        }
+      ]
+    },
+    "category_name_l2": {
+      "types": [
+        "array",
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": [
+        {
+          "path": [
+            "[]"
+          ],
+          "types": [
+            "string"
+          ],
+          "observations": 10
+        }
+      ]
+    },
+    "category_name_l3": {
+      "types": [
+        "array",
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": [
+        {
+          "path": [
+            "[]"
+          ],
+          "types": [
+            "string"
+          ],
+          "observations": 10
+        }
+      ]
+    },
+    "crate": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "crate_show": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "ctime": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "ctimestamp": {
+      "types": [
+        "number"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "currency": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "currency_unit": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "day14_sale_amount": {
+      "types": [
+        "number"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "day14_sale_amount_show": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "day14_sold_count": {
+      "types": [
+        "number"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "day14_sold_count_show": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "day28_sale_amount": {
+      "types": [
+        "number"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "day28_sale_amount_show": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "day28_sold_count": {
+      "types": [
+        "number"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "day28_sold_count_show": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "day7_sale_amount": {
+      "types": [
+        "number"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "day7_sale_amount_show": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "day7_sold_count": {
+      "types": [
+        "number"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "day7_sold_count_show": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "detail_url": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "global": {
+      "types": [
+        "number",
+        "object",
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": [
+        {
+          "path": [
+            "global_day7_sale_amount"
+          ],
+          "types": [
+            "number"
+          ],
+          "observations": 10
+        },
+        {
+          "path": [
+            "global_day7_sale_amount_show"
+          ],
+          "types": [
+            "string"
+          ],
+          "observations": 10
+        },
+        {
+          "path": [
+            "global_sale_amount"
+          ],
+          "types": [
+            "number"
+          ],
+          "observations": 10
+        },
+        {
+          "path": [
+            "global_sale_amount_show"
+          ],
+          "types": [
+            "string"
+          ],
+          "observations": 10
+        },
+        {
+          "path": [
+            "region"
+          ],
+          "types": [
+            "string"
+          ],
+          "observations": 10
+        },
+        {
+          "path": [
+            "region_name"
+          ],
+          "types": [
+            "string"
+          ],
+          "observations": 10
+        }
+      ]
+    },
+    "id": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "img": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "is_free_shipping": {
+      "types": [
+        "number"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "is_sshop": {
+      "types": [
+        "number"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "last_sale_amount": {
+      "types": [
+        "number"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "last_sale_amount_show": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "last_sold_count": {
+      "types": [
+        "number"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "last_sold_count_show": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "launch_time": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "off_shelves": {
+      "types": [
+        "number"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "ori_price": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "price": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "product_id": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "product_rating": {
+      "types": [
+        "number"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "region": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "region_name": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "relate_author_count": {
+      "types": [
+        "number"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "relate_author_count_show": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "relate_live_count": {
+      "types": [
+        "number"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "relate_live_count_show": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "relate_video_count": {
+      "types": [
+        "number"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "relate_video_count_show": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "sale_amount": {
+      "types": [
+        "number"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "sale_amount_show": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "shop_info": {
+      "types": [
+        "number",
+        "object",
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": [
+        {
+          "path": [
+            "avatar"
+          ],
+          "types": [
+            "string"
+          ],
+          "observations": 10
+        },
+        {
+          "path": [
+            "is_sshop"
+          ],
+          "types": [
+            "number"
+          ],
+          "observations": 10
+        },
+        {
+          "path": [
+            "name"
+          ],
+          "types": [
+            "string"
+          ],
+          "observations": 10
+        },
+        {
+          "path": [
+            "seller_id"
+          ],
+          "types": [
+            "string"
+          ],
+          "observations": 10
+        },
+        {
+          "path": [
+            "sold_count"
+          ],
+          "types": [
+            "number"
+          ],
+          "observations": 10
+        },
+        {
+          "path": [
+            "sold_count_show"
+          ],
+          "types": [
+            "string"
+          ],
+          "observations": 10
+        }
+      ]
+    },
+    "shop_name": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "sold_count": {
+      "types": [
+        "number"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "sold_count_show": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "source": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "title": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "total_author_count": {
+      "types": [
+        "number"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "total_author_count_show": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "trend": {
+      "types": [
+        "array",
+        "number",
+        "object",
+        "string"
+      ],
+      "observations": 70,
+      "subpaths": [
+        {
+          "path": [
+            "[]"
+          ],
+          "types": [
+            "object"
+          ],
+          "observations": 70
+        },
+        {
+          "path": [
+            "[]",
+            "dt"
+          ],
+          "types": [
+            "string"
+          ],
+          "observations": 70
+        },
+        {
+          "path": [
+            "[]",
+            "inc_sale_amount"
+          ],
+          "types": [
+            "number"
+          ],
+          "observations": 70
+        },
+        {
+          "path": [
+            "[]",
+            "inc_sale_amount_show"
+          ],
+          "types": [
+            "string"
+          ],
+          "observations": 70
+        },
+        {
+          "path": [
+            "[]",
+            "inc_sold_count"
+          ],
+          "types": [
+            "number"
+          ],
+          "observations": 70
+        },
+        {
+          "path": [
+            "[]",
+            "inc_sold_count_show"
+          ],
+          "types": [
+            "string"
+          ],
+          "observations": 70
+        },
+        {
+          "path": [
+            "[]",
+            "product_id"
+          ],
+          "types": [
+            "string"
+          ],
+          "observations": 70
+        },
+        {
+          "path": [
+            "[]",
+            "region"
+          ],
+          "types": [
+            "string"
+          ],
+          "observations": 70
+        },
+        {
+          "path": [
+            "[]",
+            "region_name"
+          ],
+          "types": [
+            "string"
+          ],
+          "observations": 70
+        }
+      ]
+    },
+    "yday_sale_amount": {
+      "types": [
+        "number"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "yday_sale_amount_show": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "yday_sold_count": {
+      "types": [
+        "number"
+      ],
+      "observations": 10,
+      "subpaths": []
+    },
+    "yday_sold_count_show": {
+      "types": [
+        "string"
+      ],
+      "observations": 10,
+      "subpaths": []
+    }
+  }
+}

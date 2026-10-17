@@ -1,0 +1,69 @@
+{
+  "captured_at": "2026-10-17T00:25:45.496Z",
+  "target": "https://www.fastmoss.com/pt/e-commerce/search",
+  "response": {
+    "url": "https://www.fastmoss.com/pt/e-commerce/search",
+    "status": 200,
+    "mimeType": "text/html",
+    "protocol": "h2",
+    "fromDiskCache": false,
+    "fromServiceWorker": false,
+    "encodedDataLength": 155
+  },
+  "bytes": 636299,
+  "sha256": "538e6a9eb2a53d227d14158ffb1c1bf19da3f6bfa88eebec6ee60c637be8f2a6",
+  "findings": {
+    "1731916815699052495": {
+      "found": false,
+      "index": -1,
+      "snippet": null
+    },
+    "Reparador de Pontas": {
+      "found": false,
+      "index": -1,
+      "snippet": null
+    },
+    "Semélle": {
+      "found": false,
+      "index": -1,
+      "snippet": null
+    },
+    "591.7": {
+      "found": false,
+      "index": -1,
+      "snippet": null
+    },
+    "403.9": {
+      "found": false,
+      "index": -1,
+      "snippet": null
+    },
+    "33.9": {
+      "found": true,
+      "index": 139720,
+      "snippet": ".7 96.5-142 23.6-55.2 35.6-113.9 35.9-174.5.3-60.9-11.5-120-34.8-175.6zm-151.1 438C704 845.8 611 884 512 884h-1.7c-60.3-.3-120.2-15.3-173.1-43.5l-8.4-4.5H188V695.2l-4.5-8.4C155.3 633.9 140.3 574 140 513.7c-.4-99.7 37.7-193.3 107.6-263.8 69.8-70.5 163.1-109.5 262.8-109.9h1.7c50 0 98.5 9.7 144.2 28.9 44.6 18.7 84.6 45.6 119 80 34.3 34.3 61.3 74.4 80 119 19.4 46.2 29.1 95.2 28.9 145.8-.6 99.6-39.7 192.9-110.1 262.7z\"></path></svg></span></div></a><a class=\"cursor-pointer\" href=\"https://twitter.com/FastMoss\"><div class=\"w-[40px] h-[40px] flex"
+    },
+    "gmv": {
+      "found": true,
+      "index": 93059,
+      "snippet": "/circle><path d=\"M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8\"></path><path d=\"M12 18V6\"></path></svg></span><span class=\"min-w-0 truncate text-left text-sm font-medium leading-[1.3]\">GMV</span><span class=\"flex h-6 flex-none items-center rounded-full bg-[#f5f8fd] px-2 text-[13px] font-semibold leading-none text-[#57626f]\">7 dias</span><span class=\"ml-auto max-w-[104px] flex-none truncate pl-1 text-right text-[13px] leading-[1.3] font-normal text-[#c8ccd7]\" aria-describedby=\":R2jadtff4qufnlta:\">...</span></button><button type=\"button\" disabl"
+    },
+    "visitor": {
+      "found": true,
+      "index": 265512,
+      "snippet": "ição padrão\\\",\\\"pro\\\":\\\"Edição profissional\\\",\\\"team\\\":\\\"Edição Flagship\\\",\\\"upgrade\\\":\\\"Atualizar assinatura\\\",\\\"plans\\\":\\\"Atualizar assinatura\\\",\\\"open\\\":\\\"Ativar assinatura\\\",\\\"visitor\\\":\\\"Visitante\\\",\\\"limited\\\":\\\"Acesso limitado\\\",\\\"unlimited\\\":\\\"Acesso ilimitado\\\",\\\"export\\\":\\\"Exportar\\\",\\\"online\\\":\\\"Em Breve. Aguarde!\\\",\\\"monitor\\\":\\\"Monitoramento\\\",\\\"baseFilter\\\":\\\"Filtro por país/região\\\",\\\"fifty\\\":{\\\"times\\\":{\\\"month\\\":\\\"50 vezes/mês\\\"}},\\\"logout\\\":\\\"Encerrar sessão\\\",\\\"threeHundred\\\":{\\\"times\\\":{\\\"month\\\":{\\\"Sub\\\":{\\\"account\\\":\\\"3"
+    },
+    "visitante": {
+      "found": true,
+      "index": 210831,
+      "snippet": "r, insira o nome da sua empresa\\\",\\\"Please_companyAddress\\\":\\\"Por favor, insira o endereço da sua empresa\\\",\\\"infoEmail\\\":\\\"E-mail\\\",\\\"LoginAccountCenter\\\":\\\"Atualmente, você é um visitante, faça login ou registre-se para ver as informações da sua conta~\\\",\\\"manage\\\":\\\"Gerenciamento\\\",\\\"subscribing\\\":\\\"Assinado\\\",\\\"no_subscription\\\":\\\"Não assinado\\\",\\\"cancel_subscription\\\":\\\"Cancelado\\\",\\\"subscribe_verb\\\":\\\"Assinatura\\\",\\\"subscription_table_name\\\":\\\"Nome do plano de assinatura\\\",\\\"subscription_table_status\\\":\\\"Status da assinatura\\\",\\\"subscrip"
+    },
+    "__next_f.push": {
+      "found": true,
+      "index": 142676,
+      "snippet": "iv></div></div></footer></div></div></div><script src=\"/_next/static/chunks/webpack-3091b878a4ad743e.js\" async=\"\"></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>self.__next_f.push([1,\"0:\\\"$L1\\\"\\n\"])</script><script>self.__next_f.push([1,\"2:HL[\\\"/_next/static/media/17a2570cf370c52a-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n3:HL[\\\"/_next/static/media/2885366e8c5f9501-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n4:HL[\\\"/_next/static/media/4"
+    }
+  },
+  "next_f_push_count": 55,
+  "script_tag_count": 148
+}

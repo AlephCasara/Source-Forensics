@@ -37,3 +37,9 @@ node_modules/
 .DS_Store
 *.swp
 *.tmp
+
+# Third-party runtime script exports (local forensic cache only)
+forensics/**/exported-scripts/files/
+
+# Large vendor REA result captures are local evidence; Git stores hashes/extracts
+forensics/**/results/*.json

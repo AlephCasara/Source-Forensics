@@ -1,0 +1,85 @@
+{
+  "experiment_id": "FM-002-product-search-boundary",
+  "versioned_artifacts": [
+    {
+      "path": "artifacts/current-dom-rows.json",
+      "bytes": 4837,
+      "sha256": "0fe0c02162a69be70a80b38377753e3b1281530782f50c0325dc1639cf11f79b"
+    },
+    {
+      "path": "artifacts/evidence-index.json",
+      "bytes": 3193,
+      "sha256": "a0529a5cf6940f548b3ccdfbf32f72641f3c219750266796280ff76564a439c9"
+    },
+    {
+      "path": "artifacts/http-client-contract.json",
+      "bytes": 3219,
+      "sha256": "7021858ddd4eaab81933382bbd508827eea790dac889743f8d6f17f5a18e7991"
+    },
+    {
+      "path": "artifacts/initial-document-patterns.json",
+      "bytes": 1524,
+      "sha256": "d9ceeb8f4a676fdedf943e0f688ac7dcc1a28612f10e40e42695f21e001e11d6"
+    },
+    {
+      "path": "artifacts/initial-document-proof.json",
+      "bytes": 4483,
+      "sha256": "70d91a27e2c066a4e5ee0a2f9f9ac67ff3b98ba4a5ac55fe56ad40ca2c5e1174"
+    },
+    {
+      "path": "artifacts/page3-response-summary.json",
+      "bytes": 6353,
+      "sha256": "13ac32cdc133cff1516b74ae04db4bfd73d9be8c2e1bf7ba82552670a2ecef71"
+    },
+    {
+      "path": "artifacts/page4-request-contract.json",
+      "bytes": 1304,
+      "sha256": "d860649b61ea6e6db88a58cd537c74cffa245034a431cd5ead024cf7e12d532d"
+    },
+    {
+      "path": "artifacts/page5-response-summary.json",
+      "bytes": 6102,
+      "sha256": "469af712867ff1ef3306fa227afe5bf590eae5942c0d5a45c3eb112e77ba063b"
+    },
+    {
+      "path": "artifacts/pagination-request-comparison.json",
+      "bytes": 1742,
+      "sha256": "3a4bbfe52a11660e6efb29afe0ce174dcad65f5bbc05ca5ceb2a86bf6cc5da0e"
+    },
+    {
+      "path": "artifacts/performance-resources.json",
+      "bytes": 74299,
+      "sha256": "0b67b9f8b2170cf997bd69700a50f3957e258ffedeff4b7fb679b352dbda68f7"
+    },
+    {
+      "path": "artifacts/product-search-schema.json",
+      "bytes": 12632,
+      "sha256": "5a1da9cbfae204d163172c1449562639cb46096472432c5d6613e8ac09a3a52a"
+    },
+    {
+      "path": "artifacts/script-evidence.json",
+      "bytes": 1479,
+      "sha256": "a7767b62ba131ed1e97fc4e20b3198c13027d72bc799f38168e1458dccd183ee"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10289,
+      "sha256": "93731dd089940e89ecccb6da232ec27e9ab7b86dbfd1f030d5448bfbc258745c"
+    },
+    {
+      "path": "direct-product-search.json",
+      "bytes": 475,
+      "sha256": "48be89aa32f93a3c430b7c9bc51d0f29439384a17e8d27c53405fa6df19d1c57"
+    },
+    {
+      "path": "click-product-search.json",
+      "bytes": 748,
+      "sha256": "46cb6d0a07b258ba3eef5cac84399680542535493648c779d69c6f0c6219ff24"
+    },
+    {
+      "path": "exported-scripts/manifest.json",
+      "bytes": 137657,
+      "sha256": "b0305ded62433ce69a35656a047860cdfee0e871ec6962a1f5982c89da532774"
+    }
+  ]
+}

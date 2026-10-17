@@ -1,0 +1,62 @@
+{
+  "endpoint": "/api/goods/V2/search",
+  "observations": [
+    {
+      "page": 2,
+      "url": "https://www.fastmoss.com/api/goods/V2/search?page=2&pagesize=10&order=2,2&region=US&_time=<volatile>&cnonce=<volatile>",
+      "status": 200,
+      "source": "REA passive evidence ev_5c885cbcd46ac0f4bfc0e0691b4b939133a1fc51ac9421d24a7fc922e4045fa0"
+    },
+    {
+      "page": 3,
+      "url": "https://www.fastmoss.com/api/goods/V2/search?page=3&pagesize=10&order=2,2&region=US&_time=1792196961&cnonce=19721944",
+      "status": 200,
+      "response_sha256": "029452ce4438fdd56e09e1d6a57aba95376e225df94db42834ca6170aef82033",
+      "response_bytes": 40137,
+      "source": "UI-driven CDP capture"
+    },
+    {
+      "page": 4,
+      "query": {
+        "page": "4",
+        "pagesize": "10",
+        "order": "2,2",
+        "region": "US",
+        "_time": "1792197045",
+        "cnonce": "28065494"
+      },
+      "headers": {
+        "region": "US",
+        "lang": "PT_BR",
+        "source": "pc",
+        "fm-sign": {
+          "present": true,
+          "length": 32,
+          "sha256": "27e5477ba601c7a4fa9a3966a371914c585d5a8680e2fc3efe2549d863c6bcd6"
+        },
+        "fm-sig": {
+          "present": true,
+          "length": 64,
+          "sha256": "1766e44543aa9489a33ee559fe4ff047f35bbe328bb25aca474fab6d9352b82f"
+        },
+        "cookie": {
+          "present": false,
+          "redacted": true
+        }
+      },
+      "source": "UI-driven CDP request capture"
+    }
+  ],
+  "classification": {
+    "pagination": "page-number",
+    "page_size": 10,
+    "default_order": "2,2",
+    "region": "explicit query parameter",
+    "volatile_request_fields": [
+      "_time",
+      "cnonce",
+      "fm-sign",
+      "fm-sig"
+    ]
+  }
+}

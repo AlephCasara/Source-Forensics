@@ -1,0 +1,71 @@
+{
+  "product_detail_links": {
+    "count": 0,
+    "samples": []
+  },
+  "shop_detail_links": {
+    "count": 0,
+    "samples": []
+  },
+  "currency_R": {
+    "count": 2,
+    "samples": [
+      "R$",
+      "R$"
+    ]
+  },
+  "sales_7d_pt": {
+    "count": 10,
+    "samples": [
+      "vendas nos últimos 7 dias",
+      "Vendas nos últimos 7 dias",
+      "vendas nos últimos 7 dias",
+      "vendas nos últimos 7 dias",
+      "vendas nos últimos 7 dias",
+      "Vendas nos últimos 7 dias",
+      "Vendas nos últimos 7 dias",
+      "vendas nos últimos 7 dias",
+      "vendas nos últimos 7 dias",
+      "vendas nos últimos 7 dias"
+    ]
+  },
+  "revenue_7d_pt": {
+    "count": 2,
+    "samples": [
+      "Receita nos últimos 7 dias",
+      "Receita nos últimos 7 dias"
+    ]
+  },
+  "conversion_pt": {
+    "count": 2,
+    "samples": [
+      "Taxa de conversão por influenciador",
+      "Taxa de conversão por influenciador"
+    ]
+  },
+  "visitor_gate_pt": {
+    "count": 5,
+    "samples": [
+      "sem permissões suficientes",
+      "sem permissões suficientes",
+      "sem permissões suficientes",
+      "sem permissões suficientes",
+      "sem permissões suficientes"
+    ]
+  },
+  "next_f": {
+    "count": 55,
+    "samples": [
+      "self.__next_f.push",
+      "self.__next_f.push",
+      "self.__next_f.push",
+      "self.__next_f.push",
+      "self.__next_f.push",
+      "self.__next_f.push",
+      "self.__next_f.push",
+      "self.__next_f.push",
+      "self.__next_f.push",
+      "self.__next_f.push"
+    ]
+  }
+}

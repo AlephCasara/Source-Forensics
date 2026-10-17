@@ -1,0 +1,3369 @@
+{
+  "capture_path": "/home/aleph/Projects/Source-Forensics/forensics/vendors/fastmoss/experiments/FM-002-product-search-boundary/results/04-page2-passive.json",
+  "capture_sha256": "19265447ed0c5e15f49d333b7d2e6f73d07077ec8e6e3ca56ebc821cf4ad9013",
+  "capture_kind": "page-inspection",
+  "source_evidence_id": "ev_5c885cbcd46ac0f4bfc0e0691b4b939133a1fc51ac9421d24a7fc922e4045fa0",
+  "capture_completeness": {
+    "status": "policy_filtered",
+    "conditions": [
+      "attach_limited",
+      "policy_filtered"
+    ],
+    "policy_filtered_sections": [
+      "accessibility",
+      "console_text",
+      "metadata",
+      "network_requests",
+      "resources",
+      "scripts",
+      "storage_keys",
+      "websocket_shapes"
+    ],
+    "attach_limited_sections": [
+      "console_events",
+      "metadata",
+      "network_requests",
+      "websocket_connections",
+      "websocket_frames"
+    ],
+    "truncated_sections": [],
+    "unavailable_sections": [],
+    "excluded": [
+      {
+        "section": "accessibility",
+        "reason": "not_approved",
+        "count": 1324
+      },
+      {
+        "section": "console_text",
+        "reason": "not_approved",
+        "count": null
+      },
+      {
+        "section": "metadata",
+        "reason": "disallowed_origin",
+        "count": 64
+      },
+      {
+        "section": "metadata",
+        "reason": "unsupported_url",
+        "count": 1
+      },
+      {
+        "section": "network_requests",
+        "reason": "disallowed_origin",
+        "count": 20
+      },
+      {
+        "section": "resources",
+        "reason": "disallowed_origin",
+        "count": 36
+      },
+      {
+        "section": "scripts",
+        "reason": "disallowed_origin",
+        "count": 17
+      },
+      {
+        "section": "scripts",
+        "reason": "unattributed_origin",
+        "count": 10
+      },
+      {
+        "section": "storage_keys",
+        "reason": "not_approved",
+        "count": null
+      },
+      {
+        "section": "websocket_shapes",
+        "reason": "not_approved",
+        "count": null
+      }
+    ],
+    "dropped_events": {
+      "scripts": 0,
+      "network_requests": 0,
+      "console_events": 0,
+      "websocket_connections": 0,
+      "websocket_frames": 0,
+      "webmcp_tools": 0,
+      "timeline_events": 0,
+      "total": 0
+    }
+  },
+  "output_directory": "/home/aleph/Projects/Source-Forensics/forensics/vendors/fastmoss/experiments/FM-002-product-search-boundary/exported-scripts",
+  "analysis_input": {
+    "input_path": "/home/aleph/Projects/Source-Forensics/forensics/vendors/fastmoss/experiments/FM-002-product-search-boundary/exported-scripts/files",
+    "format": "directory"
+  },
+  "scripts": [
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_0433f43e68259f73d2a84e7593027342d4daed48d56224fd94a8b89a33307030",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/2053-2257984900b17314.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/2053-2257984900b17314.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "dc5b288fed97407eee243e030b652ae76325818dbb2177f51ded1968102d7d7c",
+        "bytes": 33508,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_04415f22eb066804fa7547b1aef8ab5f03bf3761b2d37d5cd5bb68bccdd78c9e",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-2-62ab287bc89f19ae80274ffdfeea194cf41fad856902fecb5f271e271b6c04c9.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "1ea1ba262bf07f6b2e13bc2ee5a26b9abf9edcf0a4261aae51316099a420f780",
+        "bytes": 2237,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_04e7607737e5ecff8201e6badf47a5a48c5c549124ecc0a59790b4775a851aa6",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/91337-495c15a3e56b62e9.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/91337-495c15a3e56b62e9.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "c13b44a98a3a32c3d6ca6ded360963f46d4cc166a6d50c30b04020e57a457d97",
+        "bytes": 22408,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_05994af97f3038f706f9fbfcbbf39320ff21d260fec8db37f701b16386e83f70",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-4-3bd48308b0b97e12cbc18cef432377b8dd702f6bae1e4c31124ad1dd5c4472c2.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "a5d08067aedfbe8a5e06bc87b764355a957c07fc66c6ff509e11fb88876a9bfe",
+        "bytes": 34,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_08532a2a69d2e55ecd9aecdcdaaa68efa481f471246e20dd082e751915fefd6c",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/33839-b89348bbe3bee22d.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/33839-b89348bbe3bee22d.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "3f1880f22d6f390d0abc42fbe1862301ea26e2b5e56642bae4fef3b7a9e628b0",
+        "bytes": 29923,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_1167f745194cfb1a467a5b03738a9ff312e6f780038998004ad461f12c0c4657",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-6-cb033b896230eb567d1a47e119f5ae6a9d1fb4c89e7b0654b29cf4eed858de65.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "8585763c3567413f45b7c85c645f1b95d6f05a5d133a5f9f2703ec6134daf056",
+        "bytes": 34,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_12e11467ad65c6354857a65feedc40f877965ca0008311e4ec3793ef76dfebe8",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-7-d88e87b93cdd21353e8af90db7073e169c76139bfdbf2008ca591971d65e821f.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "9412e827b712af0472dee105de90c747d2edc2b8b43a113feb47c4076d2670e0",
+        "bytes": 37,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_13b1b1a6b53930ccd4e4cb460fae1c62040cbfc6f58c107a01e55b4ba03bbbf3",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/92049-da84acb4890f7914.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/92049-da84acb4890f7914.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "b6bdebdbcca5162b5a135efc2e8d30eaeac594c8c0616b9d986c702ce9a7d4d8",
+        "bytes": 9675,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_16fd1ac8a5398cc3b0dd9a104e70884015d82c38406bdd40138a4fa74e39b60c",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-9-d373a6579888cbeeb046b9b9d3e5db495d13a903eb580f98981652133c19221f.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "49c4cd7553ae5df48d457f025c045c9af852a0a6813f08f6127eb7d9094740a9",
+        "bytes": 3605,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_1ce5a117fa808f7dc7cd1377b7ab1e785cb867dda7462f3b9d836746acf99c28",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/24453-91e0b14b17894949.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/24453-91e0b14b17894949.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "1f11fd3938306ec94d673fe4609ea37454b40773f6712ef0a1b9f706e860435d",
+        "bytes": 40045,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_1d59736357cc4a961536c77ba5d809b9050afa2658bffbbab7d7e80750f6b0f6",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/41595-8f05dcf15bac9fbf.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/41595-8f05dcf15bac9fbf.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "a9c6714b5417aafedb57a8dd343c7264eb3faa2d5ecd334ae168bf0729686c83",
+        "bytes": 33278,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_1d8858effbc9cd33ae3ace0ef38d9b6f9f08514e4be9bb6f83d77805c45b761c",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-12-f19955562ddd2f4cc5ec9fc930585a24d3a18334cdffbf1b63242c617c85e8a3.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "ee67feeff1c6e4599fe68879054a0d4c6b682f2dde5af1dcd0c91fbc1c69b2c5",
+        "bytes": 3596,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_1da7e6370744074463ebf5c898bf51cedcd4059ea6aa0d6060a2f11d10af9e3d",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-13-d85f34299dc550d6eee09b71125ed8aef70323d2e3074035a8cc908d31b10cba.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "ef170ee74af22cd3ede2161f7a6da9cdb76d7949f19ce35682b046e264cbb821",
+        "bytes": 3596,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_21d722f4142d7bf0754fa7f3a672d8853132a059cdbcfcdc1e48d6ea634d0ac0",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/61127-b01442b4b5e87aa6.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/61127-b01442b4b5e87aa6.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "e539e4480302656c64b1ec7b0f7d6264b92c85d010c59dbd52f9949f1120e4d9",
+        "bytes": 7995,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_22697c3cbcd6d29c582f3566c03eb28ff67d00f2ad5ca4f24a5caa5790fc4ca9",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/3717-722f8550a9638542.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/3717-722f8550a9638542.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "360a458ba8c60760b5f252a73408cda04bc60e7619043b0ca09ec56ad3bba695",
+        "bytes": 33539,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_23d2a54373817c6388687bea4db81363b525152a4d00d2fbe1e6c7ac116bb7ee",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/17345-0390e108c409275d.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/17345-0390e108c409275d.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "406717102ea41274d4322cd814c1b4e484881a07c726d474a2bc2d66cb21c1c7",
+        "bytes": 29235,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_2509b0bc95c6377ee87df5fc43dc8f17df0817581f1458b40e2db356ac276ae9",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/83284-ee2d6c944d42fddb.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/83284-ee2d6c944d42fddb.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "171658934233db5ae2b13a06960c50d72fff5b04c8e71aea30551386fb32d2d3",
+        "bytes": 21934,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_2668cdb15d09c1aaf8940146ec12674a6f9ac03ddaf5fb460da77219e8d681fb",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/65945-8778ec35f11b9272.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/65945-8778ec35f11b9272.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "4d41821e9d9f2339675e488322387c095b75fffa14148044640f7d81cfc43a29",
+        "bytes": 113265,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_270d67d3564a632316d27b9ff99996ad85d6e329bcc06f90d3cb6182a24c5c48",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/10676-531670858fe5e622.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/10676-531670858fe5e622.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "2105757c69f8f755503b493ea6b299631c63c0776c6cd342589862348dd4d303",
+        "bytes": 20443,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_27869b6fbc5db709d024a9a7569866b35eac6ec42bf49d3b8680be9266d04400",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/88487-6031c1c79231502b.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/88487-6031c1c79231502b.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "f38f0a293cd83fa892115e30890a8b183e1afab392bd6994ec06c6028b413d27",
+        "bytes": 233363,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_28cc058d26bd91fc6acef1b1065cb153d771f17cf2c14a1aed1646f68d694ae6",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-21-878fd8d171d54e722563a3ec1e03f9e52602713cd88847b9d8bdbcbeca344cf6.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "2ea8b86d946de33cacce896584ca7d566af79d7a8a3348826146163d20143bdd",
+        "bytes": 397,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_28f88bcb88fc78bb804d7636e2ab74017275e0c7cc0b7e385c43554c5057566d",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-22-46b9712814a453b5a5fb7f378a9b4775411b382854c58f244a63a3b561bcbb28.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "2bca9ccbbb574d8ebd4fa3459878412cc5ef529a851bae8fb3ecc89ddf835a13",
+        "bytes": 722,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_2cfee5b323f10054dc833e9000ee1d3be1f56e646cdef3d4441bad261cfc0a4e",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/58577-a911fae31b83a7c9.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/58577-a911fae31b83a7c9.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "3853ed67733e905948a2edc995d6307a724e7c5f90d841006261676271dbc022",
+        "bytes": 35633,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_2d14357d0eee631cf90101851f1497b3e927806b9aba728f8c76c037c0caf634",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/74118-b79fd6e461450a0b.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/74118-b79fd6e461450a0b.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "919769480e2c6c2470b02d5fa958e68ce9ddd4ba3d9298b453389a71beaf75e8",
+        "bytes": 15086,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_32ff44ee25de40fc58b5c4516a3b375247e2bdfa3435aac60d1990b6a6437a97",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-25-56950f32e48c50256d6b9dd9ea6959971107af08da7e6e6464c27ef1a6e4d3dd.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "e086a7358f4712f9915a87ebe107d0f6b9d72c77238dbccfd5ed00e92368d498",
+        "bytes": 3595,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_3438b0f2c6b6005badad771c795460105238c749b43a64d4eec43f8252c9a46b",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/1218-31dab44dacfbb7d9.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/1218-31dab44dacfbb7d9.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "434c7a20be9d92f832e56d6c4a328e46dc4b97a7c35e6dd49b1acc8d8867b1af",
+        "bytes": 28433,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_357a92f0d0417a89e193ed9bee1643209120c80250559ddbcb8df810ca4eb7f8",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/90766-130c8b771bbf4436.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/90766-130c8b771bbf4436.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "c7734ac884d642c0e801c7cce642445dcd1db0e21b4775e205e234040afa405d",
+        "bytes": 55517,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_37d77220db7425f3185ef750dcedb5b9348bcc4d75f89c8b8b8fd5e4d641657b",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/43463-d62636fc5ff01acf.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/43463-d62636fc5ff01acf.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "23fb1a817ef4c2a6f5311611e55c2c3523897d31a8b289901ca02f412daae317",
+        "bytes": 55568,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_3c9c9ed2e8e0650aa660209631a428dbe257298642b748ed0b1b022898327b26",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/95900-6c5edcd9fd66f6d7.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/95900-6c5edcd9fd66f6d7.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "636bd9ea94c1b92bfddcfa4852b522157eb334d636171de46843ddd6c06c7690",
+        "bytes": 10565,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_3d048bcb90844251ada2babe66ea73b7e004bb58f8902bc6cb11e9ff7be8bdb6",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/87104-7cc6c927b688205e.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/87104-7cc6c927b688205e.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "fb8cfba5e3ed71e21fcd48ecba919c339757b31e67a3adfab22ecb03625eed77",
+        "bytes": 1087450,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_3ebbdf82147527ec0f4b1a3a15c7ee81246ff761271cd3108bec5445b0d247c4",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/1633-74e55110a1cd9acd.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/1633-74e55110a1cd9acd.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "9ef560870153f747584b2c252b24cb8d2f2df03867d5dd186856e5c1afa6f206",
+        "bytes": 30232,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_3f7d0962bb4e5b231dc95fdb71dc823dfd358db79566fb9b391bc94979361603",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/93901-823fac1342e31a87.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/93901-823fac1342e31a87.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "c80f28dbbfedbd1921fb3ea3fe28e67362d407ed86baae698c49d2ceea820357",
+        "bytes": 19584,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_3fd68389f1175c9706d2ba6b84a652dc426f5170fb4c1354314799ed21c6aa29",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/78050-64b330397b1b75ae.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/78050-64b330397b1b75ae.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "8f4971c6bcb800ba7b4a05809c162a8d567a17c67fd55fef1394b5319668f7df",
+        "bytes": 93674,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_44c0ed86b1398465fae550eb67aead5787db5fedb384daa7e63dbb8d39a6456a",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/70289-8caefb6e37a09b7c.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/70289-8caefb6e37a09b7c.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "87787a95804e723efaac43b9dbfaa1746c70c85570a8b451fed86241e9b9ca0f",
+        "bytes": 20154,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_47a37ddc21e06b78ed67a1b19a1ff3acbcd4342dcdd4034f8637fc122b65cac1",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/89088-5c4df8559997aab3.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/89088-5c4df8559997aab3.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "fc911b3e62e01b49a0b82ae293cdf25f9132db9058558b2877e16df5e465f749",
+        "bytes": 26935,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_4820a12a3ddd4f7fcf1c0cf47ab5c2de7cdb3b51c683f5613dfbe0b23c53f2f6",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-36-1c3c3fafca923995e881f902e5fa12c3f9ebb8287d51024924c5f318b65c958c.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "c1c72a9e6c9e0d11f50d1b810432e64c107065d96df8cca6a61a844047611aaa",
+        "bytes": 2241,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_48c21232cf865aae53bdd6630847fdc16d4bb4d05e9e6167073de96aae85b16d",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/70311-fec508b491ca0ca2.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/70311-fec508b491ca0ca2.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "ee45a0fff643257d370755677bed92a860000e92547c045060bd9af4721feb10",
+        "bytes": 7602,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_4981f8913fe4abfe280b1e4d794ab67ce6cbee6d1f0bbbadf66df013396a9231",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/85462-611e5f46b1dfc80d.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/85462-611e5f46b1dfc80d.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "030188dd3d813197f563002a5736f33fc80ce4634eee97d3e38ea8dadc6dc159",
+        "bytes": 12218,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_4a0b6d2b0aae1376f2157e8f145d9d968f7f3338f01a980fec4845fb189906c1",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-39-b348a7b55402c1138af5a7b3a43c2dc70fc43f9ab9b8873506e7ef381e5821d8.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "c4ee830157123a033045bcaca74b98363753748bb405d7903973535a4b27e99d",
+        "bytes": 2237,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_4d6a5632f399a93b35128d11ebe5678ea62079a833e021348a82f9f7355c3e87",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/app/%5Blocale%5D/(normalLayout)/e-commerce/search/page-1efe329d1c300697.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-40-aed4cdfafe1a0886d3ad40cabd721cf941449ff6dfc40b1e9bc94cbf06f203d0.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "7970b1d5cf4967aa0f3d842a0e5457040d1971b937c84af3b3eaa01c2282a1ac",
+        "bytes": 80424,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_4df3b8ea05606ae036aa03943ed9cab97833afd2a455f569abd84118f74a75aa",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-41-04bc11a370ba1d8757255fc121af2e0e95adf5b2933189658b3f3d10eff35108.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "ff514ba8d0e824746f359ae11424f6a63b22066800ed8399a7878ee08734ab84",
+        "bytes": 2833,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_4fff284aa6ba3edfb73a2f4a9fe3a25c88b88cf715dc035f8024253d4e0b6a0d",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/17437-00856945026e74a6.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/17437-00856945026e74a6.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "37cb218bcff3e086ba6a0086d07a7fef97677f6603512a066469b760dc85ac6e",
+        "bytes": 40534,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_55672c72307692906d6243a7502b0a3f8ff809b64f2f99033d10c19e33ce72ca",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-43-1e4180a60a71973d25441d126899f42b2ccfcbd92f09e276f53ee4ff1c771668.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "aaa823802f962dac77d9f1769f9b225db91393e37beb13dfd361d84efc7a43dd",
+        "bytes": 2074,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_566189278a6b0dcd3726b290398bdc066d63ca2fa5975e9b942f6ac23e108ad6",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-44-7810a55dda5088f352de8e3d6ab609483c31df80c93e084795f686cd2a453ed0.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "0fd2afa2efe139b7dc1302f2dac02a990f1c06e1906feae49fe55c37a4219a5f",
+        "bytes": 1706,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_582513a4ebfe1320f780cc9e18839f24f739ef0bbf84dc08f5a8451d8b20e4ad",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-45-0e605dfae35e2c16d3a6de3060b264be9ba555f2e33e9c11753d286c22c9cf81.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "4c27c970c564c89331a2f0fc135c9463c335b7d6facb8b8768a3f35f99469c41",
+        "bytes": 3615,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_596e69fa58312768394c158575d89efc2065f22d365a393fa9e433bcdbb5b857",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/56069-2d272a9b15c71830.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/56069-2d272a9b15c71830.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "7a2be91eff66eba6bd0b7775cb42f87da2bd49b941cef426273403d153f8ab67",
+        "bytes": 87219,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_683313c603a61bdb449d5fa309767b9441e83be067f1d0609d9969f4387d3abd",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/79019-c3745b70544f3aa2.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/79019-c3745b70544f3aa2.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "2d634cc1f1a5083f25c0d7f4c48ac0f7a5ed1d11ae24949538ec85485b43f0be",
+        "bytes": 61854,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_68343d22c32931b38dd930a5b2c4d063945083585f5f3e1737a60993ceb77c4a",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/29595-7cc3c6ba4486a4bb.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/29595-7cc3c6ba4486a4bb.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "3afc083db7ef13bbb97937d1e2da840d7092dc9a75f2b16d04bbeedcdbe2305a",
+        "bytes": 36389,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_68e52d6838f1c41bffb7e5c4e349b60919a8b2193f01f499259a3e55ebcfe63f",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/11624-c5b275ea8cc035f6.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/11624-c5b275ea8cc035f6.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "521eb3b6b57d7a949591d7d8ec337d717d5017b10a4b9758b45e2c0e768a3f8f",
+        "bytes": 24714,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_69247d27be43ad1d94059fdce04dcbab10ad4e17b8352a9e99c9a7c474cf65a6",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-50-04336c4f198a434033b9124965b75b8d4ef086b9ca07c50cf025098febbb1373.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "890a42b192b6b641fba03b249dc2090f605e19f3e37ddbf1d6fbb2fa4f18e10d",
+        "bytes": 2237,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_69686fb67d8e65aeaf391dd0f0d42f3617e08afe2641ee7367105b1aa5f106e9",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-51-9bef454bfeb4397b762a780105af09b94a98379469a2edc988017890a5c5e833.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "d98f5a42b6830879d50a2d2bdf0f7dc3c23016b8cd88c84abf57d214656722e0",
+        "bytes": 9715,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_6ac752f205f08a3ee775ca130ec8e52922a2881a3e05271adf8b18deee0c516f",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-52-43eb028ae05da6b756ed979fa2f311b7f58e7d7b60f512710d4072290e9dae96.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "ccdd8d396d4b7dbb92cf12bc79be56287b989d158cc78e4fa3c8c3ac6fce168f",
+        "bytes": 3596,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_6b12adc1936a12c499deefe8a251a3edcfd9a6f120fc6eac4454f86fafe41fd4",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/app/%5Blocale%5D/(normalLayout)/layout-58db37d4e6662be0.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-53-8656dac7516a6d5a0854492f40b37d2443fb93b52658f3de023fda3289bbecb2.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "df96876ea4e94a557e1264cad6a7453510a7e6e812b56b36ac9cf49b54e0991f",
+        "bytes": 87432,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_6bbb09935555462253ccfc0da3325e8b6c861015b37b5b77f14d95297a66e1b9",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/41567-2c759342a92fbdc3.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/41567-2c759342a92fbdc3.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "05ccc9fa8e05db78f1a1dec7bcff2a89456d8268f40a5007c0b503635e0ae993",
+        "bytes": 60205,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_6c16894e59f38728ed3d14a40d90e24f6e42597dcbba36f35b16e9a0550f2dab",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/18165-30e8cb6375343d28.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/18165-30e8cb6375343d28.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "577be872b9fdb8bea6f446567208acdcd6af379608a470f45e2cb548aaa4bc0f",
+        "bytes": 12366,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_6d4684665be5e2940382a6110aea4ea1d3b842c048a554822dee2784fb85cb0f",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-56-bfd64dd2dd60360d05827fbf2191ad1c2b21ab0eead09445b50b959bda49ae64.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "7bf1fe29510788a247c033df9c73857283771fe7beb54639e0add8257a38f2f6",
+        "bytes": 2184,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_6e0a4b8360cd672c6fb9fe1170ed143ff991e9f856217478d2fcd4446ce2fdbd",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/36786-26b6ec094866ab9c.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/36786-26b6ec094866ab9c.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "e107f19c87925fa0f2801d71e63dd6dd0186783a232c39331a3f8d2dec688f7e",
+        "bytes": 55149,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_6e420e8300f62a193ba28f5894af527b137fdcf36bebe2b0299ad96089c4da81",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/57083-7190f86e58e84a87.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/57083-7190f86e58e84a87.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "97bbc46a588fee7383d20cd0ffeb69b7f2f11a7dbe8a28ca78fed80a03d819b3",
+        "bytes": 29484,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_6e67003f6801d8b5f6b98baec7a58da78e0b05044db930c5a2a88d81ff5efded",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/1488-0debad065a3d61b7.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/1488-0debad065a3d61b7.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "041d67d9ec5e6bce68885f53f8893b48cb4e637dcb84c627df2fa136c73b8996",
+        "bytes": 20551,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_7057abf65b531859932da4f271647d4f3f9296894de236bc596db2a6176f66dc",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/6dc81886-3de60164d3372e46.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/6dc81886-3de60164d3372e46.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "b7a98a8cdfa11260ef0e6ea9d3e3c5d031878b8350681269ef7bf3a5f9a23756",
+        "bytes": 69735,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_70a459be07fa2d62d991e44856d7e81e3b78fe5328efb6c85aa6dedc3ae88273",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-61-b669e3abab0c2edb4bfbe9d32b911c39c3cc65f95348e95ee59a875edfc0610f.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "eb02aefcafa22500835eace63c9ad8465d16a743907f417ed40a6c1a63b4ae52",
+        "bytes": 362786,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_71a4c6fe7d4868fe09b46c7360e455bc3b7acb25dbd70fcb57c7abc911d08641",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/65348-7e4132441d123039.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/65348-7e4132441d123039.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "cf7d9b14c16493f71b01218206b75d96829da69d144424b742852bdf1f1dfbb5",
+        "bytes": 97905,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_72430990e1186079a84beda7cfcab2e80029c3545225762624e18a5f45393868",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/a93b707c-e8584cb719b33161.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/a93b707c-e8584cb719b33161.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "d515d4264097a5114a15305aaf9140615318ebac75e874b0e2cfa4c7d8e9bffc",
+        "bytes": 95298,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_72e2137844eefbc43ee8484ed722951c273bfd29e6d4e977c47d6ee95f908f02",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/38327-bd08fd496d2a991e.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/38327-bd08fd496d2a991e.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "e1a7910d1f668b1a5111b815abaa4b9c41edbb55fef6f0fe7e7eb9403582fbdf",
+        "bytes": 12393,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_735653dee77bd3afb53ebd08a7c0040056cbe8cf10507a948c2caee48fba1b8c",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/26544.aa0fede92541b359.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/26544.aa0fede92541b359.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "0aea2828670ed5eb91d39864b825b8481ce41473bc87003413079bcc7669b755",
+        "bytes": 586086,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_74847d997409a8ac7e531113efc29dafb2579155afd619a1b06942e026d08e1b",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/19040-1518847178a14e66.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/19040-1518847178a14e66.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "2711a83a77e592b784f6b1719defac1acb599ac6eace96a739061a3d7c123b2c",
+        "bytes": 25506,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_767fa84c92ca149989e46aaf943098b23aa5adba132539ef23b4cbb6559d84d7",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-67-12e3835412b0db2cd9115870349645e30017f8bb2e18f88c2fc1001296c41ec0.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "ecd2f65dc83bf406c11b07065ef61eb7597829a6d3493da8762e5db4c86abfad",
+        "bytes": 3927,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_774e9e06b6d0f276140e642de7a75b0a171d7fdc3b9c16b47cbc6ab35b1ddef9",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-68-3cfddcd7c3f8807e47783d6e2fdef21857e4f49a76be125fd908fd9958980122.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "5f47f061a42f4825118cd6c12b8c5872a9854b1eeb06c8b40d90d327bbf55725",
+        "bytes": 2237,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_7782a160e2e59044955e100f6b4b89eb91f26168091b01c25aee8f2bf29289df",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-69-01b5fa01f79eaa8b7e504f2bcaa45bc8b47f52d85ba44a2509bc0dec40d3e502.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "103b1424978f648576e438d78c6bcf6aae82e9968341d83f5cf660369d302cc1",
+        "bytes": 3596,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_77eae323e036a9812d16cd3c66012a7419e2ac537dccf6166e37295e1d6d4a11",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/76509-e76976c45b8b18d7.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/76509-e76976c45b8b18d7.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "fa1bf0a0348ef0c7c00c92e3f96bc76136c360ec32c756f163e6239c65e693e7",
+        "bytes": 22579,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_7871ff6b96bb7ccc0fc3496c8eb36a029f5c8752cbe006e4ca18d71ae7ec2f78",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/44676-50e0225563a6f934.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/44676-50e0225563a6f934.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "7f667f3ff8da1382277e7eeea87f855d7e07cb6b00d49b04c5c4a4a97ebba748",
+        "bytes": 18855,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_79244bc0b0acbf254a85a7ab65ec1f466302965e270a61b08c51cafc612a5fa0",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/83915-18b9ae84dd5ea87e.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/83915-18b9ae84dd5ea87e.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "bc5820c5aa1c62ccbe45790d3f03346af4aa3df03b025801fc1c505d1a78bf28",
+        "bytes": 37314,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_7960ef942bcd44b7d35a865f243d27ac3386b1827d490a47f369c2c2d7fe337d",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/7f93aed2-4b1407ff1b93d606.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/7f93aed2-4b1407ff1b93d606.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "ca3f976e8255aa825a66334318551eb6a011c4b80aba357c7560f6d9c2e18a81",
+        "bytes": 78482,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_79edcddcf43a8493701f9efaf8aa9e70db675100e33c075a7e58d58ddd5b3f73",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-74-b21717433b90c77d6642ea9d3ef0bcedeff20bf80acf8ceec501e241f05e4da1.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "a63e616beff39bf059072f3364f9e842ff806a1bd093ebd34930d9d8128b42a2",
+        "bytes": 3596,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_7b5cf562e7d740a14b0fe7d011662fab646e3eb0ae7719b2a82468532bd48aa5",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/65797-8a04609cab9a6d49.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/65797-8a04609cab9a6d49.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "781affcf23352b460d3f40647db6bb75d438fb009d66941b0f3de4a83ae33597",
+        "bytes": 105625,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_7d35f8f4e34611a073f1b548308bda5e3ffc36c191e6e0e36b5f00520402b59c",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/53531-4c971949a3df2e3c.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/53531-4c971949a3df2e3c.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "0adc40d9133f12e2fa6f24ba86b73e84dcfda9b208cc60936b4581487a720c11",
+        "bytes": 20188,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_7e724f82db20217489720a99fd06814d5b3f40bed8beceaa83e75106b82c87c3",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-77-d7be20b4fe99fca8e5a1a130229137e154695a54c1451747268d24f6769b51e3.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "7e832edbdfcecf2fa95d4f89027d60e5ba2934bfa5c6b4e85b8b9293b4fee949",
+        "bytes": 3596,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_7f38f5c80e245c2c6723990a0dcab9a9d67bfa112662764102586851a4816e9a",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-78-dd2a3748fb7016d06d98cca88a015700e1253af01fb8e9a3e29df936b19cb777.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "16aa86def0f5aa29ec1efa82ddc7247dba2ae4ac9ae32cc73c5b4bd42b35ce97",
+        "bytes": 2244,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_801c613510f238dfcf2817bfd86040e6ac22722e633320e596bc3c4eb3405899",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/12283-0e07a455d2652e63.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/12283-0e07a455d2652e63.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "00646eb8a41ee274a484e24de9fcdb09f414acfee4a9493968cedc35d338a099",
+        "bytes": 38110,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_881819375ee5aaef242dca1d61e0ba8802c6b91378a1b08eecdc8e2b28c4e0e3",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/70018-776b4c828c847dbf.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/70018-776b4c828c847dbf.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "1bcea034ab3df8b4d280d9b81b7b4ef0dba1ae2e6f3c29b943083792de52f64a",
+        "bytes": 41509,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_8a93ae5f3aa5cd1fc2b7d0e65c4a18e13ccd6e6f33741d10e62b1e44468e1148",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-81-0bed9b2f4ae5f1bf92c4f2a41210cad4ee52f874a2f0db23ee9b9aa3371407bf.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "f486b63cfe36bc30fe6cd42022b7072bbad565cda83406e5d045fabfd8415cc9",
+        "bytes": 2240,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_8c4a8e3866561c4cc41d058e673cb2513d3825582699cd779f3ba672607d39f8",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-82-54d18b41f8e5b2dfd3a667bf7ab4c1dafc6f56b007a43e35a95fe0f046c1710e.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "991209520bfc2116680c55188d9410464215b4c8ffa1fb3dbe92c709ff7c50d5",
+        "bytes": 2113,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_8d6b4971b79017799f715034d20de8e0d1d9e3dc4684915a10416eae42ed8dc9",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/9106-3d6fa13b81a9c713.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/9106-3d6fa13b81a9c713.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "351f04b0e0280af12806f93e7a2dd2f51fd08dbd28d4196bbefcf656c429bbf5",
+        "bytes": 80037,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_8dce4a4a826d9c1eec92175ebe4768b058aa14bc8bc0fa62f78f8de35c93a9b9",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-84-314ab934ff05d469f090430aa873c8e9cc9d32ee0abc0d99817025af6d23871c.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "4e6dc33ca597cf2e8008817709b991b152331c6355462905d572e614616d0b1b",
+        "bytes": 3596,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_8e0a301268719164a7d003675377e6262af2865f5bad17f0a3176ff83ff34f47",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-85-37c3fb14151abac9cb818e3ecaf5909579d87afac202c9abde25740c635877e3.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "b38e1a8d44dca4bb2e69f56e78813ce56f07ad6a299ced9ebe977d278a537520",
+        "bytes": 2237,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_8f962ac029b94a5521f836d28eefc86d4c7ae5dcf43a32f0514c44c5fd80abdd",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-86-340bbf5fddde079ba34559f6063c8dbdb4d72653d057604b510506cb99c93f02.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "5f94645e1d521026b4255f67362d150bc62bfffd40c168a38f22a8d3161f64a0",
+        "bytes": 2236,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_9343032af90c39bb8cf2e1a20b84eeb69dce0a403799792916b1f78ce246fcf6",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/13325-e3daf8007a25fac4.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/13325-e3daf8007a25fac4.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "0217670f919e6c94efd6c2926169263677dc1985fffcb131c6e809a0563dbf18",
+        "bytes": 42100,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_939c4ddff65d01bc29bc879a653d065a6e9353ecda8a894ddb8eb986c0c23ab1",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/app/%5Blocale%5D/(pureLayout)/page-b4d5f2e0bf3a3063.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-88-f1612d88e86c6257a9ee7128387bb45e36cc18d5a5961cc470845aed386e524d.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "49f49ce6372441c585bb1d08fa8a8e6485e84cac0bfc322ccacf9947e8a292a2",
+        "bytes": 51132,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_94cae414ccabb4e9b75390d5f687eabd0b05701cc6f2b497b6f2763fb11831fd",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/69286-8efb34a9de595cac.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/69286-8efb34a9de595cac.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "b60ea5210c18b2769a1b0ef80ba8137fb23c35f77bf683f3c58ef51d3b6f70fe",
+        "bytes": 41483,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_96464b58bd309add3b55c3ed5d532c97b54761777f361064a04a853a5d3661ae",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/46567-36326b56a5958fbd.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/46567-36326b56a5958fbd.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "4effa0f5781400cc2a4af6dccb10633f949e27463fa199d1b443e6446934ee66",
+        "bytes": 3965,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_974db4be8c2195b880c1bb1cbe711a72d56d6510af12ed8f61dccb241839f3e5",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/81073-76bb0a98b9a25373.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/81073-76bb0a98b9a25373.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "40d547387344adf3744f61d6dc9bb90c4cc6708d32257624c100bf3c07f02978",
+        "bytes": 58993,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_99df57a1ad0dc65baeac3d8cc0f2bf6b6b7dc5788e1f94e8796cbbe9ef899484",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/37423-22d3bba0baca78f4.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/37423-22d3bba0baca78f4.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "9aeec33ae8b349d93b2b6041bb99dae25901800b028329d1bff8171084faa309",
+        "bytes": 50936,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_9aead15a72b25dea9c0fc655bf619c3bc4447ec5d02e7110e7cd03e70b0a41cd",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-93-0e3273f209c1c366cdb42c10055f7bb7ba32a3d5c24df5910c7efd0f89a66a0e.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "4cdc727689d3e5cc663f44c38fefabb5fe27987837a96d9228329824eabadc55",
+        "bytes": 5120,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_9bb5daae6eaf5581c500094bd5c643d163f26cde26afbf4647de61fcb9724ad2",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/85693-d8d68e07af207f99.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/85693-d8d68e07af207f99.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "440e741afb7e6d7fb4eeedb209e263fee0da20d6f2e973fbed375c804fbe9d78",
+        "bytes": 49489,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_a06e06f11642d8b3febc7ce352e1aba323e35348d5e909c9b0cc3a0327e1af22",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-95-7756684c9106aede38634f3b8558fbd08a62c3397f3f1afab021d5fd1c1d74fb.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "b46935fb8a4f2b7c911bcb2925a756e6e3e0aee7164cdee44fce6eaa315a8e30",
+        "bytes": 2237,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_a2eaac5ac462d8e326452ff89fef699db776143ad27afaff63407bd469aad308",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/86733-d3c0020734debf18.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/86733-d3c0020734debf18.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "97da36331d4f6cf0508b9e8e6027e1d23c2d3ab7cdbbfb7a08d6bcd143eb8dd0",
+        "bytes": 28381,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_a3c634dfecf7adf0822830b0606c814d1b1a91d1a82b1b5ae8743799e17bf04e",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-97-44f53d04866361b12e2508253d358c229eb3fd85ce99a7226075e60c7a79ad7c.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "0166c5e8df6b24e1bee1c7209d5bae941d4e49936a114a20f51c25639a4e4fad",
+        "bytes": 2237,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_a45589f5a64158faa63004ff5f6473f6316222a89d3f8dc59ae8554fdd2447ce",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/23110-1d4452455ed61a7e.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/23110-1d4452455ed61a7e.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "e6dc5065a1c07e18bb1c59fb5e51eea04c3346af82285342edf5d8c8355f2dbe",
+        "bytes": 25230,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_a4906c80b4c92e12afdaf4b99e5c5bb415cf90799387908955cbcbc1e8f1e926",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/76962-cf7a5ce2b761b8ce.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/76962-cf7a5ce2b761b8ce.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "c16474019720847fc98feee0368df64c536368b8deb311b2f45dbb4b9e6e38be",
+        "bytes": 36629,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_a738765d5a883a0910d2fcdb1ef594f49cf3ef7639349e67975c95fea43795b3",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/29251-0323e14046e4157a.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/29251-0323e14046e4157a.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "dd62e70127b0c011834b3080841d8865b1ce3b4be86342c4bbb4e05aa4b96698",
+        "bytes": 34647,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_a9959119a817bc368e04a51fbdd826468b08794e66752942c3c093864acc33be",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/17243-fe5a3cb9459a3e51.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/17243-fe5a3cb9459a3e51.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "4c3b09e995fad956a6b2a0b08e120dc6fb12a81802033f4ceee8f24aedc949b9",
+        "bytes": 43493,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_b1c67c9cb4d952c809c917ea3b5ba745a1a2eb0dda665fdabf59f7d8458f99c8",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-102-482385046282c833b2f7541a7bc39c7d3a9312b60941a6159256e4f422fff829.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "b2a0a5be81b501ff171b43ab52b5787967bc5ba7e0cdab3375f191e92df81c68",
+        "bytes": 2237,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_b5155eb338381bfabdc0b4739805cc28f264fd432e524e3a56a792c00131ced4",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/48754-6684f165275c2ca2.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/48754-6684f165275c2ca2.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "4960d01943488dfb02a940be881f35b50010278f68250be8a56947ac60a3bd81",
+        "bytes": 38326,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_b6821981a5570af9721b1ac76fa08b4dfe0325a38082755fbf074db5c9ef5338",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/main-app-b04cdeb28eac35ab.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/main-app-b04cdeb28eac35ab.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "a66e0be22e039d989d5c6078674527bad350a297831c6622397e09965fba6326",
+        "bytes": 484,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_bbb30202ad2a2b704adb132c4e6356f62abc47c108392c8b81998e5c181f3330",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-105-82bdbc4bb7aa9f2dd07d2e6a98327a8c2659ddb242ed846285eff5e4a394d26d.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "f1bb8f3a16dd05ed2b1054a9985e71f5c62aeec970bad3871bbe3344fde2dfab",
+        "bytes": 1899,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_bbeaa1f461bf66da1ca924b2754872c3646ce6cae52c1d3ee5d2985c39e1c362",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/73666-2525f87447fdc713.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/73666-2525f87447fdc713.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "a65614a1b6661305530d9573bbc652804c02c249b3ae136a39c18dfba90a49f8",
+        "bytes": 25579,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_bbfc272b7d0ab9f9cc3300bb6b447903ed3551133af85158d05791638bc55a34",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-107-901372564cb5740b062f15fceb21ede5ce6011ca355f6364df1d47ad98e29acd.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "62889365b3f7e5fb494aea9c5c7210291d0690e82fc2e4ab2044aaef7a8487ee",
+        "bytes": 26,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_be4f26125dd6055f2374820d1313107b7fcd4c7c6533f5336701e2cf3a746077",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/43882-2bcc3ed4519ffed4.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/43882-2bcc3ed4519ffed4.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "6962a47dff2b43c7fef34c4ea415dc22a28b1615abf31ce0e2d14006c0784856",
+        "bytes": 35653,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_bea7a11ca53ce5a0ebddee606d1d1c712787a62bfb236f1a86b67a2a5535d945",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/92681-3f4dbcad7d690186.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/92681-3f4dbcad7d690186.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "8918faaeabc5485a594145bab19ceecefe6caad5ee7a8ec09f0de9c82e847b3e",
+        "bytes": 108832,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_beab05d02c1258831975e9ecd6f56a698d7a21be0cd199eb49ab745847e14497",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/13516-0f0de88b5940a5a3.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/13516-0f0de88b5940a5a3.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "41f6e13bfa58754f393f0c41b436c8a24e19778aff2da16e9fd102ba7373af8d",
+        "bytes": 27500,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_c00ed8f9b00fe5b12d7b46b9a2e47ee0abca5cd5ede140793570b2b4198c2116",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/34790-39f547656bb24194.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/34790-39f547656bb24194.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "7e34122d2cd92e3429ab1411244d5eeb78a059312cd2b86473583d20415146f7",
+        "bytes": 55826,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_c04ef7985e0117a3c44e54a6ead8b25d11fb2c1a2c3a179db0102a6ad3b7319d",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-112-0ecb1ede319f9153f394fca53905054cea770c4e9b6c7c45827db4e0c1eb4212.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "70b6a957f2763795710377eafcefe0ce56a86bac22af88de6ab837795c8188cd",
+        "bytes": 2239,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_c3b305a1d63516b83d8fcd5f12599b3d92029fc475cb62c56c326f6b25a9541f",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/92592-a4fcf01edf913eb6.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/92592-a4fcf01edf913eb6.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "1cb116236cf699c73d518d7c70c361cbead3ef433f06fa69ce1fb5aef88af07f",
+        "bytes": 134125,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_c50b41386190af52ba0d4215a04d0e6cd07d99c26bffd28bdf937b3ea164ff72",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-114-4677873a468e97b9a86580929565e8b7c1a123115f2af9e06f103e353bf07a95.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "4218dddfd0b396afdd51abb246ec5e509c95553374023b29077705659e8bc5bf",
+        "bytes": 3167,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_c51f7dcd33e2fc1e1272a757dd034430519e4466e159ff3192168a3f25cbc1fb",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-115-11d4a2adf21022ab9ac87a69c520d85ec2245a19a183e61dce3f3a05f7307f34.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "0709e12d62f0fb43fe501845f70478c1c8add83137200439bf7e133139641ed6",
+        "bytes": 2245,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_c619c37214d5840f34987bb4f189cc615e26b9cef29789e75f9714c091bf62af",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-116-d1083ac402e64e1900210a125a995f4231d5f90f3490849fd258ffb79edb07a1.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "a054425b888e15c3ba7538536a8d6d93e8d36a362eeb798552916fa8a73b166c",
+        "bytes": 3595,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_cdaa525b0a76123edfb70f7b895983f76740f0f0a1dbafef1c0b24ac3baa8cf0",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-117-2a8380f068d73aac17d664e5279ba711a30e9768cf74c2bb64dd1fffdd2f5a25.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "43ef2d3ec8d5b620ec8c5fc2bfc14c3a9836620f75a0a14a0c025ab753cf6f68",
+        "bytes": 72,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_d071ccc3b2395c2a1dfa53b4cfff22792b679836704f14f558088fabf0901bc3",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-118-bf5b059de57c1e3018ee850075867b605805a6c5ab6a50f27abde0b7a74b9562.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "0ba5838d03e43ec4bc0bc04f7bd9fb905f4b9a941200c7ebad022a568aa9eae7",
+        "bytes": 3596,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_d15b224a77dab7a1de62af3051ed0de3599614064e08241ed7f9b8b8dd3fa961",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/61002-480557268d9ba2cc.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/61002-480557268d9ba2cc.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "bc583d55c4b606727c620150623602056dbc4ee4ce13b77a9180c1164fb253dc",
+        "bytes": 16008,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_d22602caa21ceb3a434cd307df9ca82a7d5c31c30adee67026b9e61388b41791",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/72635-09473b50ca5f7750.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/72635-09473b50ca5f7750.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "29d5d6a6c89ca61a8a9b9ab45cd6dc1c7e847d4d4bca585a342466808d4a9c74",
+        "bytes": 36755,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_d2d014719b404e6a57769577120b6f423fc933e16c55e1923c7ffc789c64514a",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-121-2708303a6c3a35c29822cf87a2528252ad3e6ad0fceeada370de0d2c5d69431a.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "510157c0beaef6c92d021afdc16331e7f1d60a441dc3cbdbad2a1d591426aecf",
+        "bytes": 2237,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_d50e3c5bbd139cf08956ae5ca74a9529a5a11fda88daf4bc23e02986e67457c7",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/37338-8afee21187a576a7.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/37338-8afee21187a576a7.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "44de71d03bf9fe3705b3af7a570cc7459e009f19e7e29d37e6de47acadbe810a",
+        "bytes": 58276,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_d52ca356fb1db602cba8d2737ce46742072ce59ad3b8ed80b3789dcb296a6c2c",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-123-2709c85597236ea68a543219cfccce28026602ff5fe753a605213bf90b8b1e6c.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "0da7e27597fd43372f1a8b1f3dc153849cf0de28380851e53d2600db103dbe6a",
+        "bytes": 2237,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_d78af9a867671665bbc0afb506b7be5ba912f5155e67ba1a6b15f69fd8bccfc3",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/24542-3cd121d4eca2e1c2.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/24542-3cd121d4eca2e1c2.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "3ee1428c112f31e406e02865de0e60c39be9af614a0a3bb9e879d2f7e5fbd5c7",
+        "bytes": 13186,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_d7c5d59b70f53fc3cdbd74f84dc53979d5381bc7d552470c2ddbe202ae6288ca",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-125-0cdff2457c7c2061da20939964ca7189d5a3080c1b8814004097e2fda27cffa5.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "9393cd910649fad3ba1119e150881cd1b7c41509f5513dea9d9796d872888c19",
+        "bytes": 580,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_d96b018930d4ff483f0988dc88db850cf3f4650bfd70247825a417469a46dd6d",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/11165-bac191829d4259e0.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/11165-bac191829d4259e0.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "3a8dda6c449f0324b1c505d73b95d7c6b9e205960b5baf1bd4f7e20ff59bac2c",
+        "bytes": 125740,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_def71cb1e9ee44406ea7a05531a9177d140679a5a832adadbf450213f826d550",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/app/%5Blocale%5D/error-8a76b0a17661973f.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-127-51151f7dcfa2756a12ce54bf829da1d35db75692b1b80c7067fa1873bb0580d9.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "69f728fd8af42feb350b421599ab3f8ec613f266a9ff65ae14a6bc007890392c",
+        "bytes": 30051,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_df6c6e1a0a5632bff51be7dfe69f6ae45932317f70321b972f07f335acc42505",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/69806-56e17c63835ac22a.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/69806-56e17c63835ac22a.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "9f14e68fc358a18cb380ed076a63eb64f73cd3a0e79fcb44913e5563fcb0c093",
+        "bytes": 46688,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_e01c936e06e5a5bf1f4bef19176e1c5294e8fbce5e4a7e17cbdd189e8f6c4fbd",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/webpack-3091b878a4ad743e.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/webpack-3091b878a4ad743e.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "75d08db48b052082d3ca7b8aa9bc981d5ad1fa497d45ea498f1d0d34f1dce583",
+        "bytes": 19443,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_e1fb95bf1075afe1fc2eb648173de184775ae80dd040c9125abefa0c696258fb",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-130-f1914c6a0c8b3b6ea7953d7569b36246294a92c846636b50c1c73a1e6bc6dd3b.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "16168cef25ed9fc1936f97278b9c141f0ef1e011a444f7e75ae053cf4d9d45c7",
+        "bytes": 2241,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_e245ab65f6159118628c4d2241e09c507bc4b60e1c298ddc3e9da8b5968690a1",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/app/%5Blocale%5D/layout-d7bfe8287bab6816.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-131-124249b4eb8c768044db0cd0db5513de4c24f4098e0d589e3b2e07418b953746.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "83984782c43740a259969c53a30c912149229d547151f8c379036ce50c1ed366",
+        "bytes": 39990,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_e39de9eb5afa4c7066615f95720446fb9e4fab16257df980a8b989d1632d9ec8",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/91269-c7ae1b62be10fb98.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/91269-c7ae1b62be10fb98.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "d4388b8fc1afc2599187dcfbe100bafabe3ceb814607340fecc744418ab8b3f6",
+        "bytes": 159676,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_e705e9e1b72ef03b793d8ec19f4dfe142678227dad08e0be62c7de854a4c06a9",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-133-2084f7047c67a4c72c4f85819e61c58801c156157fe748e38795c1ac04ac7a74.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "171c11cf678877ae0c0275f4e09c8b4246c83fec28b89b9f24b87b41b0f102ac",
+        "bytes": 2241,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_e84cce541242a9f212db77ec9239447bcebb5bcb878f274af80428e45832e382",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-134-00488e68a4d758509e04d297090bef78d75ea637fea8d75446cf9fb1fbbec756.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "91d9e23bd0264d0a8dc55cac11930611e0a8ca0c286ca5f58e58436155952d16",
+        "bytes": 975,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_e9d46a16ee065894f0ac798a6d6f962b254dd243bae7a53d15a3daeffffdf1f1",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/22674-c473a95ba23490a7.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/22674-c473a95ba23490a7.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "d4d410f09e19d07bb304f5ffcb26fdfd0c2dd7b1204c1efb1e31fd92374ded9a",
+        "bytes": 57081,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_ea3b4774af469bd01ded1d5eda8b5b6da584271ec2fdaf38317ca80b7e943912",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-136-cb6184a365258d98335585091fcff8d847c927c0c2b6710f8dc193c179c0b2c3.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "e479bc33d04ce073caa1446ae0be6680a3d4b865eb815cd046a3c1aa88c230bc",
+        "bytes": 2237,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_ecfe6736a2c2cd083a94d7d3839eac71579f1c670871636a4b1071bab48b968a",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/23645-63a47e67cfde59d8.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/23645-63a47e67cfde59d8.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "37ded20a877f4bc48f8956957cce6d4464d0f08b7c68e2334474d022febea218",
+        "bytes": 25296,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_efdd761d33d710c72a52ef5148fb5b794a5cdbe52da4fd289664a010ce405123",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-138-8ebe4dfdf7e4abdc7a8870e733c2d7d827eb7f12feaf35989fcadf09deaa673b.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "a78e1a790121ed11889afa59a275483c71f92c5b17fe196351da12da47537c47",
+        "bytes": 2237,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_f09e4b0d75910289dd58442d5076b55fbde876cb03f13ae3229005471df560a0",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-139-2889aae7150e0568ea8214cd607365b7aa93f10f85f17f47987e7fadcd350189.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "46a82ee83f740f0c0668b284369f2ff307674477bc2aa1b0fef738e6c68bb173",
+        "bytes": 147,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_f279d9dad170d1a7cc41097f926514c35a996555970fb6b65f250dc3b5b1cb4b",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/57172-d3ff7e2eb7de6036.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/57172-d3ff7e2eb7de6036.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "ab124922fe04667c07aaa5e2919653290ccf46d8c93ce08573d4f3bcae252d71",
+        "bytes": 23848,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_f4164ed5b763311aae2e09f6370dd0f381d8d14a9438e6270fce7f164baa333a",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/64443-d06915bb271d7bf1.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/64443-d06915bb271d7bf1.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "8b26d5257d6b6c328372d6d225ffcee3818ab09753e787bd661e1d89c60710f2",
+        "bytes": 31025,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_f6d7ab80c0f0575f4fd37b9b92d8721b7d2a01c5de3e5f63b3375c728f7de8be",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/22348-dc4ca8cd0f140d9e.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/22348-dc4ca8cd0f140d9e.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "876ab99a4644079d0668e8acfba0f571dc9c13179b82d8d7a14725fada7dd203",
+        "bytes": 64750,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_fa8b16c2ae1803456893188d9b9c2bb870aeb812029bad895fd1bcf2cb291c37",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/2acc3953-bf8fafbf0c0946ae.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/2acc3953-bf8fafbf0c0946ae.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "f6def217220e4d616ab7a6c46d50c9b292bc34d0a71fb9d0437a497670c58acd",
+        "bytes": 172198,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_fc0a8d99f5a425ce94c5256f8abf89da18a5139579e69d72629609ea21cb63d9",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-144-1b8f84866d27919d4cce1937f9aaaa045278a0446024b4f09789f5dc048d8566.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "3bf69b734e7a3bcf2d6923cb5807aba8905e67564ea43cb1d4699672c72974cc",
+        "bytes": 2237,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_fe172af75df98ea739b7a8b6235d823e82dd598697b150d070970dda0cb83900",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/pt/e-commerce/search?v=1792196745539",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-145-6463710758fd30ab87924470985e1e26db4d282cdf3f4952dcfeb8ddab37699e.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "48771299bcc7ce578bcd7fe71699f8ebfed89425f57c40606b78cfc1fadc889c",
+        "bytes": 2266,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_fe8178ef05140917e6d779d905f914ba375716f1bd9967ec7e21c72fb022f6a9",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/22667-4be538c37e53f99d.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/22667-4be538c37e53f99d.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "ca8a4103d63e288c6061acaac119e44a6cee5ffaa97a77b8f9004dbc2391b836",
+        "bytes": 45501,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_feb9bc3353952741f222c68313c9e2c77d3eebd33985a28a90c58ca224f59dc6",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/55237-f1217e5ca2018e01.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/55237-f1217e5ca2018e01.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "049dc4f99567049fccda0b8b48f26e1d265bbe794a0e81c16607939872c845f5",
+        "bytes": 77354,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_ffdf3d12982cb915f37a60da358394c9cbb850672cefd1ec687c841009b7da25",
+        "frame_id": "FA06F6281ACB0272F36C5D52066F20D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://www.fastmoss.com/_next/static/chunks/72799-d6d92d5bc33af7f5.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/f5d96ce14b1660a350fb52315c781fbe102cd661ffefa9d291bbc99e067a03ef/_next/static/chunks/72799-d6d92d5bc33af7f5.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "08bb9fe42f8cf0401e88b8b3b54022754570689125ec15dee38ad01e28c0816a",
+        "bytes": 23848,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    }
+  ],
+  "limitations": [
+    "Observation starts when REA attaches; prior network and console activity is unavailable.",
+    "Raw network headers, bodies, cookies, storage values, console objects, and WebSocket payloads are never retained; explicitly requested primitive console text is retained verbatim, while payload captures retain value-free shapes.",
+    "Source maps are reported only as declarative URLs and are not fetched.",
+    "URL-less scripts and console events without an allowed source URL are excluded because their origin cannot be proven.",
+    "CDP discovery omitted the target attachment state; attached is reported as unknown.",
+    "Only script bytes retained in this capture are exported. Sources are not refetched or executed, and a response or Debugger source does not prove execution.",
+    "Ordinary unambiguous URL paths preserve relative module layouts by origin, including case-distinct spellings. Query variants, exact path collisions, file/directory prefixes, inline sources, and unrepresentable paths are isolated. A case-distinct pair is isolated only when the destination filesystem cannot store both spellings; the record names that pair. Browser module relationships of isolated paths remain unknown.",
+    "Local JavaScript analysis does not implement browser import maps, root-relative URL resolution, remote URL loading, or browser runtime behavior. It may strip import queries and fragments; isolated variants are not canonical targets.",
+    "Source-map declarations are retained as metadata. No source maps or missing dependencies are fetched or reconstructed.",
+    "Scenario response bytes preserve the output of Playwright's Response.body() API; any source-body provenance caveat from the capture is retained in this manifest. Debugger sources are the exposed text encoded as UTF-8. Redacted bytes are exported exactly as retained, and may no longer parse as JavaScript."
+  ]
+}

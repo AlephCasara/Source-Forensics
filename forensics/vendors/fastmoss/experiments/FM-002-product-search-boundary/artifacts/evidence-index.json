@@ -1,0 +1,70 @@
+{
+  "experiment_id": "FM-002-product-search-boundary",
+  "evidence": [
+    {
+      "local_path": "forensics/vendors/fastmoss/experiments/FM-002-product-search-boundary/results/01-direct-route.json",
+      "bytes": 3109525,
+      "sha256": "7e010d0dd7445667433f2350690b5eba39af0b71e4e9661922e756ce085717c8",
+      "storage": "local-ignored",
+      "evidence_id": "ev_febb4b65a6b47150e0ebd82ff63c7f2d3d4216c9c4234220beebb855ac4b5b4c",
+      "predicate_type": "rea.browser-scenario-capture"
+    },
+    {
+      "local_path": "forensics/vendors/fastmoss/experiments/FM-002-product-search-boundary/results/02-click-navigation.json",
+      "bytes": 2847160,
+      "sha256": "21b5447a3ef25b11ba34d893f38736548b4a3e43ad803e4c90f1e45966b46ae1",
+      "storage": "local-ignored",
+      "evidence_id": "ev_98447fe0b20b8258970eec8abd4ed71b8e1e3f15819243afe09e2cd4fb244243",
+      "predicate_type": "rea.browser-scenario-capture"
+    },
+    {
+      "local_path": "forensics/vendors/fastmoss/experiments/FM-002-product-search-boundary/results/03-external-targets.json",
+      "bytes": 1835,
+      "sha256": "84a59bd0576149bad9d5597e2a2b87492e83ca009c2f9f9fd652694d278ca136",
+      "storage": "local-ignored",
+      "evidence_id": "ev_8108e8ef59bd98c19ea67b140a3ca89c09f7fdfc506f77967672fdfef452c508",
+      "predicate_type": "rea.browser-target-list"
+    },
+    {
+      "local_path": "forensics/vendors/fastmoss/experiments/FM-002-product-search-boundary/results/04-page2-passive.json",
+      "bytes": 7418522,
+      "sha256": "19265447ed0c5e15f49d333b7d2e6f73d07077ec8e6e3ca56ebc821cf4ad9013",
+      "storage": "local-ignored",
+      "evidence_id": "ev_5c885cbcd46ac0f4bfc0e0691b4b939133a1fc51ac9421d24a7fc922e4045fa0",
+      "predicate_type": "rea.web-page-inspection"
+    },
+    {
+      "local_path": "forensics/vendors/fastmoss/experiments/FM-002-product-search-boundary/results/05-export-scripts.json",
+      "bytes": 111004,
+      "sha256": "d917850131dbc90aac14c30037e49e3d729129917ca9326152028170f2d5497d",
+      "storage": "local-ignored",
+      "evidence_id": "ev_36aed58c576e9515f3ff96f36c0c194f3539827eeaa183bd8959d4d715d817d0",
+      "predicate_type": "rea.web-script-export"
+    },
+    {
+      "local_path": "evidence/raw/fastmoss/FM-002-initial-document.html",
+      "bytes": 636299,
+      "sha256": "538e6a9eb2a53d227d14158ffb1c1bf19da3f6bfa88eebec6ee60c637be8f2a6",
+      "storage": "local-ignored"
+    },
+    {
+      "local_path": "evidence/raw/fastmoss/FM-002-page3-search.json",
+      "bytes": 40137,
+      "sha256": "029452ce4438fdd56e09e1d6a57aba95376e225df94db42834ca6170aef82033",
+      "storage": "local-ignored"
+    },
+    {
+      "local_path": "evidence/raw/fastmoss/FM-002-page5-search.json",
+      "bytes": 36404,
+      "sha256": "b913b89e406e7d048d00cb108f434e598bc3a75e0873c7cbbbfae0bd7471f5bc",
+      "storage": "local-ignored"
+    },
+    {
+      "local_path": "forensics/vendors/fastmoss/experiments/FM-002-product-search-boundary/exported-scripts/manifest.json",
+      "bytes": 137657,
+      "sha256": "b0305ded62433ce69a35656a047860cdfee0e871ec6962a1f5982c89da532774",
+      "storage": "git-metadata-only",
+      "note": "script byte files remain local/ignored"
+    }
+  ]
+}

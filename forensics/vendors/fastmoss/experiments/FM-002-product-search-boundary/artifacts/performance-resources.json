@@ -1,0 +1,1538 @@
+[
+  {
+    "name": "https://www.fastmoss.com/_next/static/media/17a2570cf370c52a-s.p.woff2",
+    "initiatorType": "link",
+    "transferSize": 0,
+    "encodedBodySize": 443452,
+    "decodedBodySize": 443452,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/media/2885366e8c5f9501-s.p.woff2",
+    "initiatorType": "link",
+    "transferSize": 0,
+    "encodedBodySize": 449148,
+    "decodedBodySize": 449148,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/media/4c5a5b2d99995fd2-s.p.woff2",
+    "initiatorType": "link",
+    "transferSize": 0,
+    "encodedBodySize": 445380,
+    "decodedBodySize": 445380,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/media/9f78568ad1997b78-s.p.woff2",
+    "initiatorType": "link",
+    "transferSize": 0,
+    "encodedBodySize": 438244,
+    "decodedBodySize": 438244,
+    "duration": 0
+  },
+  {
+    "name": "https://uscdn.fastmoss.com/fastMoss_Pc/logo/logo_pt.svg",
+    "initiatorType": "link",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/css/c34ef4a1cc2e53cb.css",
+    "initiatorType": "link",
+    "transferSize": 0,
+    "encodedBodySize": 71130,
+    "decodedBodySize": 506718,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/css/5c584fda85811054.css",
+    "initiatorType": "link",
+    "transferSize": 0,
+    "encodedBodySize": 12526,
+    "decodedBodySize": 82886,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/css/10ce6b3f11183dd8.css",
+    "initiatorType": "link",
+    "transferSize": 0,
+    "encodedBodySize": 7498,
+    "decodedBodySize": 36882,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/css/4ea468d1dbb2d3ae.css",
+    "initiatorType": "link",
+    "transferSize": 0,
+    "encodedBodySize": 7682,
+    "decodedBodySize": 43926,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/webpack-3091b878a4ad743e.js",
+    "initiatorType": "link",
+    "transferSize": 0,
+    "encodedBodySize": 9480,
+    "decodedBodySize": 19443,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/2acc3953-bf8fafbf0c0946ae.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 53671,
+    "decodedBodySize": 172198,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/65945-8778ec35f11b9272.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 29587,
+    "decodedBodySize": 113265,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/main-app-b04cdeb28eac35ab.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 233,
+    "decodedBodySize": 484,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/6dc81886-3de60164d3372e46.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 24985,
+    "decodedBodySize": 69735,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/a93b707c-e8584cb719b33161.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 30174,
+    "decodedBodySize": 95298,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/7f93aed2-4b1407ff1b93d606.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 24646,
+    "decodedBodySize": 78482,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/56069-2d272a9b15c71830.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 27943,
+    "decodedBodySize": 87219,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/79019-c3745b70544f3aa2.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 15258,
+    "decodedBodySize": 61854,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/65348-7e4132441d123039.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 32234,
+    "decodedBodySize": 97905,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/22674-c473a95ba23490a7.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 16866,
+    "decodedBodySize": 57081,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/10676-531670858fe5e622.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 6821,
+    "decodedBodySize": 20443,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/61002-480557268d9ba2cc.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 5158,
+    "decodedBodySize": 16008,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/64443-d06915bb271d7bf1.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 12462,
+    "decodedBodySize": 31025,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/37338-8afee21187a576a7.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 17505,
+    "decodedBodySize": 58276,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/24542-3cd121d4eca2e1c2.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 5085,
+    "decodedBodySize": 13186,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/85462-611e5f46b1dfc80d.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 4624,
+    "decodedBodySize": 12218,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/44676-50e0225563a6f934.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 6834,
+    "decodedBodySize": 18855,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/46567-36326b56a5958fbd.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 1479,
+    "decodedBodySize": 3965,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/36786-26b6ec094866ab9c.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 16626,
+    "decodedBodySize": 55149,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/70311-fec508b491ca0ca2.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 2494,
+    "decodedBodySize": 7602,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/95900-6c5edcd9fd66f6d7.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 3924,
+    "decodedBodySize": 10565,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/9106-3d6fa13b81a9c713.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 22630,
+    "decodedBodySize": 80037,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/72799-d6d92d5bc33af7f5.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 9895,
+    "decodedBodySize": 23848,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/18165-30e8cb6375343d28.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 3603,
+    "decodedBodySize": 12366,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/61127-b01442b4b5e87aa6.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 3358,
+    "decodedBodySize": 7995,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/58577-a911fae31b83a7c9.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 11621,
+    "decodedBodySize": 35633,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/92049-da84acb4890f7914.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 3477,
+    "decodedBodySize": 9675,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/78050-64b330397b1b75ae.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 29139,
+    "decodedBodySize": 93674,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/53531-4c971949a3df2e3c.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 6792,
+    "decodedBodySize": 20188,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/76962-cf7a5ce2b761b8ce.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 11647,
+    "decodedBodySize": 36629,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/83915-18b9ae84dd5ea87e.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 12601,
+    "decodedBodySize": 37314,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/13325-e3daf8007a25fac4.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 12695,
+    "decodedBodySize": 42100,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/57172-d3ff7e2eb7de6036.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 7845,
+    "decodedBodySize": 23848,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/73666-2525f87447fdc713.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 7515,
+    "decodedBodySize": 25579,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/85693-d8d68e07af207f99.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 15298,
+    "decodedBodySize": 49489,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/74118-b79fd6e461450a0b.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 4814,
+    "decodedBodySize": 15086,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/13516-0f0de88b5940a5a3.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 10171,
+    "decodedBodySize": 27500,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/38327-bd08fd496d2a991e.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 4809,
+    "decodedBodySize": 12393,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/43882-2bcc3ed4519ffed4.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 11755,
+    "decodedBodySize": 35653,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/69806-56e17c63835ac22a.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 12469,
+    "decodedBodySize": 46688,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/87104-7cc6c927b688205e.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 350659,
+    "decodedBodySize": 1087450,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/65797-8a04609cab9a6d49.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 33297,
+    "decodedBodySize": 105625,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/89088-5c4df8559997aab3.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 6187,
+    "decodedBodySize": 26935,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/92681-3f4dbcad7d690186.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 33104,
+    "decodedBodySize": 108832,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/76509-e76976c45b8b18d7.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 7121,
+    "decodedBodySize": 22579,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/29595-7cc3c6ba4486a4bb.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 12273,
+    "decodedBodySize": 36389,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/23110-1d4452455ed61a7e.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 8370,
+    "decodedBodySize": 25230,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/91337-495c15a3e56b62e9.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 8095,
+    "decodedBodySize": 22408,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/83284-ee2d6c944d42fddb.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 7729,
+    "decodedBodySize": 21934,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/33839-b89348bbe3bee22d.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 10949,
+    "decodedBodySize": 29923,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/70018-776b4c828c847dbf.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 12705,
+    "decodedBodySize": 41509,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/41567-2c759342a92fbdc3.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 20874,
+    "decodedBodySize": 60205,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/22667-4be538c37e53f99d.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 13828,
+    "decodedBodySize": 45501,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/41595-8f05dcf15bac9fbf.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 9291,
+    "decodedBodySize": 33278,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/91269-c7ae1b62be10fb98.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 47430,
+    "decodedBodySize": 159676,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/43463-d62636fc5ff01acf.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 17928,
+    "decodedBodySize": 55568,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/17243-fe5a3cb9459a3e51.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 16535,
+    "decodedBodySize": 43493,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/88487-6031c1c79231502b.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 74841,
+    "decodedBodySize": 233363,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/19040-1518847178a14e66.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 8296,
+    "decodedBodySize": 25506,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/29251-0323e14046e4157a.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 13161,
+    "decodedBodySize": 34647,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/86733-d3c0020734debf18.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 10298,
+    "decodedBodySize": 28381,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/37423-22d3bba0baca78f4.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 16459,
+    "decodedBodySize": 50936,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/93901-823fac1342e31a87.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 7132,
+    "decodedBodySize": 19584,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/48754-6684f165275c2ca2.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 11622,
+    "decodedBodySize": 38326,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/34790-39f547656bb24194.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 16652,
+    "decodedBodySize": 55826,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/81073-76bb0a98b9a25373.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 20019,
+    "decodedBodySize": 58993,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/92592-a4fcf01edf913eb6.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 40490,
+    "decodedBodySize": 134125,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/app/%5Blocale%5D/(normalLayout)/layout-58db37d4e6662be0.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 27394,
+    "decodedBodySize": 87432,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/23645-63a47e67cfde59d8.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 8243,
+    "decodedBodySize": 25296,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/11624-c5b275ea8cc035f6.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 9404,
+    "decodedBodySize": 24714,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/3717-722f8550a9638542.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 12046,
+    "decodedBodySize": 33539,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/90766-130c8b771bbf4436.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 17977,
+    "decodedBodySize": 55517,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/72635-09473b50ca5f7750.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 11558,
+    "decodedBodySize": 36755,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/1633-74e55110a1cd9acd.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 9527,
+    "decodedBodySize": 30232,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/12283-0e07a455d2652e63.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 10280,
+    "decodedBodySize": 38110,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/2053-2257984900b17314.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 11296,
+    "decodedBodySize": 33508,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/55237-f1217e5ca2018e01.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 27938,
+    "decodedBodySize": 77354,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/app/%5Blocale%5D/(normalLayout)/e-commerce/search/page-1efe329d1c300697.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 26815,
+    "decodedBodySize": 80424,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/1218-31dab44dacfbb7d9.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 9367,
+    "decodedBodySize": 28433,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/17437-00856945026e74a6.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 10985,
+    "decodedBodySize": 40534,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/22348-dc4ca8cd0f140d9e.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 24450,
+    "decodedBodySize": 64750,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/69286-8efb34a9de595cac.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 12751,
+    "decodedBodySize": 41483,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/app/%5Blocale%5D/layout-d7bfe8287bab6816.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 13803,
+    "decodedBodySize": 39990,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/11165-bac191829d4259e0.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 37304,
+    "decodedBodySize": 125740,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/1488-0debad065a3d61b7.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 7236,
+    "decodedBodySize": 20551,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/24453-91e0b14b17894949.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 13373,
+    "decodedBodySize": 40045,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/57083-7190f86e58e84a87.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 7771,
+    "decodedBodySize": 29484,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/70289-8caefb6e37a09b7c.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 6530,
+    "decodedBodySize": 20154,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/17345-0390e108c409275d.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 10445,
+    "decodedBodySize": 29235,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/app/%5Blocale%5D/(pureLayout)/page-b4d5f2e0bf3a3063.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 16982,
+    "decodedBodySize": 51132,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/app/%5Blocale%5D/error-8a76b0a17661973f.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 11252,
+    "decodedBodySize": 30051,
+    "duration": 0
+  },
+  {
+    "name": "https://www.googletagmanager.com/gtag/js?id=GT-KVFDSQF5",
+    "initiatorType": "link",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 0
+  },
+  {
+    "name": "https://uscdn.fastmoss.com/fastMoss_Pc/regions/us.svg",
+    "initiatorType": "img",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/media/e4af272ccee01ff0-s.woff2",
+    "initiatorType": "css",
+    "transferSize": 0,
+    "encodedBodySize": 48432,
+    "decodedBodySize": 48432,
+    "duration": 0
+  },
+  {
+    "name": "https://www.paypal.com/sdk/js?client-id=Ab0yjrWSsw9qw9GgCDoiUbKsQaky-6rcGcTb_rKn10oVuMEQyj_LcvQI4qegj9V0jeiuUiLZ7i4cGz24&currency=USD&locale=en_US",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 35.79999999701977
+  },
+  {
+    "name": "https://www.redditstatic.com/ads/pixel.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 0.5
+  },
+  {
+    "name": "https://www.fastmoss.com/api/goods/filterInfo?region=US&_time=1792196746&cnonce=38820815",
+    "initiatorType": "xmlhttprequest",
+    "transferSize": 34081,
+    "encodedBodySize": 33781,
+    "decodedBodySize": 150730,
+    "duration": 769.9000000059605
+  },
+  {
+    "name": "https://www.fastmoss.com/api/search/history?type=3&_time=1792196746&cnonce=83195494",
+    "initiatorType": "xmlhttprequest",
+    "transferSize": 394,
+    "encodedBodySize": 94,
+    "decodedBodySize": 82,
+    "duration": 1112.3999999910593
+  },
+  {
+    "name": "https://www.fastmoss.com/api/goods/filterInfo?region=US&_time=1792196746&cnonce=62311573",
+    "initiatorType": "xmlhttprequest",
+    "transferSize": 34081,
+    "encodedBodySize": 33781,
+    "decodedBodySize": 150730,
+    "duration": 569
+  },
+  {
+    "name": "https://www.fastmoss.com/api/goods/V2/search?page=1&pagesize=10&order=2,2&region=US&_time=1792196746&cnonce=38757126",
+    "initiatorType": "xmlhttprequest",
+    "transferSize": 6952,
+    "encodedBodySize": 6652,
+    "decodedBodySize": 40137,
+    "duration": 779.1000000089407
+  },
+  {
+    "name": "https://www.fastmoss.com/api/user/index/userInfo?_time=1792196746&cnonce=77291228",
+    "initiatorType": "xmlhttprequest",
+    "transferSize": 417,
+    "encodedBodySize": 117,
+    "decodedBodySize": 111,
+    "duration": 556
+  },
+  {
+    "name": "https://www.fastmoss.com/api/author/index/country?pagesize=100&_time=1792196746&cnonce=86425655",
+    "initiatorType": "xmlhttprequest",
+    "transferSize": 1192,
+    "encodedBodySize": 892,
+    "decodedBodySize": 2770,
+    "duration": 198
+  },
+  {
+    "name": "https://www.clarity.ms/tag/k6nybl0g8o",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 43.79999999701977
+  },
+  {
+    "name": "https://tracking.fastmoss.com/api/notify/index?_time=1792196746&cnonce=55169339",
+    "initiatorType": "xmlhttprequest",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 704.2999999970198
+  },
+  {
+    "name": "https://www.fastmoss.com/pt/pricing?_rsc=18gii",
+    "initiatorType": "fetch",
+    "transferSize": 458,
+    "encodedBodySize": 158,
+    "decodedBodySize": 201,
+    "duration": 508
+  },
+  {
+    "name": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17073025482/?random=1792196746505&cv=11&fst=1792196746505&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe6ae1h1v9250182772za208zd9250182772xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&ref=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&rcb=2&frm=0&tiba=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1584368133.1792196729&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CChromium%3B154.0.8037.57&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+    "initiatorType": "script",
+    "transferSize": 3515,
+    "encodedBodySize": 3215,
+    "decodedBodySize": 8412,
+    "duration": 114.1000000089407
+  },
+  {
+    "name": "https://www.google.com/rmkt/collect/17073025482/?random=1792196746505&cv=11&fst=1792196746505&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe6ae1h1v9250182772za208zd9250182772xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&ref=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&rcb=2&frm=0&tiba=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1584368133.1792196729&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CChromium%3B154.0.8037.57&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+    "initiatorType": "fetch",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 98.69999998807907
+  },
+  {
+    "name": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17930780067/?random=1792196746510&cv=11&fst=1792196746510&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe6ae1h1v9250182772za208zd9250182772xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&ref=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&rcb=2&frm=0&tiba=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1584368133.1792196729&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CChromium%3B154.0.8037.57&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+    "initiatorType": "script",
+    "transferSize": 3512,
+    "encodedBodySize": 3212,
+    "decodedBodySize": 8412,
+    "duration": 107
+  },
+  {
+    "name": "https://www.google.com/rmkt/collect/17930780067/?random=1792196746510&cv=11&fst=1792196746510&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe6ae1h1v9250182772za208zd9250182772xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&ref=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&rcb=2&frm=0&tiba=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1584368133.1792196729&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CChromium%3B154.0.8037.57&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+    "initiatorType": "fetch",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 90.09999999403954
+  },
+  {
+    "name": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11100615749/?random=1792196746512&cv=11&fst=1792196746512&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe6ae1h1v9250182772za208zd9250182772xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&ref=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&rcb=2&frm=0&tiba=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1584368133.1792196729&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CChromium%3B154.0.8037.57&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+    "initiatorType": "script",
+    "transferSize": 3513,
+    "encodedBodySize": 3213,
+    "decodedBodySize": 8414,
+    "duration": 107.80000001192093
+  },
+  {
+    "name": "https://www.google.com/rmkt/collect/11100615749/?random=1792196746512&cv=11&fst=1792196746512&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe6ae1h1v9250182772za208zd9250182772xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&ref=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&rcb=2&frm=0&tiba=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1584368133.1792196729&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CChromium%3B154.0.8037.57&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+    "initiatorType": "fetch",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 100.59999999403954
+  },
+  {
+    "name": "https://www.google.com/measurement/conversion?random=1792196746514&cv=11&tid=G-L5CVVC7GWT&fst=1792196746514&fmt=8&en=page_view&gtm=45Pe6ae1h1v9250182772za208zd9250182772xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&ref=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&gacid=848574453.1792196729&ibt=1&hn=www.googleadservices.com&frm=0&tiba=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&npa=0&pscdl=noapi&auid=1584368133.1792196729&gtm_ee=1&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CChromium%3B154.0.8037.57&uamb=0&uam=&uap=Linux&uapv=&uaw=0&rcb=2",
+    "initiatorType": "fetch",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 100.5
+  },
+  {
+    "name": "https://analytics.google.com/g/collect?v=2&tid=G-L5CVVC7GWT&gtm=45Pe6ae1h1v9250182772za208zd9250182772xf1&_p=1792196746481&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=48734962&_eu=AAAAACQC&_prs=ok&cid=848574453.1792196729&ec_mode=a&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=2&sr=1920x1080&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CChromium%3B154.0.8037.57&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=pt-br&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&sid=1792196728&sct=1&seg=1&dl=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&dr=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&dt=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&en=page_view&_c=1&_ee=1&tfd=978",
+    "initiatorType": "fetch",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 91.70000000298023
+  },
+  {
+    "name": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11159253980/?random=1792196746518&cv=11&fst=1792196746518&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe6ae1h1v9250182772za208zd9250182772xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&ref=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&rcb=2&frm=0&tiba=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1584368133.1792196729&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CChromium%3B154.0.8037.57&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+    "initiatorType": "script",
+    "transferSize": 3518,
+    "encodedBodySize": 3218,
+    "decodedBodySize": 8414,
+    "duration": 110.5
+  },
+  {
+    "name": "https://www.google.com/rmkt/collect/11159253980/?random=1792196746518&cv=11&fst=1792196746518&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe6ae1h1v9250182772za208zd9250182772xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&ref=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&rcb=2&frm=0&tiba=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1584368133.1792196729&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CChromium%3B154.0.8037.57&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+    "initiatorType": "fetch",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 96.20000000298023
+  },
+  {
+    "name": "https://www.google.com/measurement/conversion?random=1792196746520&cv=11&tid=G-GD8ST04HB5&fst=1792196746520&fmt=8&en=page_view&gtm=45Pe6ae1h1v9250182772za208zd9250182772xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&ref=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&gacid=848574453.1792196729&hn=www.googleadservices.com&frm=0&tiba=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&npa=0&pscdl=noapi&auid=1584368133.1792196729&gtm_ee=1&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CChromium%3B154.0.8037.57&uamb=0&uam=&uap=Linux&uapv=&uaw=0&rcb=2",
+    "initiatorType": "fetch",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 98.09999999403954
+  },
+  {
+    "name": "https://analytics.google.com/g/collect?v=2&tid=G-GD8ST04HB5&gtm=45Pe6ae1h1v9250182772za208zd9250182772xf1&_p=1792196746481&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=1897050822&_eu=AAAAAGQC&_prs=ok&cid=848574453.1792196729&ec_mode=a&frm=0&pscdl=noapi&rcb=2&sr=1920x1080&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CChromium%3B154.0.8037.57&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=pt-br&gaf=2&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&sid=1792196728&sct=1&seg=1&dl=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&dr=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&dt=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&en=page_view&_c=1&_ee=1&tfd=983",
+    "initiatorType": "fetch",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 93.70000000298023
+  },
+  {
+    "name": "https://www.googletagmanager.com/gtag/js?id=AW-11100615749&cx=c&gtm=4e6ae1h1",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 4.4000000059604645
+  },
+  {
+    "name": "https://www.googletagmanager.com/gtag/js?id=AW-17073025482&cx=c&gtm=4e6ae1h1",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 4.399999991059303
+  },
+  {
+    "name": "https://www.googletagmanager.com/gtag/js?id=AW-17930780067&cx=c&gtm=4e6ae1h1",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 4.799999997019768
+  },
+  {
+    "name": "https://www.googletagmanager.com/gtag/js?id=AW-11159253980&cx=c&gtm=4e6ae1h1",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 4.5999999940395355
+  },
+  {
+    "name": "https://www.google.com/ccm/collect?rcb=2&frm=0&apvc=1&auid=1584368133.1792196729&dt=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&tid=AW-17073025482&en=page_view&dl=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&dr=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&scrsrc=www.googletagmanager.com&rnd=1245766800.1792196747&navt=n&npa=0&gtm=45Pe6ae1h1v9250182772za208zd9250182772xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792196746523&tfd=984&tids=AW-17073025482~AW-17930780067~AW-11100615749~AW-11159253980&fmt=8",
+    "initiatorType": "fetch",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 93.20000000298023
+  },
+  {
+    "name": "https://pixel-config.reddit.com/pixels/a2_i5aiv51cshsh/config",
+    "initiatorType": "xmlhttprequest",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 0.5
+  },
+  {
+    "name": "https://alb.reddit.com/rp?id=a2_i5aiv51cshsh&event=PageVisit",
+    "initiatorType": "fetch",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 141
+  },
+  {
+    "name": "https://www.clarity.ms/s/0.8.72/clarity.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 0.7999999970197678
+  },
+  {
+    "name": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/18002560389/?random=1792196746576&cv=11&fst=1792196746576&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6ae1h1v9242770601za208zb9250182772zd9250182772xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&ref=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&rcb=18&frm=0&tiba=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1584368133.1792196729&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CChromium%3B154.0.8037.57&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+    "initiatorType": "script",
+    "transferSize": 3516,
+    "encodedBodySize": 3216,
+    "decodedBodySize": 8420,
+    "duration": 107.59999999403954
+  },
+  {
+    "name": "https://www.google.com/rmkt/collect/18002560389/?random=1792196746576&cv=11&fst=1792196746576&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6ae1h1v9242770601za208zb9250182772zd9250182772xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&ref=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&rcb=18&frm=0&tiba=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1584368133.1792196729&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CChromium%3B154.0.8037.57&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+    "initiatorType": "fetch",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 90.5
+  },
+  {
+    "name": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17978446229/?random=1792196746580&cv=11&fst=1792196746580&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6ae1h1v9242770601za208zb9250182772zd9250182772xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&ref=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&rcb=18&frm=0&tiba=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1584368133.1792196729&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CChromium%3B154.0.8037.57&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+    "initiatorType": "script",
+    "transferSize": 3521,
+    "encodedBodySize": 3221,
+    "decodedBodySize": 8420,
+    "duration": 114.29999999701977
+  },
+  {
+    "name": "https://www.google.com/rmkt/collect/17978446229/?random=1792196746580&cv=11&fst=1792196746580&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6ae1h1v9242770601za208zb9250182772zd9250182772xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&ref=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&rcb=18&frm=0&tiba=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1584368133.1792196729&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CChromium%3B154.0.8037.57&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+    "initiatorType": "fetch",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 99.3999999910593
+  },
+  {
+    "name": "https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=0&auid=1584368133.1792196729&dt=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&tid=AW-18002560389&en=page_view&dl=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&dr=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&scrsrc=www.googletagmanager.com&rnd=1245766800.1792196747&navt=n&npa=0&gtm=45be6ae1h1v9242770601za208zb9250182772zd9250182772xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792196746584&tfd=1045&tids=AW-18002560389~AW-17978446229&fmt=8",
+    "initiatorType": "fetch",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 88.29999999701977
+  },
+  {
+    "name": "https://analytics.google.com/g/collect?v=2&tid=G-J8P3E5KDGJ&gtm=45be6ae1h1v9116297212za208zb9250182772zd9250182772xf1&_p=1792196746481&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=1563641959&_eu=AAAAAGQC&cid=848574453.1792196729&ec_mode=a&frm=0&pscdl=noapi&rcb=12&sr=1920x1080&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CChromium%3B154.0.8037.57&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=pt-br&gaf=2&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&sid=1792196729&sct=1&seg=1&dl=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&dr=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&dt=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&en=page_view&_ee=1&tfd=1061",
+    "initiatorType": "fetch",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 93.19999998807907
+  },
+  {
+    "name": "https://www.paypal.com/xoplatform/logger/api/logger?disableSetCookie=true",
+    "initiatorType": "xmlhttprequest",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 265.79999999701977
+  },
+  {
+    "name": "https://www.google.com/pagead/1p-user-list/17930780067/?random=1792196746510&cv=11&fst=1792195200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe6ae1h1v9250182772za208zd9250182772xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&ref=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&rcb=2&frm=0&tiba=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1584368133.1792196729&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CChromium%3B154.0.8037.57&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS-gEAQM4h3DJgzbLb-ITBjYSweTeJdDvGTUypo-pEph3KkBzAmbp87PDyHQ8npw68uAExhRchb9UfCMCK0wugkMTdez-lJz4oDTxmfNchoJ49Dnbsm53Rtfx0EsJnf7TKrMjsYMgBbBHXjuVLXmZ1J75Iis8kvEUZpkkULLkFeuPeGxpCfpLdHns7Qtw6lO7yX_uvk11lHzyfK7HCKfCfroburtVo65exCRzQuu9Qp39PuYhffE05oiRFL6cBhFM4ggU-J3ojWey6yhHHll2JTWM2QAp9xQFp4krNSoq5G4GYVE1K0Pt5r1KzcM2-xRcWIeiOvnZcDgPvLN9S&random=722961971&rmt_tld=0&ipr=y",
+    "initiatorType": "img",
+    "transferSize": 342,
+    "encodedBodySize": 42,
+    "decodedBodySize": 42,
+    "duration": 91.09999999403954
+  },
+  {
+    "name": "https://www.google.com.br/pagead/1p-user-list/17930780067/?random=1792196746510&cv=11&fst=1792195200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe6ae1h1v9250182772za208zd9250182772xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&ref=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&rcb=2&frm=0&tiba=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1584368133.1792196729&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CChromium%3B154.0.8037.57&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS-gEAQM4h3DJgzbLb-ITBjYSweTeJdDvGTUypo-pEph3KkBzAmbp87PDyHQ8npw68uAExhRchb9UfCMCK0wugkMTdez-lJz4oDTxmfNchoJ49Dnbsm53Rtfx0EsJnf7TKrMjsYMgBbBHXjuVLXmZ1J75Iis8kvEUZpkkULLkFeuPeGxpCfpLdHns7Qtw6lO7yX_uvk11lHzyfK7HCKfCfroburtVo65exCRzQuu9Qp39PuYhffE05oiRFL6cBhFM4ggU-J3ojWey6yhHHll2JTWM2QAp9xQFp4krNSoq5G4GYVE1K0Pt5r1KzcM2-xRcWIeiOvnZcDgPvLN9S&random=722961971&rmt_tld=1&ipr=y",
+    "initiatorType": "img",
+    "transferSize": 342,
+    "encodedBodySize": 42,
+    "decodedBodySize": 42,
+    "duration": 102.09999999403954
+  },
+  {
+    "name": "https://www.google.com/pagead/1p-user-list/11100615749/?random=1792196746512&cv=11&fst=1792195200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe6ae1h1v9250182772za208zd9250182772xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&ref=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&rcb=2&frm=0&tiba=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1584368133.1792196729&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CChromium%3B154.0.8037.57&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS-gEAQM4h3HIgGtjYrmsVQ8wHX4Fnfls8LqLvsfrU-BMmo3_3ytGKarFg02srznCVTuzlqTuw-76JcY8URvxj5kBso1TaKbSs_Ish6Jggt0uqjaw4caGobwHRMIIpDomULXc_J0Nck8-enJtB9nbwJ0IYxzLXtOIVkf8DoT8g9MH2GuSd9_XlBniwPHypHt_ZIHyhNsIEgjCfnRHf1Hs_ULLVDK67pWczqIh9Z3RL7gCODiwHVbg7Y4rwo7Njfj69a5ihKfrCoCbEflVgYvxnbYitieGfmdbsMCgm6orwncP1Wpoi0np5uGXXsgAtozQIv24Uaev6gk_x__tz&random=2813339941&rmt_tld=0&ipr=y",
+    "initiatorType": "img",
+    "transferSize": 342,
+    "encodedBodySize": 42,
+    "decodedBodySize": 42,
+    "duration": 99.09999999403954
+  },
+  {
+    "name": "https://www.google.com.br/pagead/1p-user-list/11100615749/?random=1792196746512&cv=11&fst=1792195200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe6ae1h1v9250182772za208zd9250182772xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&ref=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&rcb=2&frm=0&tiba=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1584368133.1792196729&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CChromium%3B154.0.8037.57&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS-gEAQM4h3HIgGtjYrmsVQ8wHX4Fnfls8LqLvsfrU-BMmo3_3ytGKarFg02srznCVTuzlqTuw-76JcY8URvxj5kBso1TaKbSs_Ish6Jggt0uqjaw4caGobwHRMIIpDomULXc_J0Nck8-enJtB9nbwJ0IYxzLXtOIVkf8DoT8g9MH2GuSd9_XlBniwPHypHt_ZIHyhNsIEgjCfnRHf1Hs_ULLVDK67pWczqIh9Z3RL7gCODiwHVbg7Y4rwo7Njfj69a5ihKfrCoCbEflVgYvxnbYitieGfmdbsMCgm6orwncP1Wpoi0np5uGXXsgAtozQIv24Uaev6gk_x__tz&random=2813339941&rmt_tld=1&ipr=y",
+    "initiatorType": "img",
+    "transferSize": 342,
+    "encodedBodySize": 42,
+    "decodedBodySize": 42,
+    "duration": 105.5
+  },
+  {
+    "name": "https://www.google.com/pagead/1p-user-list/17073025482/?random=1792196746505&cv=11&fst=1792195200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe6ae1h1v9250182772za208zd9250182772xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&ref=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&rcb=2&frm=0&tiba=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1584368133.1792196729&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CChromium%3B154.0.8037.57&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS-gEAQM4h3Iho0-7ouHlLhYcnU0ygwo0evaTj1xqtYa-XeBSrGzLhNXVX5wkUZBLVNk1K8qiEKP-mHegBtzczDErNt1kVTiGoytJgCMe3pP38hsYUtVar8Z9Ya4uyI5exNb0HlLlK9ZK7rUuE-1ZIgy_vsiUgqtegUAtFy2LSA2aqvzJFb6qCdZgQJbH2jH1RO3-fmHwe_cIJDc6iZ4KIi3XWVU0biB42bimFnp300103b2RrsvIshNfuFqWSF7ponRaIrV_GEMCzDYjoO5dREr13B3DgUvUl_vwxVnN8L8TRKe5SbWLX7cKhUz2wMQQvv_yg5z0Hxrt-pC0r&random=605657751&rmt_tld=0&ipr=y",
+    "initiatorType": "img",
+    "transferSize": 342,
+    "encodedBodySize": 42,
+    "decodedBodySize": 42,
+    "duration": 98.70000000298023
+  },
+  {
+    "name": "https://www.google.com.br/pagead/1p-user-list/17073025482/?random=1792196746505&cv=11&fst=1792195200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe6ae1h1v9250182772za208zd9250182772xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&ref=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&rcb=2&frm=0&tiba=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1584368133.1792196729&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CChromium%3B154.0.8037.57&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS-gEAQM4h3Iho0-7ouHlLhYcnU0ygwo0evaTj1xqtYa-XeBSrGzLhNXVX5wkUZBLVNk1K8qiEKP-mHegBtzczDErNt1kVTiGoytJgCMe3pP38hsYUtVar8Z9Ya4uyI5exNb0HlLlK9ZK7rUuE-1ZIgy_vsiUgqtegUAtFy2LSA2aqvzJFb6qCdZgQJbH2jH1RO3-fmHwe_cIJDc6iZ4KIi3XWVU0biB42bimFnp300103b2RrsvIshNfuFqWSF7ponRaIrV_GEMCzDYjoO5dREr13B3DgUvUl_vwxVnN8L8TRKe5SbWLX7cKhUz2wMQQvv_yg5z0Hxrt-pC0r&random=605657751&rmt_tld=1&ipr=y",
+    "initiatorType": "img",
+    "transferSize": 342,
+    "encodedBodySize": 42,
+    "decodedBodySize": 42,
+    "duration": 105.90000000596046
+  },
+  {
+    "name": "https://www.fastmoss.com/_next/static/chunks/26544.aa0fede92541b359.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 161642,
+    "decodedBodySize": 586086,
+    "duration": 2.9000000059604645
+  },
+  {
+    "name": "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "initiatorType": "script",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 1.300000011920929
+  },
+  {
+    "name": "https://www.google.com/pagead/1p-user-list/11159253980/?random=1792196746518&cv=11&fst=1792195200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe6ae1h1v9250182772za208zd9250182772xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&ref=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&rcb=2&frm=0&tiba=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1584368133.1792196729&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CChromium%3B154.0.8037.57&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS-gEAQM4h3DUvtOX5PZIm8pepBEjxCk_nTyDDkZm9L-TFP5RhlzxMiBB4xdhbMP9ajWh9vJ7I1u-owwlLeInTHVP0iWP2u-om7SnYUmzAaez2zNa3ZZ5jfpA68cHE028M2tkl8WRgnRJVT0-8Ndg_dYzHaPcGukO9T9yJSHeELaqb6o9EViUsxT3kjnJZzkRT_eBIgU9r3yHULxWgoiC2m1LIzOKapoezzggI8cY28twrjsGUmUNTvHzLNYRIHINq8m_DHl8Zdk8xSvZSDB0HTYiAvn6P3bfIFR4ZjI1Npz2AhZWVrrcpNilfQioH4yoN6OYt6A9_3mgRk__U&random=1690833717&rmt_tld=0&ipr=y",
+    "initiatorType": "img",
+    "transferSize": 342,
+    "encodedBodySize": 42,
+    "decodedBodySize": 42,
+    "duration": 101.8999999910593
+  },
+  {
+    "name": "https://www.google.com.br/pagead/1p-user-list/11159253980/?random=1792196746518&cv=11&fst=1792195200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe6ae1h1v9250182772za208zd9250182772xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&ref=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&rcb=2&frm=0&tiba=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1584368133.1792196729&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CChromium%3B154.0.8037.57&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS-gEAQM4h3DUvtOX5PZIm8pepBEjxCk_nTyDDkZm9L-TFP5RhlzxMiBB4xdhbMP9ajWh9vJ7I1u-owwlLeInTHVP0iWP2u-om7SnYUmzAaez2zNa3ZZ5jfpA68cHE028M2tkl8WRgnRJVT0-8Ndg_dYzHaPcGukO9T9yJSHeELaqb6o9EViUsxT3kjnJZzkRT_eBIgU9r3yHULxWgoiC2m1LIzOKapoezzggI8cY28twrjsGUmUNTvHzLNYRIHINq8m_DHl8Zdk8xSvZSDB0HTYiAvn6P3bfIFR4ZjI1Npz2AhZWVrrcpNilfQioH4yoN6OYt6A9_3mgRk__U&random=1690833717&rmt_tld=1&ipr=y",
+    "initiatorType": "img",
+    "transferSize": 342,
+    "encodedBodySize": 42,
+    "decodedBodySize": 42,
+    "duration": 106.8999999910593
+  },
+  {
+    "name": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=&time=1792196746632&li_adsId=6a51849d-dc1f-429f-a55f-e94129e3138a&pageLoadId=0371a1dd-dfc6-402b-9690-ff2af98eea87&url=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539",
+    "initiatorType": "img",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 237.70000000298023
+  },
+  {
+    "name": "https://uscdn.fastmoss.com/fastMoss_Pc/chat/chat-logo.png",
+    "initiatorType": "img",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 0
+  },
+  {
+    "name": "https://www.fastmoss.com/api/agent/pageSuggestList?page_location=good_search&region=US&_time=1792196746&cnonce=58266008",
+    "initiatorType": "xmlhttprequest",
+    "transferSize": 772,
+    "encodedBodySize": 472,
+    "decodedBodySize": 1388,
+    "duration": 401.70000000298023
+  },
+  {
+    "name": "https://www.google.com/pagead/1p-user-list/18002560389/?random=1792196746576&cv=11&fst=1792195200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6ae1h1v9242770601za208zb9250182772zd9250182772xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&ref=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&rcb=18&frm=0&tiba=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1584368133.1792196729&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CChromium%3B154.0.8037.57&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS-gEAQM4h3I5gEHSpsguEQff7YEmEPJoDKQJJ3CIMoZn25wgnzSaITsny_PNQwra_xJLYAJwz7f52iVhMuqbRm_E_uma6xxwEOkdzhM0vW_tg_RtgkAhal0GnscC2_tFOXbbyJUvffdYz2vFYj03pn98Rs6-4OMAKWUWSLvCRmOGs4fhpov4PYZlXDW099m0-sbSLN9FGglQdidQrdkG0cGIpx5-_5beFzfaRapCmlzZHl0ZER57zMB44nfycKPmf0lCbcyyZg6TC5LZxe6bOScjk3a063KXLv04edwi4G3egDGEi-3JnYGjyiXUUzsa0WTarT4xClQ6EkF1s&random=2906570515&rmt_tld=0&ipr=y",
+    "initiatorType": "img",
+    "transferSize": 342,
+    "encodedBodySize": 42,
+    "decodedBodySize": 42,
+    "duration": 91.5
+  },
+  {
+    "name": "https://www.google.com.br/pagead/1p-user-list/18002560389/?random=1792196746576&cv=11&fst=1792195200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6ae1h1v9242770601za208zb9250182772zd9250182772xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&ref=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&rcb=18&frm=0&tiba=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1584368133.1792196729&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CChromium%3B154.0.8037.57&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS-gEAQM4h3I5gEHSpsguEQff7YEmEPJoDKQJJ3CIMoZn25wgnzSaITsny_PNQwra_xJLYAJwz7f52iVhMuqbRm_E_uma6xxwEOkdzhM0vW_tg_RtgkAhal0GnscC2_tFOXbbyJUvffdYz2vFYj03pn98Rs6-4OMAKWUWSLvCRmOGs4fhpov4PYZlXDW099m0-sbSLN9FGglQdidQrdkG0cGIpx5-_5beFzfaRapCmlzZHl0ZER57zMB44nfycKPmf0lCbcyyZg6TC5LZxe6bOScjk3a063KXLv04edwi4G3egDGEi-3JnYGjyiXUUzsa0WTarT4xClQ6EkF1s&random=2906570515&rmt_tld=1&ipr=y",
+    "initiatorType": "img",
+    "transferSize": 342,
+    "encodedBodySize": 42,
+    "decodedBodySize": 42,
+    "duration": 99.59999999403954
+  },
+  {
+    "name": "https://www.google.com/pagead/1p-user-list/17978446229/?random=1792196746580&cv=11&fst=1792195200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6ae1h1v9242770601za208zb9250182772zd9250182772xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&ref=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&rcb=18&frm=0&tiba=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1584368133.1792196729&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CChromium%3B154.0.8037.57&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS-gEAQM4h3MxXxe9VtFbif6E46-bSdxaEQMiitqkB6dsBlNuX1KpJd0KvpDCA8VGaBSUo_6e-dpV3DWSZMvpLF9P4zbi0NouMNFNRkJ6CSgA48Lpxl5-GbBrTIYelOcpPywwyXAiW6bi6oVwVs2mM5etqZ2y6PuKW6C-eK0Vfn3_MykWyd_-PyP6uYyrImv_cODIgfi4XCBiRmE3Dnd08jfFYGwbM_-4MsNcC2RXLvByegs_iPaPqRTEj3dZcE1BPGlFN_eUPoyJtvJYFkZIFSwymkO_LGsFcYBe0XfoFyZoC71PaPpGPTu4579r1fZvFCjd1npxnoIUbYeLR&random=3914405388&rmt_tld=0&ipr=y",
+    "initiatorType": "img",
+    "transferSize": 342,
+    "encodedBodySize": 42,
+    "decodedBodySize": 42,
+    "duration": 88
+  },
+  {
+    "name": "https://www.google.com.br/pagead/1p-user-list/17978446229/?random=1792196746580&cv=11&fst=1792195200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6ae1h1v9242770601za208zb9250182772zd9250182772xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch%3Fv%3D1792196745539&ref=https%3A%2F%2Fwww.fastmoss.com%2Fpt%2Fe-commerce%2Fsearch&rcb=18&frm=0&tiba=FastMoss%20-%20Descubra%20produtos%20virais%20no%20TikTok%20e%20analise%20casos%20bem-sucedidos%20de%20cria%C3%A7%C3%A3o%20de%20produtos%20populares.&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1584368133.1792196729&uaa=x86&uab=64&uafvl=Not%2520A(Brand%3B99.0.0.0%7CChromium%3B154.0.8037.57&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS-gEAQM4h3MxXxe9VtFbif6E46-bSdxaEQMiitqkB6dsBlNuX1KpJd0KvpDCA8VGaBSUo_6e-dpV3DWSZMvpLF9P4zbi0NouMNFNRkJ6CSgA48Lpxl5-GbBrTIYelOcpPywwyXAiW6bi6oVwVs2mM5etqZ2y6PuKW6C-eK0Vfn3_MykWyd_-PyP6uYyrImv_cODIgfi4XCBiRmE3Dnd08jfFYGwbM_-4MsNcC2RXLvByegs_iPaPqRTEj3dZcE1BPGlFN_eUPoyJtvJYFkZIFSwymkO_LGsFcYBe0XfoFyZoC71PaPpGPTu4579r1fZvFCjd1npxnoIUbYeLR&random=3914405388&rmt_tld=1&ipr=y",
+    "initiatorType": "img",
+    "transferSize": 342,
+    "encodedBodySize": 42,
+    "decodedBodySize": 42,
+    "duration": 103.6000000089407
+  },
+  {
+    "name": "https://www.clarity.ms/eus-sc/collect",
+    "initiatorType": "xmlhttprequest",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 562.2000000029802
+  },
+  {
+    "name": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
+    "initiatorType": "fetch",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 302.29999999701977
+  },
+  {
+    "name": "https://cdn.500fd.com/fastdata_pc/guest.png",
+    "initiatorType": "img",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 0
+  },
+  {
+    "name": "https://s.500fd.com/tt_shop/3fda6fbf695c4a8792a3059b4e1546e3~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+    "initiatorType": "img",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 92.1000000089407
+  },
+  {
+    "name": "https://s.500fd.com/tt_product/5cf5212fe8f3451fb063a8ee7d0c1de1~tplv-fhlh96nyum-origin-image.image",
+    "initiatorType": "img",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 93.40000000596046
+  },
+  {
+    "name": "https://s.500fd.com/tt_shop/35e90bd8b9764783a6b730c75daebc18~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+    "initiatorType": "img",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 92.20000000298023
+  },
+  {
+    "name": "https://s.500fd.com/tt_shop/3f62a5b616964c6eb6dcc1c0c61fb325~tplv-fhlh96nyum-resize-png:300:300.png",
+    "initiatorType": "img",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 93.59999999403954
+  },
+  {
+    "name": "https://s.500fd.com/tt_product/28754cce865a4ce282f2699d1c72b294~tplv-fhlh96nyum-crop-webp:1023:1023.webp",
+    "initiatorType": "img",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 96.79999999701977
+  },
+  {
+    "name": "https://s.500fd.com/tt_product/4035999843124cc2b104c5f225354ae5~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+    "initiatorType": "img",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 97.09999999403954
+  },
+  {
+    "name": "https://s.500fd.com/tt_product/d69fc8512935405f84767d6636eff827~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+    "initiatorType": "img",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 97.70000000298023
+  },
+  {
+    "name": "https://s.500fd.com/tt_product/3147e4ca48484ddc96eaca98fde180b1~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+    "initiatorType": "img",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 97.8999999910593
+  },
+  {
+    "name": "https://s.500fd.com/tt_shop/1206329e49a246e3abfe25f6c9dd2773~tplv-fhlh96nyum-resize-png:300:300.png",
+    "initiatorType": "img",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 137.3999999910593
+  },
+  {
+    "name": "https://s.500fd.com/tt_product/9f34737ef50c457da08fd4225a18a324~tplv-fhlh96nyum-crop-webp:2000:2000.webp",
+    "initiatorType": "img",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 140.20000000298023
+  },
+  {
+    "name": "https://s.500fd.com/tt_shop/5e704cd73cf34813ba7a8d57cf2d1131~tplv-fhlh96nyum-resize-png:300:300.png",
+    "initiatorType": "img",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 147.79999999701977
+  },
+  {
+    "name": "https://s.500fd.com/tt_shop/35249ab76437453aa1154620ca308b66~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+    "initiatorType": "img",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 139.90000000596046
+  },
+  {
+    "name": "https://s.500fd.com/tt_product/5deae71a2cbe4dbfb3d53179d7553409~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+    "initiatorType": "img",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 140.5
+  },
+  {
+    "name": "https://s.500fd.com/tt_shop/6fe9824d7f7e4636b2aae17e0eb87fab~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+    "initiatorType": "img",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 141
+  },
+  {
+    "name": "https://s.500fd.com/tt_product/14482dcc2f9e4e9da412ca06e4039cf8~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+    "initiatorType": "img",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 146
+  },
+  {
+    "name": "https://s.500fd.com/tt_product/7f7fbb2860a94844a431a0e09d494090~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+    "initiatorType": "img",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 146.79999999701977
+  },
+  {
+    "name": "https://s.500fd.com/tt_product/d8f8bc39423642ab82d6c11c4b6a715d~tplv-fhlh96nyum-origin-image.image",
+    "initiatorType": "img",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 171.5
+  },
+  {
+    "name": "https://www.clarity.ms/eus-sc/collect",
+    "initiatorType": "xmlhttprequest",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 569.7999999970198
+  },
+  {
+    "name": "https://www.clarity.ms/eus-sc/collect",
+    "initiatorType": "xmlhttprequest",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 402.30000001192093
+  },
+  {
+    "name": "https://www.clarity.ms/eus-sc/collect",
+    "initiatorType": "xmlhttprequest",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 403.20000000298023
+  },
+  {
+    "name": "https://www.clarity.ms/eus-sc/collect",
+    "initiatorType": "xmlhttprequest",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 410.40000000596046
+  },
+  {
+    "name": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
+    "initiatorType": "fetch",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 261.5
+  },
+  {
+    "name": "https://www.clarity.ms/eus-sc/collect",
+    "initiatorType": "xmlhttprequest",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 394.59999999403954
+  },
+  {
+    "name": "https://www.clarity.ms/eus-sc/collect",
+    "initiatorType": "xmlhttprequest",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 399.6000000089407
+  },
+  {
+    "name": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
+    "initiatorType": "fetch",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 231.09999999403954
+  },
+  {
+    "name": "https://www.clarity.ms/eus-sc/collect",
+    "initiatorType": "xmlhttprequest",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 521.5
+  },
+  {
+    "name": "https://www.clarity.ms/eus-sc/collect",
+    "initiatorType": "xmlhttprequest",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 494.79999999701977
+  },
+  {
+    "name": "https://www.clarity.ms/eus-sc/collect",
+    "initiatorType": "xmlhttprequest",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 414.40000000596046
+  },
+  {
+    "name": "https://www.clarity.ms/eus-sc/collect",
+    "initiatorType": "xmlhttprequest",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 421.29999999701977
+  },
+  {
+    "name": "https://www.clarity.ms/eus-sc/collect",
+    "initiatorType": "xmlhttprequest",
+    "transferSize": 0,
+    "encodedBodySize": 0,
+    "decodedBodySize": 0,
+    "duration": 492
+  }
+]

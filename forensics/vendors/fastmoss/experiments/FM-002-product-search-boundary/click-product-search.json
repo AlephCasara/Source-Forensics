@@ -1,0 +1,27 @@
+{
+  "browser": {
+    "mode": "launch",
+    "executable_path": "/run/current-system/sw/bin/chromium",
+    "headless": false
+  },
+  "start_url": { "url": "https://www.fastmoss.com/pt" },
+  "actions": [
+    { "step_id": "home-settle", "action": "wait_for_timeout", "duration_ms": 6000 },
+    {
+      "step_id": "open-product-search",
+      "action": "click",
+      "locator": { "kind": "css", "selector": "a[href='/pt/e-commerce/search']" },
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "product-settle",
+      "action": "wait_for_timeout",
+      "duration_ms": 8000
+    }
+  ],
+  "capture": {
+    "at_end": ["dom", "accessibility", "url"],
+    "events": ["network", "console", "page-errors"],
+    "network": { "response_body": true }
+  }
+}

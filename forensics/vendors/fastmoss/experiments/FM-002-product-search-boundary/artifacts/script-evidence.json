@@ -1,0 +1,39 @@
+{
+  "policy": "Do not commit third-party bundle bytes. Retain URLs, hashes, byte counts, module/callsite observations and local ignored captures only.",
+  "scripts": [
+    {
+      "role": "Product Search page route module",
+      "url": "https://www.fastmoss.com/_next/static/chunks/app/%5Blocale%5D/(normalLayout)/e-commerce/search/page-1efe329d1c300697.js",
+      "sha256": "7970b1d5cf4967aa0f3d842a0e5457040d1971b937c84af3b3eaa01c2282a1ac",
+      "bytes": 80424,
+      "observed_semantics": [
+        "wraps /api/goods/V2/search",
+        "constructs default page/pagesize/order/region params",
+        "maps URL search params to backend request",
+        "renders Product Search response fields",
+        "refreshes on region/query/user-level changes"
+      ]
+    },
+    {
+      "role": "Shared request initiator/runtime chunk",
+      "url": "https://www.fastmoss.com/_next/static/chunks/65348-7e4132441d123039.js",
+      "observed_generated_location": {
+        "line": 20,
+        "column": 46189
+      },
+      "observed_semantics": [
+        "initiates /api/goods/V2/search XHR at runtime"
+      ]
+    },
+    {
+      "role": "Shared HTTP client/signing middleware",
+      "url": "https://www.fastmoss.com/_next/static/chunks/29251-0323e14046e4157a.js",
+      "observed_semantics": [
+        "adds _time and cnonce",
+        "sets region/lang/source headers",
+        "generates fm-sign and fm-sig headers",
+        "uses same-origin Axios-like client"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "captured_at": "2026-10-17T00:30:45.239Z",
+  "method": "GET",
+  "origin": "https://www.fastmoss.com",
+  "path": "/api/goods/V2/search",
+  "query": {
+    "page": "4",
+    "pagesize": "10",
+    "order": "2,2",
+    "region": "US",
+    "_time": "1792197045",
+    "cnonce": "28065494"
+  },
+  "resource_type": "XHR",
+  "initiator": {
+    "type": "script",
+    "stack": {
+      "callFrames": [
+        {
+          "functionName": "",
+          "scriptId": "73",
+          "url": "https://www.fastmoss.com/_next/static/chunks/65348-7e4132441d123039.js",
+          "lineNumber": 20,
+          "columnNumber": 46189
+        }
+      ]
+    }
+  },
+  "header_names": [
+    "accept",
+    "fm-sig",
+    "fm-sign",
+    "lang",
+    "referer",
+    "region",
+    "sec-ch-ua",
+    "sec-ch-ua-mobile",
+    "sec-ch-ua-platform",
+    "source",
+    "user-agent"
+  ],
+  "selected_headers": {
+    "region": "US",
+    "lang": "PT_BR",
+    "source": "pc",
+    "fm-sign": {
+      "present": true,
+      "length": 32,
+      "sha256": "27e5477ba601c7a4fa9a3966a371914c585d5a8680e2fc3efe2549d863c6bcd6"
+    },
+    "fm-sig": {
+      "present": true,
+      "length": 64,
+      "sha256": "1766e44543aa9489a33ee559fe4ff047f35bbe328bb25aca474fab6d9352b82f"
+    },
+    "cookie": {
+      "present": false,
+      "redacted": true
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "contract": "FastMoss public web HTTP client (observed subset)",
+  "evidence_scope": "public visitor browser; shipped JavaScript + UI-driven XHR",
+  "base_url": "/",
+  "transport": "Axios-like shared client; withCredentials=true; timeout=50000ms; maxRedirects=1 (static shipped-client observation)",
+  "automatic_query_parameters": {
+    "_time": {
+      "semantics": "Unix time in seconds at request construction",
+      "classification": "volatile"
+    },
+    "cnonce": {
+      "semantics": "client-generated random 8-digit integer",
+      "classification": "volatile"
+    }
+  },
+  "automatic_headers": {
+    "region": {
+      "observed_value": "US",
+      "source": "client region state/cookie with US fallback"
+    },
+    "lang": {
+      "observed_value": "PT_BR",
+      "source": "locale mapping"
+    },
+    "source": {
+      "observed_value": "pc",
+      "source": "constant pc"
+    },
+    "fm-sign": {
+      "present_runtime": true,
+      "length": 32,
+      "note": "client-generated deterministic signature over request parameters/body; algorithm is shipped in public client but Source Forensics does not implement it as a vendor-access dependency"
+    },
+    "fm-sig": {
+      "present_runtime": true,
+      "length": 64,
+      "note": "second client-generated signature produced by an obfuscated public-bundle generator; retained as architectural evidence, not implemented as an access-control workaround"
+    }
+  },
+  "visitor_runtime": {
+    "cookie_header_present_on_observed_page4_request": false,
+    "request_header_names": [
+      "accept",
+      "fm-sig",
+      "fm-sign",
+      "lang",
+      "referer",
+      "region",
+      "sec-ch-ua",
+      "sec-ch-ua-mobile",
+      "sec-ch-ua-platform",
+      "source",
+      "user-agent"
+    ],
+    "signature_value_storage": "values intentionally not retained; only SHA-256 fingerprints exist in page4-request-contract.json"
+  },
+  "product_search_request": {
+    "method": "GET",
+    "path": "/api/goods/V2/search",
+    "stable_observed_parameters": [
+      "pagesize=10",
+      "order=2,2",
+      "region=US"
+    ],
+    "variable_functional_parameters": [
+      "page"
+    ],
+    "volatile_parameters": [
+      "_time",
+      "cnonce"
+    ]
+  },
+  "static_code_evidence": {
+    "http_client_chunk_url": "https://www.fastmoss.com/_next/static/chunks/29251-0323e14046e4157a.js",
+    "product_search_page_chunk_url": "https://www.fastmoss.com/_next/static/chunks/app/%5Blocale%5D/(normalLayout)/e-commerce/search/page-1efe329d1c300697.js",
+    "product_search_page_chunk_sha256": "7970b1d5cf4967aa0f3d842a0e5457040d1971b937c84af3b3eaa01c2282a1ac",
+    "request_initiator_chunk_url": "https://www.fastmoss.com/_next/static/chunks/65348-7e4132441d123039.js",
+    "request_initiator_generated_location": {
+      "line": 20,
+      "column": 46189
+    }
+  },
+  "epistemic_limits": [
+    "Client-shipped signing logic does not establish server-side validation semantics.",
+    "Observed visitor access today does not imply endpoint stability or future unauthenticated availability.",
+    "This contract is for forensic comparison only; production Source Forensics collectors should target upstream sources rather than depend on FastMoss private contracts."
+  ]
+}
