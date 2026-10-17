@@ -15,6 +15,8 @@ Preparation complete for Phase 1. REA 6.5.0 is installed locally, Chromium is av
 ## Read first
 
 - [`ROADMAP.md`](ROADMAP.md) — five-phase project roadmap.
+- [`docs/PROJECT_DECISIONS.md`](docs/PROJECT_DECISIONS.md) — durable record of the major product, reverse-engineering, software and data-architecture decisions made before Phase 1.
+- [`docs/architecture/ENGINEERING_DESIGN_DOCTRINE.md`](docs/architecture/ENGINEERING_DESIGN_DOCTRINE.md) — design and engineering doctrine for semantic compression, canonical modeling, provenance, temporal data and software quality.
 - [`docs/methodology/REA_WEB_FORENSICS_METHOD.md`](docs/methodology/REA_WEB_FORENSICS_METHOD.md) — evidence-driven REA web reverse-engineering protocol.
 - [`docs/lab/REA_BASELINE.md`](docs/lab/REA_BASELINE.md) — observed local REA/NixOS baseline and known limitations.
 
