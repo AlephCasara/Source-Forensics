@@ -1,0 +1,208 @@
+{
+  "experiment_id": "phase1-rea-web-smoke",
+  "purpose": "Validate REA 6.5.0 web reverse-engineering evidence chain on NixOS against a controlled local fixture.",
+  "fixture_origin": "http://127.0.0.1:8765",
+  "cdp_endpoint": "http://127.0.0.1:9222",
+  "rea_version": "6.5.0",
+  "browser": "Chromium 154.0.8037.57 as observed by REA",
+  "artifacts": [
+    {
+      "path": "experiments/phase1-rea-web-smoke/results/01-targets.json",
+      "sha256": "5cedc2aa43059330b452afb72bd7f3b395504c329bb95c3a0785eb03ca4467ce",
+      "bytes": 1718,
+      "evidence_id": "ev_dab31a7fb04a878fa229c5cfca62911038e418be3855de5bb6a09542a69e27c5",
+      "predicate_type": "rea.browser-target-list",
+      "operation": "list_browser_targets",
+      "error_code": null
+    },
+    {
+      "path": "experiments/phase1-rea-web-smoke/results/02-inspect.json",
+      "sha256": "3dae4ee246fa34deea9fa55b0e418f7446b956de7308295a0df1cb0599a989c9",
+      "bytes": 10663,
+      "evidence_id": "ev_381314e5c8bcb7251f08bbcfe996ca0ce4b612fd47ca29a097b3fb5d462d8bc7",
+      "predicate_type": "rea.web-page-inspection",
+      "operation": "inspect_web_page",
+      "error_code": null
+    },
+    {
+      "path": "experiments/phase1-rea-web-smoke/results/02-normalized.json",
+      "sha256": "4cf1a037cfec636349b975cf1a98b029abd5657f10286a74352abc7c47c64a55",
+      "bytes": 9623,
+      "evidence_id": null,
+      "predicate_type": null,
+      "operation": null,
+      "error_code": null
+    },
+    {
+      "path": "experiments/phase1-rea-web-smoke/results/03-bundle.json",
+      "sha256": "3ec9937888fc53a3737f5672161092b033a13812a4f035e31467cbbec4c05e42",
+      "bytes": 3446,
+      "evidence_id": "ev_ae8dd3401180add9fa159b39ba433cc2f3a91f0b67033d7e7aacbc33903e7abb",
+      "predicate_type": "rea.web-bundle-analysis",
+      "operation": "analyze_web_bundle",
+      "error_code": null
+    },
+    {
+      "path": "experiments/phase1-rea-web-smoke/results/04-controlled-scenario.json",
+      "sha256": "d331544b9bcb449013051ed70ff71f461a8ef2b2b1a490a7d38c765d4f3ac710",
+      "bytes": 19976,
+      "evidence_id": "ev_bf1ab99a5a3c9f487dfeea1a206ea67e3b37d054174f5bc176abe1e460dacec1",
+      "predicate_type": "rea.browser-scenario-capture",
+      "operation": "capture_browser_scenario",
+      "error_code": null
+    },
+    {
+      "path": "experiments/phase1-rea-web-smoke/results/05-listeners.json",
+      "sha256": "2bb7ade6fdc6d91dbdc889d35313a90c6ad158e4bf18a315dbf942ebcce26fe4",
+      "bytes": 5192,
+      "evidence_id": "ev_27ef91c3bbf8ba17bb85837d0132b5199ca0ef60f3d471bb56532aaf29fc48c1",
+      "predicate_type": "rea.inspect-web-event-listeners",
+      "operation": "inspect_web_event_listeners",
+      "error_code": null
+    },
+    {
+      "path": "experiments/phase1-rea-web-smoke/results/06-passive-inspect.json",
+      "sha256": "29463c2a5b239b1bc0eac3dfcfc6eb536f3f48a26d5eb7306917afd55354393d",
+      "bytes": 10674,
+      "evidence_id": "ev_867855034e85b58045ffb22e0f6b019884830ea8c696c5a3675e00f11c240109",
+      "predicate_type": "rea.web-page-inspection",
+      "operation": "inspect_web_page",
+      "error_code": null
+    },
+    {
+      "path": "experiments/phase1-rea-web-smoke/results/07-normalized.json",
+      "sha256": "8befe036b9a09b12ffaf45657b08952bb18cec7516c4266a39102bbf6beec139",
+      "bytes": 14034,
+      "evidence_id": null,
+      "predicate_type": null,
+      "operation": null,
+      "error_code": null
+    },
+    {
+      "path": "experiments/phase1-rea-web-smoke/results/07-passive-inspect-long.json",
+      "sha256": "7657b29005de14ce1b70600ebab73f03c84efc2afd5c2876ff3fea3004601f70",
+      "bytes": 14657,
+      "evidence_id": "ev_53ab60009b5686f9dbff5bfd2c9d80a4066327ce573cc57882bba18e40d5837f",
+      "predicate_type": "rea.web-page-inspection",
+      "operation": "inspect_web_page",
+      "error_code": null
+    },
+    {
+      "path": "experiments/phase1-rea-web-smoke/results/08-bundle-sourcemaps.json",
+      "sha256": "05bf3c32d0b7d67bea93d5d252a86150e59edc9f3f318995104ff958ff0a3cfc",
+      "bytes": 5855,
+      "evidence_id": "ev_f0fe6f810089262fe517b3aaaed1008668caf57602172c2fd92895abd96ed8ce",
+      "predicate_type": "rea.web-bundle-analysis",
+      "operation": "analyze_web_bundle",
+      "error_code": null
+    },
+    {
+      "path": "experiments/phase1-rea-web-smoke/results/09-export-scripts.json",
+      "sha256": "51405bf9bb701115467e79aacdff0479fa5a44f4ac935d6e023a3f97d6aa1946",
+      "bytes": 7258,
+      "evidence_id": "ev_e4326166407ab3c30ff4a38119f99cbcdc6940accd2004ab114a48357ccb0b5d",
+      "predicate_type": "rea.web-script-export",
+      "operation": "export_web_scripts",
+      "error_code": null
+    },
+    {
+      "path": "experiments/phase1-rea-web-smoke/results/10-static-js-analysis.json",
+      "sha256": "965c7db7fc54fcb151c9bb68d636cf1027aee5226e72722c91541d6b9f0c92b0",
+      "bytes": 190756,
+      "evidence_id": "ev_301ac2c8f2bbaeeb2ec7a4866a69768c5073964faf75fcc9cef9d27d3b7b6fad",
+      "predicate_type": "rea.javascript-application-analysis",
+      "operation": "analyze_javascript_application",
+      "error_code": null
+    },
+    {
+      "path": "experiments/phase1-rea-web-smoke/results/11-reconciliation.json",
+      "sha256": "be49d50b38aee6ae68b7612d7328ccf488848b4a39582093ec82f4588ef1047a",
+      "bytes": 25711,
+      "evidence_id": "ev_c7859aa151deba7236d96bb7f19f1b59388f2f58b476b4afb0dbcb910bfd35ca",
+      "predicate_type": "rea.javascript-runtime-reconciliation",
+      "operation": "reconcile_javascript_runtime",
+      "error_code": null
+    },
+    {
+      "path": "experiments/phase1-rea-web-smoke/results/12-execution.json",
+      "sha256": "46a6c06b6f578eca9e1b84f2c0ec966c4217ef8bba0da27ffd4457b5549b421e",
+      "bytes": 10333,
+      "evidence_id": "ev_4b138ddef67ee9d3a2cb893b8bf166d20fa136fafd0d4db4a0fdb36eeea0e240",
+      "predicate_type": "rea.observe-web-execution",
+      "operation": "observe_web_execution",
+      "error_code": null
+    },
+    {
+      "path": "experiments/phase1-rea-web-smoke/results/13-artifact.json",
+      "sha256": "fc52f0630c8238262d4dd092fcc926db4cb134c59ece80083e6d1a4d519ad831",
+      "bytes": 13119,
+      "evidence_id": null,
+      "predicate_type": null,
+      "operation": null,
+      "error_code": null
+    },
+    {
+      "path": "experiments/phase1-rea-web-smoke/results/13-screenshot-before.json",
+      "sha256": "efd51e9c31c1f34c59e73b1cb97d87f8319804e00332f36831a645665bb37080",
+      "bytes": 15233,
+      "evidence_id": "ev_1103853bda4f57e4e5de7dfd857de6e9cd28bcf77729cccefbead556a2e052e0",
+      "predicate_type": "rea.web-screenshot",
+      "operation": "capture_web_screenshot",
+      "error_code": null
+    },
+    {
+      "path": "experiments/phase1-rea-web-smoke/results/14-artifact.json",
+      "sha256": "50f7b0f04498e869a567fbc538c33e88648e80f9b9a804bf12f4f686b002c92f",
+      "bytes": 18940,
+      "evidence_id": null,
+      "predicate_type": null,
+      "operation": null,
+      "error_code": null
+    },
+    {
+      "path": "experiments/phase1-rea-web-smoke/results/14-screenshot-after.json",
+      "sha256": "dad7e03324140f0c3289c13a98e888be385360fa0a6f28086d9107b53edbd80a",
+      "bytes": 21054,
+      "evidence_id": "ev_d92ef973af502338561ecbdebf3002d5e78aefca1eb842ea227724989789fc40",
+      "predicate_type": "rea.web-screenshot",
+      "operation": "capture_web_screenshot",
+      "error_code": null
+    },
+    {
+      "path": "experiments/phase1-rea-web-smoke/results/15-screenshot-diff.json",
+      "sha256": "47c290e80c455dd97a02ee1731edd2e01c37f56cfa6a2430084939ab2b978844",
+      "bytes": 1657,
+      "evidence_id": "ev_affb970b98a4802206680dcd58ea03cdf8342a47f984af01bead631cdeabeef5",
+      "predicate_type": "rea.web-screenshot-diff",
+      "operation": "compare_web_screenshots",
+      "error_code": null
+    },
+    {
+      "path": "experiments/phase1-rea-web-smoke/results/16-capture-diff.json",
+      "sha256": "118d66e1976e04b3129e7a05fd9e6a883cb80aac0766cf35154a9eccca2ce2f6",
+      "bytes": 4436,
+      "evidence_id": null,
+      "predicate_type": null,
+      "operation": null,
+      "error_code": "invalid_request"
+    },
+    {
+      "path": "experiments/phase1-rea-web-smoke/results/17-recover-js.json",
+      "sha256": "442e2bb638881f1de2166436e621bd43330f19838a9c7c113851139aa5b69a75",
+      "bytes": 7128,
+      "evidence_id": "ev_a491046300b4e72c77c0637dd6330228ea075fc85b7bc0703a8366964dea7f0f",
+      "predicate_type": "rea.analysis",
+      "operation": "recover_javascript_sources",
+      "error_code": null
+    },
+    {
+      "path": "experiments/phase1-rea-web-smoke/results/18-source-trace.json",
+      "sha256": "f52b97760efe23f583d967425876121d50611363b7b6c94054879726cb9bd083",
+      "bytes": 10138,
+      "evidence_id": "ev_7177794682f35ebca754f3c3794a1f05a713da4f802661b265c9617567ad042c",
+      "predicate_type": "rea.analysis",
+      "operation": "trace_web_source_location",
+      "error_code": null
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "browser": {
+    "mode": "launch",
+    "executable_path": "/run/current-system/sw/bin/chromium"
+  },
+  "start_url": { "url": "http://127.0.0.1:8765" },
+  "actions": [
+    {
+      "step_id": "search",
+      "action": "click",
+      "locator": { "kind": "css", "selector": "#search" },
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "results-ready",
+      "action": "wait_for",
+      "locator": { "kind": "css", "selector": "#results li" },
+      "state": "visible",
+      "timeout_ms": 10000
+    }
+  ],
+  "capture": {
+    "at_end": ["dom", "accessibility", "url"],
+    "events": ["network", "console", "page-errors"],
+    "network": {
+      "request_body": true,
+      "response_body": true,
+      "header_values": true
+    }
+  }
+}
